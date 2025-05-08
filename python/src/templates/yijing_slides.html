@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - 易經互動網頁</title>
+    <link rel="stylesheet" href="{{ url_for(\'static\', filename=\'style.css\') }}">
+    <style>
+        .slide {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .slide h3 {
+            margin-top: 0;
+            color: #555;
+        }
+        .error-message {
+            color: red;
+            border: 1px solid red;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #ffebeb;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>{{ title }}</h1>
+        <nav>
+            <a href="{{ url_for(\'index\') }}">返回首頁</a>
+        </nav>
+    </header>
+    <main>
+        {% if error_message %}
+            <div class="error-message">
+                <h3>錯誤訊息：</h3>
+                <p>{{ error_message | safe }}</p>
+            </div>
+        {% endif %}
+
+        {% if slides %}
+            <p>共 {{ slides|length }} 張投影片。</p>
+            {% for slide in slides %}
+                <div class="slide">
+                    <h3>{{ slide.title }}</h3>
+                    <div>{{ slide.content | safe }}</div>
+                </div>
+            {% endfor %}
+        {% elif not error_message %}
+            <p>沒有可顯示的投影片內容。</p>
+        {% endif %}
+    </main>
+    <footer>
+        <p>&copy; 2025 易經互動網頁</p>
+    </footer>
+</body>
+</html>

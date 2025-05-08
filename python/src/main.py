@@ -1,323 +1,108 @@
+# 初始化 Flask 應用程式
 import sys
 import os
-import shutil
-import re
-import requests
-import html2text
-import traceback
-from flask import Flask, render_template, jsonify, redirect, url_for, flash, request
+from flask import Flask, render_template, Blueprint
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # DON'T CHANGE THIS !!!
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-app = Flask(__name__, static_folder='static', static_url_path='', template_folder='templates')
-app.secret_key = "supersecretkey_dev_only"
+# 設定固定資料夾路徑
+CONFIG_DATA_PATH = "/home/ubuntu/dad/config_data"
+YIJING_ANCIENT_TEXT_PATH = os.path.join(CONFIG_DATA_PATH, "易經古原文暫存戰果資料夾")
+YIJING_SLIDES_TEMP_PATH = os.path.join(CONFIG_DATA_PATH, "易經投影片暫存1資料夾")
+BASIC_DATA_PATH = os.path.join(CONFIG_DATA_PATH, "基本資料資料夾")
 
-APP_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DAD_DIR = "/home/ubuntu/dad"
-WORK_DIR = os.path.join(APP_DIR, "work_dir")
-APP_CONFIG_DIR = os.path.join(APP_DIR, "app_config")
-APP_CONFIG_TEMPLATES_HTML_DIR = os.path.join(APP_CONFIG_DIR, "templates", "html_templates")
-APP_CONFIG_TEMPLATES_SLIDES_DIR = os.path.join(APP_CONFIG_DIR, "templates", "slide_templates")
-APP_CONFIG_SETTINGS_DIR = os.path.join(APP_CONFIG_DIR, "settings")
+# # 如果需要資料庫，取消註解以下設定
+# app.config["SQLALCHEMY_DATABASE_URI"] = f"mysql+pymysql://{os.getenv("DB_USERNAME", "root")}:{os.getenv("DB_PASSWORD", "password")}@{os.getenv("DB_HOST", "localhost")}:{os.getenv("DB_PORT", "3306")}/{os.getenv("DB_NAME", "mydb")}"
+# app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
-def copy_dir_robust(src, dst, symlinks=False, ignore=None):
-    if os.path.exists(dst):
-        shutil.rmtree(dst)
-    shutil.copytree(src, dst, symlinks=symlinks, ignore=ignore)
+# # 初始化資料庫 (如果使用)
+# from src.models import db
+# db.init_app(app)
 
-def ensure_empty_dir(dir_path):
-    if os.path.exists(dir_path):
-        shutil.rmtree(dir_path)
-    os.makedirs(dir_path, exist_ok=True)
+# 建立一個藍圖來組織易經相關的路由
+yijing_bp = Blueprint('yijing', __name__, template_folder='templates')
 
-def ensure_dir_exists(dir_path):
-    os.makedirs(dir_path, exist_ok=True)
+@yijing_bp.route("/slides")
+def yijing_slides_lecture():
+    slides_data = []
+    error_message = None
 
-# Function to copy individual files, creating parent directory if needed
-def copy_file_robust(src_file, dst_file):
+    # 讀取基本資料用於前幾張投影片 (模擬 bash 腳本的 ##<02-1> 部分)
     try:
-        ensure_dir_exists(os.path.dirname(dst_file))
-        shutil.copy2(src_file, dst_file)
-        return True, f"成功複製檔案：{os.path.basename(src_file)} 至 {dst_file}"
-    except Exception as e:
-        return False, f"複製檔案 {os.path.basename(src_file)} 失敗：{str(e)}"
+        # 第1張: 執行長學經歷
+        with open(os.path.join(BASIC_DATA_PATH, "001執行長學經歷格式化.txt"), "r", encoding="utf-8") as f:
+            slides_data.append({"title": "竹文診所 - 執行長學經歷", "content": f.read().replace("\n", "<br>")})
+        # 第2張: 總顧問學經歷
+        with open(os.path.join(BASIC_DATA_PATH, "002總顧問學經歷格式化.txt"), "r", encoding="utf-8") as f:
+            slides_data.append({"title": "竹文診所 - 總顧問學經歷", "content": f.read().replace("\n", "<br>")})
+        # 第3張: 中藥局營業項目
+        with open(os.path.join(BASIC_DATA_PATH, "003中藥局營業項目.txt"), "r", encoding="utf-8") as f:
+            slides_data.append({"title": "竹文診所 - 中藥局營業項目", "content": f.read().replace("\n", "<br>")})
+        # 第4張: 中藥局經營理念
+        with open(os.path.join(BASIC_DATA_PATH, "004中藥局經營理念.txt"), "r", encoding="utf-8") as f:
+            slides_data.append({"title": "竹文診所 - 中藥局經營理念", "content": f.read().replace("\n", "<br>")})
+        # 第5張: 中藥局歷史源流
+        with open(os.path.join(BASIC_DATA_PATH, "005中藥局歷史源流.txt"), "r", encoding="utf-8") as f:
+            slides_data.append({"title": "竹文診所 - 中藥局歷史源流", "content": f.read().replace("\n", "<br>")})
+        # 第6張: 中藥局診療日記
+        with open(os.path.join(BASIC_DATA_PATH, "006中藥局診療日記1090101.txt"), "r", encoding="utf-8") as f:
+            slides_data.append({"title": "竹文診所 - 中藥局診療日記", "content": f.read().replace("\n", "<br>")})
 
-@app.route('/')
-def index():
-    initialized = os.path.exists(os.path.join(WORK_DIR, "工具程式資料夾現在要用"))
-    processed_yijing_ancient_text_file = os.path.join(WORK_DIR, "易經古原文暫存戰果資料夾", "yijing每卦到空列分隔全文文本有分斷點.txt")
-    yijing_processed = os.path.exists(processed_yijing_ancient_text_file)
-    html_generated_dir = os.path.join(WORK_DIR, "易經HTML暫存戰果資料夾")
-    html_files_exist = os.path.exists(html_generated_dir) and len(os.listdir(html_generated_dir)) > 0
-    slides_dir1 = os.path.join(WORK_DIR, "易經投影片暫存戰果資料夾")
-    slides1_exist = os.path.exists(slides_dir1) and any(f.startswith("易經古文解析第") for f in os.listdir(slides_dir1))
-    slides2_exist = os.path.exists(slides_dir1) and any(f.startswith("媽傳記與易經整合第") for f in os.listdir(slides_dir1))
-    
-    garbage_text_path = os.path.join(WORK_DIR, "工具程式資料夾現在要用", "掃垃圾文字.txt")
-    garbage_text_again_path = os.path.join(WORK_DIR, "工具程式資料夾現在要用", "掃垃圾文字再一次.txt")
-    
-    garbage_text_content = ""
-    if os.path.exists(garbage_text_path):
-        with open(garbage_text_path, 'r', encoding='utf-8') as f:
-            garbage_text_content = f.read()
+    except FileNotFoundError as e:
+        error_message = f"缺少基本資料檔案，無法產生部分投影片：{e.filename}。請確保相關檔案已放置於 {BASIC_DATA_PATH} 目錄下。"
+        # 即使部分檔案缺失，也繼續嘗試載入易經卦文
+
+    yijing_titles_path = os.path.join(YIJING_ANCIENT_TEXT_PATH, "yijing標題.txt")
+    if not os.path.exists(yijing_titles_path):
+        if error_message:
+            error_message += "\n同時也缺少易經標題檔案 (yijing標題.txt)，無法產生易經卦文投影片。"
+        else:
+            error_message = f"缺少易經標題檔案 ({yijing_titles_path})，無法產生易經卦文投影片。請確保該檔案存在。"
+    else:
+        try:
+            with open(yijing_titles_path, "r", encoding="utf-8") as f:
+                titles = [line.strip() for line in f if line.strip()]
             
-    garbage_text_again_content = ""
-    if os.path.exists(garbage_text_again_path):
-        with open(garbage_text_again_path, 'r', encoding='utf-8') as f:
-            garbage_text_again_content = f.read()
-
-    return render_template('index.html', title='易經與媽傳記應用程式',
-                           initialized=initialized, 
-                           yijing_processed=yijing_processed, 
-                           html_files_exist=html_files_exist,
-                           slides1_exist=slides1_exist,
-                           slides2_exist=slides2_exist,
-                           garbage_text_content=garbage_text_content,
-                           garbage_text_again_content=garbage_text_again_content)
-
-@app.route('/initialize_data', methods=['POST'])
-def initialize_data():
-    try:
-        os.makedirs(WORK_DIR, exist_ok=True)
-        flash_messages = []
-
-        # --- Phase 1: Initial copy from DAD_DIR and cleanup ---
-        flash_messages.append(("開始階段一：從原始資料目錄複製並清理工作目錄...", "info"))
-        dirs_to_copy_from_dad = {
-            "工具程式資料夾": "工具程式資料夾現在要用",
-            "基本資料資料夾": "基本資料資料夾現在要用",
-            "HTML參考樣板資料夾": "HTML參考樣板資料夾現在要用", # Will be overwritten by app_config if exists
-            "投影片參考樣板資料夾": "投影片參考樣板資料夾現在要用", # Will be overwritten by app_config if exists
-            "易經輸入端資料夾": "易經輸入端資料夾現在要用"
-        }
-        for src_name, dst_name in dirs_to_copy_from_dad.items():
-            src_path = os.path.join(DAD_DIR, src_name)
-            dst_path = os.path.join(WORK_DIR, dst_name)
-            if os.path.exists(src_path):
-                copy_dir_robust(src_path, dst_path)
-                flash_messages.append((f"成功從 DAD_DIR 複製資料夾：{src_name} 至 {dst_name}", "success"))
-            else:
-                ensure_dir_exists(dst_path) 
-                flash_messages.append((f"警告：原始來源資料夾 {src_path} 不存在。已建立空目標資料夾 {dst_name}。", "warning"))
-
-        m_txt_src = os.path.join(DAD_DIR, "m.txt")
-        m_txt_dst = os.path.join(WORK_DIR, "m.txt")
-        if os.path.exists(m_txt_src):
-            shutil.copy2(m_txt_src, m_txt_dst)
-            flash_messages.append(("成功從 DAD_DIR 複製檔案：m.txt", "success"))
-        else:
-            flash_messages.append((f"警告：原始來源檔案 {m_txt_src} 不存在。", "warning"))
-
-        base_data_dir = os.path.join(WORK_DIR, "基本資料資料夾現在要用")
-        if os.path.exists(base_data_dir):
-            processed_files_count = 0
-            for filename in os.listdir(base_data_dir):
-                if filename.endswith(".txt"):
-                    file_path = os.path.join(base_data_dir, filename)
-                    formatted_file_name = f"{os.path.splitext(filename)[0]}格式化.txt"
-                    formatted_file_path = os.path.join(base_data_dir, formatted_file_name)
-                    try:
-                        with open(file_path, 'r', encoding='utf-8') as infile:
-                            lines = infile.readlines()
-                        with open(formatted_file_path, 'w', encoding='utf-8') as outfile:
-                            for line_content in lines:
-                                modified_line_content = re.sub(r"(.{2,})(  )(.{2,})", r"\1 &nbsp; \3", line_content.rstrip("\r\n"), 1)
-                                outfile.write(modified_line_content + "\n")
-                        processed_files_count += 1
-                    except Exception as e:
-                        flash_messages.append((f"處理檔案 {filename} 時發生錯誤：{str(e)}", "error"))
-            if processed_files_count > 0:
-                 flash_messages.append((f"成功格式化 {processed_files_count} 個文字檔案。", "success"))
-        else:
-            flash_messages.append((f"警告：資料夾 {base_data_dir} 不存在，無法格式化文字檔案。", "warning"))
-
-        dir_groups = {
-            "main_results": ["易經總戰果", "易經總戰果1", "易經總戰果2", "易經戰果", "易經中間成品", "易經標記"],
-            "wiki_temp": [f"易經維基網資料暫存{i}" for i in range(1, 13)] + ["易經維基網資料暫存戰果"],
-            "ancient_text_temp": [f"易經古原文暫存{i}" for i in range(1, 6)] + ["易經古原文暫存戰果"],
-            "html_temp": [f"易經HTML暫存{i}" for i in range(1, 6)] + ["易經HTML暫存戰果"],
-            "slides_temp": [f"易經投影片暫存{i}" for i in range(1, 13)] + ["易經投影片暫存戰果"]
-        }
-        created_dirs_count = 0
-        for group_key, dir_list in dir_groups.items():
-            for dir_name_base in dir_list:
-                ensure_empty_dir(os.path.join(WORK_DIR, f"{dir_name_base}資料夾"))
-                created_dirs_count += 1
-        if created_dirs_count > 0:
-            flash_messages.append((f"成功建立/清理 {created_dirs_count} 個暫存資料夾。", "success"))
-
-        flash_messages.append(("開始階段二：從永久設定目錄還原樣板與設定...", "info"))
-        
-        html_templates_work_dir = os.path.join(WORK_DIR, "HTML參考樣板資料夾現在要用")
-        ensure_dir_exists(html_templates_work_dir)
-        if os.path.exists(APP_CONFIG_TEMPLATES_HTML_DIR):
-            for item_name in os.listdir(APP_CONFIG_TEMPLATES_HTML_DIR):
-                src_item_path = os.path.join(APP_CONFIG_TEMPLATES_HTML_DIR, item_name)
-                dst_item_path = os.path.join(html_templates_work_dir, item_name)
-                if os.path.isfile(src_item_path):
-                    success, msg = copy_file_robust(src_item_path, dst_item_path)
-                    flash_messages.append((msg, "success" if success else "error"))
-                elif os.path.isdir(src_item_path):
-                    copy_dir_robust(src_item_path, dst_item_path)
-                    flash_messages.append((f"成功從 APP_CONFIG 還原HTML樣板資料夾：{item_name}", "success"))
-            flash_messages.append(("HTML 樣板還原完成。", "info"))
-        else:
-            flash_messages.append((f"警告：永久HTML樣板目錄 {APP_CONFIG_TEMPLATES_HTML_DIR} 不存在。", "warning"))
-
-        slide_templates_work_dir = os.path.join(WORK_DIR, "投影片參考樣板資料夾現在要用")
-        ensure_dir_exists(slide_templates_work_dir)
-        if os.path.exists(APP_CONFIG_TEMPLATES_SLIDES_DIR):
-            for item_name in os.listdir(APP_CONFIG_TEMPLATES_SLIDES_DIR):
-                src_item_path = os.path.join(APP_CONFIG_TEMPLATES_SLIDES_DIR, item_name)
-                dst_item_path = os.path.join(slide_templates_work_dir, item_name)
-                if os.path.isfile(src_item_path):
-                    success, msg = copy_file_robust(src_item_path, dst_item_path)
-                    flash_messages.append((msg, "success" if success else "error"))
-                elif os.path.isdir(src_item_path):
-                    copy_dir_robust(src_item_path, dst_item_path)
-                    flash_messages.append((f"成功從 APP_CONFIG 還原投影片樣板資料夾：{item_name}", "success"))
-            flash_messages.append(("投影片樣板還原完成。", "info"))
-        else:
-            flash_messages.append((f"警告：永久投影片樣板目錄 {APP_CONFIG_TEMPLATES_SLIDES_DIR} 不存在。", "warning"))
-
-        garbage_settings_work_dir = os.path.join(WORK_DIR, "工具程式資料夾現在要用")
-        ensure_dir_exists(garbage_settings_work_dir)
-        garbage_files_to_restore = ["掃垃圾文字.txt", "掃垃圾文字再一次.txt"]
-        if os.path.exists(APP_CONFIG_SETTINGS_DIR):
-            for filename in garbage_files_to_restore:
-                src_file = os.path.join(APP_CONFIG_SETTINGS_DIR, filename)
-                dst_file = os.path.join(garbage_settings_work_dir, filename)
-                if os.path.exists(src_file):
-                    success, msg = copy_file_robust(src_file, dst_file)
-                    flash_messages.append((msg, "success" if success else "error"))
-                else:
-                    if not os.path.exists(dst_file):
-                        with open(dst_file, 'w', encoding='utf-8') as f_empty:
-                            f_empty.write("")
-                        flash_messages.append((f"警告：垃圾詞彙檔案 {filename} 在 APP_CONFIG 和 DAD_DIR 中均未找到，已在工作目錄建立空檔案。", "warning"))
+            for i, title_name in enumerate(titles):
+                gua_num = i + 1
+                gua_file_path = os.path.join(YIJING_ANCIENT_TEXT_PATH, f"yijing切開第{gua_num}卦古原文無分斷點.txt")
+                slide_content_html = f"易經古文共有64卦, 本段為第{gua_num}卦 {title_name}卦的條文<br>"
+                
+                if os.path.exists(gua_file_path):
+                    with open(gua_file_path, "r", encoding="utf-8") as gf:
+                        gua_text_lines = gf.readlines()
+                    
+                    if len(gua_text_lines) > 10:
+                        slide_content_html += "".join(gua_text_lines[:10]).replace("\n", "<br>")
+                        slide_content_html += "......<br>"
+                        # 為了簡單起見，我們暫不實現點擊看全文的功能，但保留了原始腳本的意圖
+                        # 實際應用中，可以提供一個連結指向完整的卦文頁面
+                        # slide_content_html += f"<a href=\"#\" target=\"_new\">..我要看整段原文</a>" 
                     else:
-                        flash_messages.append((f"提示：垃圾詞彙檔案 {filename} 未在 APP_CONFIG 中找到，將使用 DAD_DIR 版本 (如果存在)。", "info"))
-            flash_messages.append(("垃圾詞彙設定還原完成。", "info"))
-        else:
-            flash_messages.append((f"警告：永久設定目錄 {APP_CONFIG_SETTINGS_DIR} 不存在。將依賴 DAD_DIR 版本或建立空檔案。", "warning"))
-            for filename in garbage_files_to_restore:
-                dst_file = os.path.join(garbage_settings_work_dir, filename)
-                if not os.path.exists(dst_file):
-                    with open(dst_file, 'w', encoding='utf-8') as f_empty:
-                        f_empty.write("")
-                    flash_messages.append((f"已在工作目錄為 {filename} 建立空檔案。", "info"))
+                        slide_content_html += "".join(gua_text_lines).replace("\n", "<br>")
+                    slides_data.append({"title": f"易經古文解析 - 第{gua_num}卦 {title_name}", "content": slide_content_html})
+                else:
+                    slides_data.append({"title": f"易經古文解析 - 第{gua_num}卦 {title_name}", "content": f"缺少第{gua_num}卦 ({title_name}) 的古文檔案 ({gua_file_path})"})
+        except Exception as e:
+            if error_message:
+                error_message += f"\n讀取易經資料時發生錯誤: {str(e)}"
+            else:
+                error_message = f"讀取易經資料時發生錯誤: {str(e)}"
 
-        for msg, cat in flash_messages:
-            flash(msg, cat)
-        if not any(cat == 'error' for _, cat in flash_messages):
-             flash("資料初始化與設定還原成功完成！", "success")
-        else:
-            flash("資料初始化或設定還原過程中發生錯誤，請檢查訊息。", "error")
-            
-    except Exception as e:
-        flash(f"資料初始化失敗：{str(e)}", "error")
-        traceback.print_exc()
-    
-    return redirect(url_for('index'))
+    return render_template("yijing_slides.html", slides=slides_data, error_message=error_message, title="易經古文解析講座")
 
-@app.route('/save_garbage_lists', methods=['POST'])
-def save_garbage_lists():
-    try:
-        garbage_text = request.form.get('garbage_text_content', '')
-        garbage_text_again = request.form.get('garbage_text_again_content', '')
+def create_app():
+    app = Flask(__name__, template_folder='templates', static_folder='static')
 
-        ensure_dir_exists(APP_CONFIG_SETTINGS_DIR)
-        ensure_dir_exists(os.path.join(WORK_DIR, "工具程式資料夾現在要用"))
+    # 註冊藍圖
+    app.register_blueprint(yijing_bp, url_prefix='/yijing')
 
-        app_config_garbage_path = os.path.join(APP_CONFIG_SETTINGS_DIR, "掃垃圾文字.txt")
-        app_config_garbage_again_path = os.path.join(APP_CONFIG_SETTINGS_DIR, "掃垃圾文字再一次.txt")
-        
-        work_dir_garbage_path = os.path.join(WORK_DIR, "工具程式資料夾現在要用", "掃垃圾文字.txt")
-        work_dir_garbage_again_path = os.path.join(WORK_DIR, "工具程式資料夾現在要用", "掃垃圾文字再一次.txt")
+    @app.route('/')
+    def index():
+        return render_template('index.html', title='易經互動網頁')
 
-        with open(app_config_garbage_path, 'w', encoding='utf-8') as f:
-            f.write(garbage_text)
-        with open(work_dir_garbage_path, 'w', encoding='utf-8') as f:
-            f.write(garbage_text)
-            
-        with open(app_config_garbage_again_path, 'w', encoding='utf-8') as f:
-            f.write(garbage_text_again)
-        with open(work_dir_garbage_again_path, 'w', encoding='utf-8') as f:
-            f.write(garbage_text_again)
-            
-        flash("垃圾詞彙列表已成功儲存！", "success")
-    except Exception as e:
-        flash(f"儲存垃圾詞彙列表失敗：{str(e)}", "error")
-        traceback.print_exc()
-    return redirect(url_for('index'))
+    return app
 
-
-@app.route('/download_wiki_data', methods=['POST'])
-def download_wiki_data():
-    if not os.path.exists(os.path.join(WORK_DIR, "工具程式資料夾現在要用")) or \
-       not os.path.exists(os.path.join(WORK_DIR, "易經輸入端資料夾現在要用")):
-        flash("錯誤：請先執行資料初始化。", "error")
-        return redirect(url_for('index'))
-
-    try:
-        start_line = int(request.form.get('start_line_wiki', 1))
-        end_line = int(request.form.get('end_line_wiki', 1))
-        flash_messages = []
-
-        yijing_terms_file = os.path.join(WORK_DIR, "易經輸入端資料夾現在要用", "易經自選專有名詞.txt")
-        garbage_terms_file = os.path.join(WORK_DIR, "工具程式資料夾現在要用", "掃垃圾文字.txt")
-        garbage_again_terms_file = os.path.join(WORK_DIR, "工具程式資料夾現在要用", "掃垃圾文字再一次.txt")
-
-        output_dir_base = os.path.join(WORK_DIR, "易經維基網資料暫存")
-        output_dir_final_agg = os.path.join(WORK_DIR, "易經維基網資料暫存戰果資料夾")
-        
-        for i in range(1, 6):
-            ensure_empty_dir(os.path.join(output_dir_base + f"{i}資料夾"))
-        ensure_empty_dir(output_dir_final_agg)
-
-        if not os.path.exists(yijing_terms_file):
-            flash(f"錯誤：易經自選專有名詞檔案不存在 ({yijing_terms_file})", "error")
-            return redirect(url_for('index'))
-        if not os.path.exists(garbage_terms_file):
-            flash(f"錯誤：掃垃圾文字檔案不存在 ({garbage_terms_file})。請嘗試重新初始化或檢查設定。", "error")
-            return redirect(url_for('index'))
-        if not os.path.exists(garbage_again_terms_file):
-            flash(f"錯誤：掃垃圾文字再一次檔案不存在 ({garbage_again_terms_file})。請嘗試重新初始化或檢查設定。", "error")
-            return redirect(url_for('index'))
-
-        with open(yijing_terms_file, 'r', encoding='utf-8') as f:
-            all_terms = [line.strip() for line in f if line.strip()]
-        
-        selected_terms = all_terms[start_line-1:end_line]
-
-        if not selected_terms:
-            flash("警告：根據所選行號，沒有選中任何專有名詞。", "warning")
-            return redirect(url_for('index'))
-
-        with open(garbage_terms_file, 'r', encoding='utf-8') as f:
-            garbage_list = [line.strip() for line in f if line.strip()]
-        with open(garbage_again_terms_file, 'r', encoding='utf-8') as f:
-            garbage_again_list = [line.strip() for line in f if line.strip()]
-
-        h = html2text.HTML2Text()
-        h.ignore_links = False
-        h.ignore_images = True
-
-        final_wiki_content_path = os.path.join(output_dir_final_agg, "自選專有名詞維基文獻.txt")
-        with open(final_wiki_content_path, 'w', encoding='utf-8') as f_agg:
-            f_agg.write("這是本王自選標題維基資料下載\n\n")
-
-        for i, term in enumerate(selected_terms):
-            term_index_in_script = start_line + i
-            flash_messages.append((f"開始處理專有名詞：{term} ({i+1}/{len(selected_terms)})", "info"))
-
-            wiki_url = f"http://zh.wikipedia.org/zh-tw/{term}"
-            text_content_path_step1 = os.path.join(output_dir_base + "1資料夾", f"自選專有名詞維基文獻粗1第{term_index_in_script}條.txt")
-            
-            try:
-                response = requests.get(wiki_url, timeout=15)
-                response.raise_for_status()
-                raw_html = response.text
-                text_content_step1 = h.handle(raw_html)
-                with open(text_content_p
-(Content truncated due to size limit. Use line ranges to read in chunks)
+if __name__ == '__main__':
+    app = create_app()
+    app.run(host='0.0.0.0', port=5001, debug=True)
