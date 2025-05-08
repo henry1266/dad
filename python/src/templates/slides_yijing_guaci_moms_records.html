@@ -1,0 +1,45 @@
+{% extends "impress_slides_base.html" %}
+
+{% block slides_content %}
+    {% if slides_data %}
+        {% for slide in slides_data %}
+            <div class="step slide"
+                 data-x="{{ slide.data_x | default(0) }}"
+                 data-y="{{ slide.data_y | default(0) }}"
+                 data-z="{{ slide.data_z | default(0) }}"
+                 data-rotate-x="{{ slide.data_rotate_x | default(0) }}"
+                 data-rotate-y="{{ slide.data_rotate_y | default(0) }}"
+                 data-rotate-z="{{ slide.data_rotate_z | default(0) }}"
+                 data-scale="{{ slide.data_scale | default(1) }}">
+                <h2>{{ slide.title }}</h2>
+                <div>
+                    {% if slide.type == 'image' and slide.image_url %}
+                        <img src="{{ slide.image_url }}" alt="{{ slide.title }}" style="max-width: 100%; max-height: 500px; display: block; margin-left: auto; margin-right: auto;">
+                    {% elif slide.type == 'video' and slide.video_url %}
+                        <video controls style="max-width: 100%; max-height: 500px; display: block; margin-left: auto; margin-right: auto;">
+                            <source src="{{ slide.video_url }}" type="video/webm"> <!-- Assuming webm, adjust if other types -->
+                            Your browser does not support the video tag.
+                        </video>
+                    {% elif slide.type == 'html_content' %}
+                        {{ slide.content | safe }}
+                    {% else %}
+                        {{ slide.content | safe }}
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+
+        <!-- Overview slide -->
+        <div id="overview" class="step"
+             data-x="{{ overview_x | default(3000) }}"
+             data-y="{{ overview_y | default(1500) }}"
+             data-z="{{ overview_z | default(0) }}"
+             data-scale="{{ overview_scale | default(10) }}">
+        </div>
+    {% elif not error_message %}
+         <div class="step slide" data-x="0" data-y="0">
+            <p>沒有可顯示的投影片內容。</p>
+        </div>
+    {% endif %}
+{% endblock %}
+

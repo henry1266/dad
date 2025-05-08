@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ case_data.title if case_data else '風水個案分析' }} - {{ site_title }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .section { margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
+        .section:last-child { border-bottom: none; }
+        .section h2 { font-size: 1.8em; margin-bottom: 10px; color: #555; }
+        .content { line-height: 1.8; font-size: 1.1em; white-space: pre-wrap; /* Preserve whitespace and newlines */ }
+        .error { color: red; text-align: center; font-size: 1.2em; padding: 20px; border: 1px solid red; background-color: #ffecec; border-radius: 5px;}
+        .home-link { display: block; text-align: center; margin-top: 30px; font-size: 1.1em; }
+        .home-link a { text-decoration: none; color: #007bff; font-weight: bold; }
+        .home-link a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        {% if error_message %}
+            <p class="error">{{ error_message }}</p>
+        {% else %}
+            <h1>風水個案分析：{{ case_data.title }}</h1>
+            <div class="section case-details">
+                <h2>個案內容</h2>
+                <div class="content">
+                    {{ case_data.content | safe }}
+                </div>
+            </div>
+        {% endif %}
+        <div class="home-link">
+            <a href="{{ url_for('index') }}">返回主頁</a>
+        </div>
+    </div>
+</body>
+</html>
+

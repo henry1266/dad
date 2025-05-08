@@ -1,0 +1,451 @@
+104年第一次專門職業及技術人員高等考試牙醫師藥師考試分階段考試
+年第一次專門職業及技術人員高等考試牙醫師藥師考試分階段考試、
+年第一次專門職業及技術人員高等考試牙醫師藥師考試分階段考試、藥師、
+藥師、醫事檢驗師、
+醫事檢驗師、醫
+事放射師、
+事放射師、助產師、物理治療師、
+物理治療師、職能治療師、
+職能治療師、呼吸治療師、
+呼吸治療師、獸醫師考試
+代
+號:6311
+類科名稱:醫事檢驗師
+科目名稱:臨床血清免疫學與臨床病毒學
+BBCCDABAACDADAABDCADDDDDACDBCDDBBBDCACDABDDBBBBCBCDBAACDDAADCAADCCCABDBDBBDDADDB
+考試時間:1小時
+※注意:本試題禁止使用電子計算器
+座號:___________
+1.IgG重鏈(heavy chain)分子量為多少Da?
+A.22,000
+B.50,000
+C.150,000
+D.900,000
+2.血清蛋白電泳後的分布由正極到負極分別是:1α球蛋白
+(albumin)
+2β球蛋白
+3γ球蛋白
+4白蛋白
+A.1234
+B.4123
+C.3214
+D.4321
+3.下列何種分子並未參與在reactive oxygen species(ROS)的產生?
+A.NADPH phagosome oxidase
+B.superoxide dismutase
+C.lysozyme
+D.myeloperoxidase
+4.下列有關主動免疫(active immunity)之敘述,何者錯誤?
+A.可分為體液性及細胞性免疫反應
+B.接種疫苗可獲得主動免疫力
+C.獲得免疫力所需時間較被動免疫(passive immunity)短
+D.免疫效果較被動免疫(passive immunity)佳,且持續時間較長
+5.在血液中未曾活化的B細胞表面,會出現下列何種免疫球蛋白?
+A.IgA
+B.IgG
+C.IgE
+D.IgD
+6.下列有關體基因超突變(somatic hypermutation)的敘述,何者錯誤?
+A.發生於生發中心(germinal center)的亮區(light zone)
+B.集中在V-(D)-J區域
+C.可以增加抗體變異性
+D.AID(activation-induced cytidine deaminase)有參與
+7.下列何者是T細胞活化時最常見的costimulatory molecule之配對?
+A.CD28-CTLA4
+B.CD28-B7
+C.CD28-PD1
+D.CD28-PDL1
+8.下列何種反應不需要抗體參與?
+A.呈獻抗原(antigen presentation)
+B.活化補體(complement activation)
+C.中和抗原(antigen neutralization)
+D.調理作用(opsonization)
+9.下列那些細胞會因為受到訊息傳遞而發生基因重組(gene rearrangement)?
+A.T細胞及B細胞
+B.B細胞及NK細胞
+C.NK細胞及T細胞
+D.B細胞及漿細胞
+10.下列數據是某患者連續兩次抗體效價的變化,何者表示此患者可能正處於急性感染期?
+A.1:2 →1:4
+B.1:4 →1:8
+C.1:16 →1:256
+D.1:64 →1:128
+11.下列何種免疫分析技術的操作過程一般不需要在固態基質上進行?
+A.免疫固定法(immunofixation)
+B.輻射免疫擴散法(radioimmunodiffusion)
+C.免疫電泳法(immuno-electrophoresis)
+D.免疫比濁法(nephelometry)
+12.下列有關化學冷光免疫法(chemiluminescence immunoassay)之敘述,何者錯誤?
+A.需要利用540 nm的光激發化學反應產生光子,由光子的數量決定待測物的濃度
+B.可使用化學冷光物質acridinium ester為標示物
+C.acridinium ester在強鹼與雙氧水之環境中,酯鍵(ester bond)會被破壞,形成另一個不
+穩定物質
+D.可使用luminol為標示物
+13.下列有關利用avidin-biotin-peroxidase complex(ABC)技術之免疫組織化學染色
+(immunohistochemical staining)的敘述,何者錯誤?
+A.一個avidin有四個biotin結合位
+B.使用H2O2為受質,diaminobenzidine為呈色劑
+C.可將結果的訊號放大同時也提高試驗的敏感度
+D.須以螢光顯微鏡觀察實驗結果
+14.有關急性期的免疫反應,下列敘述何者錯誤?
+A.補體成分C3、C4在12小時內會大量增加
+B.紅血球沉降速率(ESR)會增加
+C.激烈運動會引起急性期蛋白(acute phase proteins)的產生
+D.C-反應蛋白(CRP)的量可以反應出發炎的程度
+15.在EBV感染後,下列何種抗體最早出現?
+A.anti-VCA(viral capsid antigen)
+B.anti-EA(early antigen)
+C.anti-EBNA(Epstein-Barr nuclear antigen)
+D.anti-LMP-1(latent membrane protein-1)
+16.鏈球菌S. pyogenes引起的皮膚感染,下列何種抗體可以當作診斷依據?
+A.ASO(anti-streptolysin O)
+B.anti-DNase B
+C.anti-hyaluronidase
+D.anti-M protein
+17.complement fixation常用來做血清學的診斷感染性疾病,下列何者除外?
+A.aspergillosis
+B.histoplasmosis
+C.coccidioidomycosis
+D.brucellosis
+18.下列何種病毒引起的肝炎常使用interferon-α配合ribavirin來治療?
+A.HAV
+B.HBV
+C.HCV
+D.HEV
+19.下列何種疾病與第三型過敏反應最無關?
+A.Wegener's granulomatosis
+B.poststreptococcal glomerulonephritis
+C.systemic lupus erythematosus
+D.rheumatoid arthritis
+20.下列有關結核菌素試驗(tuberculin test)的敘述,何者錯誤?
+A.屬於第四型過敏反應
+B.抗原為purified protein derivative(PPD)
+C.通常48~72小時後觀察結果
+D.陽性反應表示正在感染肺結核
+21.下列何種分子平時並不存於肥大細胞顆粒內?A.histamine
+B.neutrophil chemotactic factor
+C.eosinophil chemotactic factor of anaphylaxis
+D.platelet activating factor
+22.下列何種血液細胞在蛔蟲感染時常會增加?
+A.嗜中性白血球
+B.淋巴球
+C.嗜鹼性白血球
+D.嗜酸性白血球
+23.抗核抗體檢測結果如下圖所示,極可能罹患下列何種疾病?
+A.風濕性關節炎
+B.硬皮症
+C.Goodpasture's syndrome
+D.全身性紅斑狼瘡
+24.下列何者已知與第一型糖尿病發生高度相關?
+A.HLA-A2
+B.HLA-B27
+C.HLA-DP2
+D.HLA-DR3
+25.下列何者是全身性紅斑狼瘡病患細胞免疫反應之主要特徵?
+A.調節性T細胞免疫功能的缺失
+B.B細胞功能正常
+C.輔助性T細胞的生成低落
+D.補體增生
+26.下列何者為狼瘡疾病的動物模式?
+A.NOD(nonobese diabetic)
+B.NZB(New Zealand black)
+C.(NZB× NZW)F1
+D.AA(autoimmune arthritis)
+27.下列那一種細胞不表現MHC class I?
+A.T細胞
+B.嗜中性白血球
+C.腦細胞
+D.紅血球
+28.混合淋巴球反應(mixed
+lymphocyte reaction)中,造成淋巴球增生的最主要原因是:
+A.兩者淋巴球之HLA class I抗原不同
+B.兩者淋巴球之HLA class II抗原不同
+C.兩者淋巴球之HLA class III抗原不同
+D.兩者淋巴球之non-classical HLA抗原不同
+29.下列那一種情形病人體內可測到HLA抗體?
+A.全身性紅斑狼瘡
+B.第一型糖尿病
+C.器官移植後
+D.甲狀腺機能亢進
+30.移植物對抗宿主反應(graft-versus-host disease)最常發生在下列何種器官移植上?
+A.肝臟
+B.眼角膜
+C.心臟
+D.骨髓
+31.出生後九個月大之嬰孩開始會因缺乏周邊B細胞,而易受到重複性細菌感染,此患者是罹患
+下列何種免疫缺陷疾病?
+A.狄喬治症候群(DiGeorge syndrome)
+B.威斯科特-奧爾德里奇症候群(Wiskott-Aldrich syndrome)
+C.X連鎖型高IgM症候群(X-linked hyper-IgM syndrome)
+D.X連鎖型無伽瑪球蛋白血症(X-linked agammaglobulinemia)
+32.下列何者屬於生長因子受體類的致癌基因?1sis
+2fms
+3erbA 4neu
+5src
+A.123
+B.234
+C.245
+D.135
+33.下列何者屬於次單位疫苗(subunit
+vaccine)?
+A.A型肝炎病毒疫苗
+B.B型肝炎病毒疫苗
+C.麻疹疫苗
+D.狂犬病毒疫苗
+34.多價性疫苗中的免疫刺激複合物(immunostimulating complex)和微脂體(liposome)最主
+要是誘發人體進行下列何種反應?
+A.體液性免疫
+B.細胞性免疫
+C.過敏
+D.移植物反宿主
+35.下列何者不是前列腺癌的腫瘤標誌?
+A.hk2
+B.prostatic acid phosphatase
+C.early prostate cancer antigen-2(EPCA-2)
+D.alkaline phosphatase(ALP)
+36.T細胞在胸線的成熟過程中,會歷經DN1(double-negative
+1)至DN4等階段,主要會表現c-
+kit和CD44以及下列何者?
+A.CD4
+B.CD8
+C.CD25
+D.CD40
+37.下列關於Th2輔助性T細胞的敘述,何者錯誤?
+A.活化巨噬細胞
+B.活化嗜酸性白血球
+C.刺激IgE抗體的產生
+D.刺激IgM抗體的產生
+38.下列何種細胞位於腸腔表層黏膜,負責將外來的抗原運送到底層的黏膜淋巴組織(mucosa-
+associated lymphoid tissue)?
+A.肥大細胞
+B.自然殺手細胞
+C.M cell
+D.巨噬細胞
+39.皮質類固醇可調節眾多基因的表現,造成抗發炎之效果,其中會增加表現之物質為下列何
+者?
+A.IL-1
+B.phospholipase A2
+C.adhesion molecules
+D.lipomodulin
+40.HIV檢驗陽性結果之確認,下列那些情況一定存在?1ELISA試驗陽性反應
+gp41和/或p24的反應帶出現陽性
+3西方墨點法p66的反應帶出現陽性
+2西方墨點法
+4西方墨點法p17反應帶出現陽性
+A.12
+B.23
+C.34
+D.14
+41.下列何種病毒其紅血球凝集試驗為陰性?
+A.influenza C virus
+B.respiratory syncytial virus
+C.mumps virus
+D.parainfluenza virus type 1
+42.下列流感病毒檢測方法,何者具有高敏感性及高專一性?
+A.血球吸附試驗
+B.血球凝集法
+C.抗原快速檢測法
+D.multiplex real-time PCR
+43.下列何者可利用酵素免疫分析法檢測病毒抗原?1HIV-1 p24 antigen
+3enteric adenovirus 40/41
+2rotavirus
+4respiratory syncytial virus
+A.僅23
+B.僅123
+C.僅234
+D.1234
+44.人類免疫缺乏病毒感染之血清診斷,下列何者為確認試驗?
+A.EIA
+B.Western blot
+C.immunochromatography
+D.HIV rapid test
+45.進行Nucleic acid sequence-based amplification(NASBA)檢測時會利用到下列何者進行反
+應?1reverse transcriptase 2RNase H 3restriction enzyme 4T7 RNA polymerse
+A.123
+B.124
+C.234
+D.134
+46.有關HIV治療藥物AZT(Retrovir)的敘述,下列何者錯誤?
+A.最初是研發作為抗癌藥物
+B.是guanosine的核苷類似物(nucleoside analogue)
+C.可以抑制HIV的reverse transcriptase作用
+D.是HAART治療組合中的一種藥物
+47.有關抗病毒藥物ribavirin的敘述,下列何者錯誤?
+A.是guanosine的核苷類似物
+B.臨床上常用來治療腺病毒感染
+C.其作用之一是抑制病毒RNA polymerase的活性
+D.常與干擾素併用來治療C型肝炎
+48.下列各科病毒,何者具有正股RNA基因體(positive-sense RNA genome)?
+A.Paramyxoviridae
+B.Rhabdoviridae
+C.Caliciviridae
+D.Bunyaviridae
+49.下列何者通常不是愛滋病的伺機性感染原?
+A.Pneumocystis carinii
+B.measles virus
+C.Candida albicans
+D.cytomegalovirus
+50.下列何種病毒常無法自支氣管沖洗液(bronchoalveolar lavage, BAL)檢體中培養分離?
+A.herpes simplex virus type 1
+B.influenza A virus
+C.rotavirus
+D.parainfluenza virus
+51.欲從檢體中檢測病毒感染,下列各項檢體及病毒的配對,何者錯誤?
+A.尿液檢體/巨細胞病毒(cytomegalovirus)
+B.氣管刷洗(bronchial and bronchoalveolar washes)檢體/人類流感病毒(human
+influenza virus)
+C.rectal swabs and stool specimens /輪狀病毒(rotavirus)
+D.blood/人類鼻病毒(human rhinovirus)
+52.關於下圖的病毒電子顯微鏡影像之敘述,何者錯誤?
+A.為穿透式電子顯微鏡所得的影像
+B.正染色(positive staining)
+C.磷鎢酸染色(phosphotungstic acid staining)
+D.可能是腺病毒顆粒
+53.下列何者不適合檢測胎兒是否遭受德國麻疹病毒感染?
+A.母體血清抗德國麻疹病毒IgG
+B.胎兒血液中德國麻疹病毒RNA
+C.羊水德國麻疹病毒RNA
+D.臍帶血清抗德國麻疹病毒IgM
+54.有關B型肝炎病毒之實驗室診斷,不包括下列何者?
+A.病毒培養
+B.酵素免疫法偵測抗體
+C.酵素免疫法偵測抗原
+D.PCR偵測病毒DNA基因體
+55.病毒性肝炎中,下列何者與脂肪肝病變最相關?
+A.A型肝炎病毒
+B.B型肝炎病毒
+C.C型肝炎病毒
+D.D型肝炎病毒
+56.下列何者之血清陽轉(seroconversion)與B型肝炎病毒複製之顯著下降最為相關?
+A.X蛋白質
+B.核心蛋白質
+C.聚合酶蛋白質
+D.e蛋白質
+57.下列何者不是Dane particle所具有的特性?
+A.具有感染力
+B.含有DNA polymerase
+C.可誘發anti-HBs Ab產生
+D.直徑為22 nm
+58.下列那一個HPV病毒蛋白可以自行組裝成virus-like
+particle(VLP)?
+A.L1
+B.L2
+C.VP1
+D.VP2
+59.下列何種病毒感染與myocarditis有關?
+A.cox B virus
+B.influenza virus
+C.human rhinovirus
+D.EBV
+60.下列有關腸病毒分型常用的標的基因與偵測方法的組合,何者正確?
+A.NS5B及RFLP
+B.NTR及PCR/sequencing
+C.NTR及hybrid capture assay
+D.VP1及RT-PCR/sequencing
+61.下列何種病毒具有導致細胞轉型能力,但未被證實與任何人類癌症有關?
+A.papillomavirus
+B.influenza A virus
+C.adenovirus
+D.B19
+62.下列有關腺病毒的敘述,何者錯誤?
+A.有外套膜的正二十面體病毒顆粒
+B.具有雙股DNA基因
+C.可當作基因療法的載體
+D.利用DNA homologies可分為A到F基因型
+63.Human cytomegalovirus可在下列何種細胞複製產生細胞病變?
+A.human fetal diploid lung cell
+B.MDCK cell
+C.monkey kidney cell
+D.HEp-2 cell
+64.下列有關HSV-induced encephalitis(HSE)的敘述,何者正確?
+A.絕大部分患者是初次感染HSV-2
+B.絕大多數成年患者都是因HSV-2感染所引起
+C.抗病毒IgM的價數與HSE的嚴重程度成正相關
+D.以定量PCR檢測CSF內的HSV DNA,可幫助了解抗病毒藥物的療效
+65.HIV-1病毒主要藉由gp120與宿主細胞的何種副受器(co-receptor)結合,而進入細胞?
+A.CAR
+B.CCL5
+C.CCR5
+D.CXCR1
+66.口蹄疫病毒屬於下列那一個病毒科?
+A.Orthomyxoviridae
+B.Paramyxoviridae
+C.Picornaviridae
+D.Togaviridae
+67.下列病毒中,何者最常引起人類心臟的疾病?
+A.鼻病毒(rhinovirus)
+B.小兒痲痺病毒(poliovirus)
+C.柯沙奇病毒B群(coxsackievirus Group B)
+D.柯沙奇病毒A群(coxsackievirus Group A)
+68.下列何者最常造成無菌性腦膜炎?
+A.腸病毒(enterovirus)
+B.鼻病毒(rhinovirus)
+C.副流感病毒(parainfluenza virus)
+D.呼吸道細胞融合病毒(respiratory syncytial virus)
+69.可造成出血性結膜炎之病毒為:1腸病毒68型(enterovirus 68)
+(enterovirus 70)
+2腸病毒70型
+3柯沙奇病毒A24型變異株(coxsackievirus A24 variant)
+(adenovirus)
+A.13
+B.23
+C.12
+D.14
+70.下列有關病毒變異的敘述,何者正確?
+A.HIV-1的genomic recombination不需要兩株病毒同時感染同一顆細胞
+4腺病毒
+B.Influenza virus主要利用gene reassortment來產生連續性的antigenic drift
+C.因selection pressure而大量生長的一群病毒稱為quasispecies,其在同一個病人體內呈均
+勻分布
+D.HIV-1的RT沒有proofreading的活性,所以每複製一個病毒基因體會產生至少一個核苷酸
+突變
+71.下列關於human T-cell lymphotropic virus type 1(HTLV-1)之敘述,何者錯誤?
+A.可感染T細胞及B細胞
+B.造成急性感染,康復後不帶原
+C.可引發adult T-cell lymphoma
+D.可引發tropical spastic paraparesis
+72.下列那組肝炎病毒皆有疫苗可供使用?
+A.HCV、HDV
+B.HAV、HCV
+C.HBV、HCV
+D.HAV、HBV
+73.下列關於目前廣泛施用的流感病毒疫苗的敘述,何者錯誤?
+A.為去活性(inactivated)疫苗
+B.通常包含type A、B、C各一病毒株
+C.施打後無法終生免疫
+D.宜對特殊危險群如心肺疾病老人做選擇性注射
+74.下列那一種病毒較常培養於33°C以利其生長?
+A.腺病毒(adenovirus)
+B.鼻病毒(rhinovirus)
+C.副流感病毒(parainfluenza virus)
+D.呼吸道細胞融合病毒(respiratory syncytial virus)
+75.最適合用來培養SARS病毒之細胞為:
+A.MDCK
+B.A549
+C.MRC-5
+D.Vero E6
+76.下列何種病毒不具有fusion(F)蛋白?
+A.parainfluenza type 2
+B.mumps virus
+C.respiratory syncytial virus
+D.influenza B virus
+77.下 何者屬於副黏液病毒科(Paramyxoviridae)?
+A.metapneumovirus
+B.echovirus 1
+C.rubella virus
+D.foot-and-mouth disease virus
+78.下列何種病毒,病毒顆粒外殼沒有凝集紅血球的蛋白質?
+A.腮腺炎病毒
+B.登革病毒
+C.副流感病毒
+D.呼吸道細胞融合病毒
+79.下列何種病毒一般不易造成腸胃道感染?
+A.adenovirus
+B.sapovirus
+C.norovirus
+D.mumps virus
+80.下列有關C型肝炎病毒的敘述,何者錯誤?
+A.具有外套膜
+B.具有單股負向RNA基因
+C.目前知道只感染人類及黑猩猩
+D.與細胞上的CD81結合而感染

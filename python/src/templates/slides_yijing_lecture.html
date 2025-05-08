@@ -1,0 +1,35 @@
+{% extends "impress_slides_base.html" %}
+
+{% block slides_content %}
+    {% if slides_data %}
+        {% for slide in slides_data %}
+            <div class="step slide"
+                 data-x="{{ slide.data_x | default(0) }}"
+                 data-y="{{ slide.data_y | default(0) }}"
+                 data-z="{{ slide.data_z | default(0) }}"
+                 data-rotate-x="{{ slide.data_rotate_x | default(0) }}"
+                 data-rotate-y="{{ slide.data_rotate_y | default(0) }}"
+                 data-rotate-z="{{ slide.data_rotate_z | default(0) }}"
+                 data-scale="{{ slide.data_scale | default(1) }}">
+                <h2>{{ slide.title }}</h2>
+                <div>{{ slide.content | safe }}</div>
+                {% if slide.full_text_link %}
+                    <p><a href="{{ slide.full_text_link }}" target="_blank">..我要看整段原文</a></p>
+                {% endif %}
+            </div>
+        {% endfor %}
+
+        <!-- Overview slide -->
+        <div id="overview" class="step" 
+             data-x="{{ overview_x | default(3000) }}" 
+             data-y="{{ overview_y | default(1500) }}" 
+             data-z="{{ overview_z | default(0) }}" 
+             data-scale="{{ overview_scale | default(10) }}">
+        </div>
+    {% elif not error_message %}
+         <div class="step slide" data-x="0" data-y="0">
+            <p>沒有可顯示的投影片內容。</p>
+        </div>
+    {% endif %}
+{% endblock %}
+

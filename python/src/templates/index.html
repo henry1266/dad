@@ -4,26 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">  {# Updated path #}
 </head>
 <body>
     <header>
         <h1>易經互動網頁</h1>
     </header>
     <main>
-        <p>歡迎使用易經互動網頁。我們將逐步把原始腳本的功能移植到這裡。</p>
-        <p>目前正在建構中，敬請期待！</p>
-        
-        <!-- 後續將在此處添加互動功能 -->
-        <section id="yijing-slides-section">
-            <h2>易經古文解析講座</h2>
-            <!-- 內容將由 Python 後端動態生成 -->
+        <p>歡迎使用易經互動網頁。您可以透過以下連結瀏覽不同內容，或使用下方的表單進行特定操作。</p>
+
+        <section id="interaction-form-section">
+            <h2>互動操作</h2>
+            <form method="POST" action="{{ url_for('process_interaction') }}">
+                <fieldset>
+                    <legend>資料處理與生成範圍</legend>
+                    <div>
+                        <label for="start_gua">起始卦 (1-64):</label>
+                        <input type="number" id="start_gua" name="start_gua" min="1" max="64" value="1">
+                    </div>
+                    <div>
+                        <label for="end_gua">結束卦 (1-64):</label>
+                        <input type="number" id="end_gua" name="end_gua" min="1" max="64" value="64">
+                    </div>
+                    <div>
+                        <label for="custom_topic_start">自選主題起始行 (維基百科):</label>
+                        <input type="number" id="custom_topic_start" name="custom_topic_start" min="1" value="1">
+                    </div>
+                    <div>
+                        <label for="custom_topic_end">自選主題結束行 (維基百科):</label>
+                        <input type="number" id="custom_topic_end" name="custom_topic_end" min="1" value="1">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>選擇操作</legend>
+                    <div>
+                        <input type="checkbox" id="run_prepare_environment" name="run_prepare_environment" value="true" checked>
+                        <label for="run_prepare_environment">執行環境準備 (複製檔案、建立資料夾)</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="run_format_basic_data" name="run_format_basic_data" value="true" checked>
+                        <label for="run_format_basic_data">格式化基本資料檔案</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="run_process_yijing_raw" name="run_process_yijing_raw" value="true" checked>
+                        <label for="run_process_yijing_raw">處理易經原始文字檔</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="run_generate_yijing_meta" name="run_generate_yijing_meta" value="true" checked>
+                        <label for="run_generate_yijing_meta">產生易經元數據並分割卦文</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="run_append_ancient_texts" name="run_append_ancient_texts" value="true" checked>
+                        <label for="run_append_ancient_texts">將易經古文附加到彙編</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="run_process_custom_wiki" name="run_process_custom_wiki" value="true" checked>
+                        <label for="run_process_custom_wiki">處理自選主題維基百科資料</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="run_process_guas_wiki" name="run_process_guas_wiki" value="true" checked>
+                        <label for="run_process_guas_wiki">處理易經64卦維基百科資料</label>
+                    </div>
+                     <div>
+                        <input type="checkbox" id="generate_all_outputs" name="generate_all_outputs" value="true">
+                        <label for="generate_all_outputs">重新生成所有網頁和投影片 (基於目前資料)</label>
+                    </div>
+                </fieldset>
+                <button type="submit">執行所選操作</button>
+            </form>
+            {% if interaction_message %}
+                <div class="message">{{ interaction_message }}</div>
+            {% endif %}
+        </section>
+
+        <section id="slide-shows-section">
+            <h2>投影片展示</h2>
+            <ul>
+                {% for show in slide_shows %}
+                    <li><a href="{{ show.url }}" target="_blank">{{ show.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        <section id="gua-pages-section">
+            <h2>易經各卦詳解</h2>
+            <ul>
+                {% for gua in gua_pages %}
+                    <li><a href="{{ gua.url }}" target="_blank">{{ gua.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        <section id="fengshui-cases-section">
+            <h2>風水個案分析</h2>
+            <ul>
+                {% for case in fengshui_cases %}
+                    <li><a href="{{ case.url }}" target="_blank">{{ case.title }}</a></li>
+                {% endfor %}
+            </ul>
         </section>
 
     </main>
     <footer>
         <p>&copy; 2025 易經互動網頁</p>
     </footer>
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script> {# Updated path #}
 </body>
 </html>
+
