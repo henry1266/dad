@@ -1,0 +1,223 @@
+/皇上的大標題/c\
+皇上風水解析
+/皇上的副標題/c\
+風水個案分析
+/皇上的選單連結1/c\
+<a href="http://www.google.com/search?q=%中西醫病名對照大辭典" target="_new">中西醫病名對照大辭典
+/皇上的選單連結2/c\
+<a href="http://www.me.ncku.edu.tw/tw/" target="_new">成大機械系
+/皇上的選單連結3/c\
+<a href="http://w3.sname.ncku.edu.tw/main.php?site_id=0" target="_new">成大系統系
+/皇上的選單連結4/c\
+<a href="http://mt.web.ym.edu.tw/front/bin/home.phtml" target="_new">陽明醫技系
+/皇上的選單連結5/c\
+<a href="http://www.cnu.edu.tw/" target="_new">嘉南藥理大學
+/皇上的選單連結6/c\
+<a href="http://dse.nhcue.edu.tw/" target="_new">竹教大特教系
+/皇上的內容標題1/c\
+易經個案001風水個案分析
+/文段1/c\
+    	</br>\
+    現況圖1</br>\
+    現況圖2</br>\
+    現況圖3</br>\
+</br>\
+立極定\
+<A HREF="http://zh.wikipedia.org/zh-tw/坐向" target="_new">坐向</A>\
+</br>\
+</br>\
+本案為坐子山午向。</br>\
+詳現況圖。</br>\
+</br>\
+勘察\
+<A HREF="http://zh.wikipedia.org/zh-tw/外局" target="_new">外局</A>\
+分析</br>\
+來龍=>有山論山，無山不論。</br>\
+</br>\
+本案無山不論。</br>\
+</br>\
+水\
+<A HREF="http://zh.wikipedia.org/zh-tw/路" target="_new">路</A>\
+水局=>河流及馬\
+<A HREF="http://zh.wikipedia.org/zh-tw/路" target="_new">路</A>\
+或排水溝等來水及去水。</br>\
+</br>\
+本案來水有二條。</br>\
+</br>\
+一為卯方來水酉方去水。</br>\
+</br>\
+一為方來水方去水。</br>\
+</br>\
+勘察\
+<A HREF="http://zh.wikipedia.org/zh-tw/外局" target="_new">外局</A>\
+分析</br>\
+</br>\
+周圍環境=>含不良影響之外煞……等。</br>\
+</br>\
+大\
+<A HREF="http://zh.wikipedia.org/zh-tw/門" target="_new">門</A>\
+前方違建放置凌亂雜物</br>\
+大\
+<A HREF="http://zh.wikipedia.org/zh-tw/門" target="_new">門</A>\
+出入巷弄窄小</br>\
+找出吉大吉凶大凶之影響卦位。</br>\
+詳現況圖。</br>\
+</br>\
+定\
+<A HREF="http://zh.wikipedia.org/zh-tw/中宮" target="_new">中宮</A>\
+分析\
+<A HREF="http://zh.wikipedia.org/zh-tw/內局" target="_new">內局</A>\
+</br>\
+</br>\
+\
+<A HREF="http://zh.wikipedia.org/zh-tw/內六事" target="_new">內六事</A>\
+：\
+<A HREF="http://zh.wikipedia.org/zh-tw/門" target="_new">門</A>\
+、\
+<A HREF="http://zh.wikipedia.org/zh-tw/路" target="_new">路</A>\
+、\
+<A HREF="http://zh.wikipedia.org/zh-tw/灶" target="_new">灶</A>\
+、\
+--\
+<A HREF="http://zh.wikipedia.org/zh-tw/井" target="_new">井</A>\
+--\
+、\
+<A HREF="http://zh.wikipedia.org/zh-tw/床" target="_new">床</A>\
+、\
+<A HREF="http://zh.wikipedia.org/zh-tw/廁" target="_new">廁</A>\
+、\
+<A HREF="http://zh.wikipedia.org/zh-tw/碓磨" target="_new">碓磨</A>\
+(\
+<A HREF="http://zh.wikipedia.org/zh-tw/工作間" target="_new">工作間</A>\
+)。</br>\
+</br>\
+本案只論大\
+<A HREF="http://zh.wikipedia.org/zh-tw/門" target="_new">門</A>\
+</br>\
+大\
+<A HREF="http://zh.wikipedia.org/zh-tw/門" target="_new">門</A>\
+開在午兼丁。</br>\
+詳現況圖1</br>\
+</br>\
+分析所居住人員</br>\
+</br>\
+\
+<A HREF="http://zh.wikipedia.org/zh-tw/生肖" target="_new">生肖</A>\
+：本案有屬馬之人。</br>\
+</br>\
+\
+<A HREF="http://zh.wikipedia.org/zh-tw/八字" target="_new">八字</A>\
+：本案未提供。</br>\
+</br>\
+病証診斷真功夫</br>\
+</br>\
+\
+<A HREF="http://zh.wikipedia.org/zh-tw/八卦" target="_new">八卦</A>\
+\
+<A HREF="http://zh.wikipedia.org/zh-tw/離" target="_new">離</A>\
+方前方有違建屋放置凌亂雜物，\
+<A HREF="http://zh.wikipedia.org/zh-tw/離" target="_new">離</A>\
+方出問題。</br>\
+</br>\
+\
+<A HREF="http://zh.wikipedia.org/zh-tw/離" target="_new">離</A>\
+方卦的先天\
+<A HREF="http://zh.wikipedia.org/zh-tw/八卦" target="_new">八卦</A>\
+為\
+<A HREF="http://zh.wikipedia.org/zh-tw/震" target="_new">震</A>\
+卦，剋應在腳足，斷\
+<A HREF="http://zh.wikipedia.org/zh-tw/震" target="_new">震</A>\
+卦本卦病體腳足受傷。</br>\
+詳病証診斷圖示</br>\
+</br>\
+\
+<A HREF="http://zh.wikipedia.org/zh-tw/流年" target="_new">流年</A>\
+診斷真功夫</br>\
+</br>\
+\
+<A HREF="http://zh.wikipedia.org/zh-tw/巽" target="_new">巽</A>\
+兼辰方為狹窄出入口且常曬衣服阻礙，\
+<A HREF="http://zh.wikipedia.org/zh-tw/巽" target="_new">巽</A>\
+兼辰方應辰年。</br>\
+</br>\
+民國８９年為庚辰年，年９入\
+<A HREF="http://zh.wikipedia.org/zh-tw/中宮" target="_new">中宮</A>\
+，飛星５黃凶星到\
+<A HREF="http://zh.wikipedia.org/zh-tw/坎" target="_new">坎</A>\
+方坐山，年五黃到坐山子方必傷人口。</br>\
+本案應辰年。</br>\
+詳\
+<A HREF="http://zh.wikipedia.org/zh-tw/流年" target="_new">流年</A>\
+診斷圖示</br>\
+</br>\
+\
+<A HREF="http://zh.wikipedia.org/zh-tw/生肖" target="_new">生肖</A>\
+診斷真功夫</br>\
+</br>\
+\
+<A HREF="http://zh.wikipedia.org/zh-tw/離" target="_new">離</A>\
+方午位有違建屋放置凌亂，所以本案剋應屬馬之人。</br>\
+</br>\
+本案子山午向玄空大卦為８６二，８\
+<A HREF="http://zh.wikipedia.org/zh-tw/艮" target="_new">艮</A>\
+屬少男，８\
+<A HREF="http://zh.wikipedia.org/zh-tw/艮" target="_new">艮</A>\
+出山表示少男出車禍。</br>\
+詳\
+<A HREF="http://zh.wikipedia.org/zh-tw/生肖" target="_new">生肖</A>\
+診斷圖示</br>\
+</br>\
+WHO？何人</br>\
+</br>\
+西南\
+<A HREF="http://zh.wikipedia.org/zh-tw/坤" target="_new">坤</A>\
+方山星為９，斷９\
+<A HREF="http://zh.wikipedia.org/zh-tw/離" target="_new">離</A>\
+命人剋應</br>\
+\
+--九\
+<A HREF="http://zh.wikipedia.org/zh-tw/離" target="_new">離</A>\
+命人--\
+</br>\
+WHEN?何時</br>\
+</br>\
+何年?89年為庚辰年年，庚辰年９入中順飛，６\
+<A HREF="http://zh.wikipedia.org/zh-tw/乾" target="_new">乾</A>\
+飛到西南\
+<A HREF="http://zh.wikipedia.org/zh-tw/坤" target="_new">坤</A>\
+方，與向星９形成６９\
+<A HREF="http://zh.wikipedia.org/zh-tw/雙星加會" target="_new">雙星加會</A>\
+</br>\
+何月?89年農曆６月，９入中順飛，６\
+<A HREF="http://zh.wikipedia.org/zh-tw/乾" target="_new">乾</A>\
+飛到西南\
+<A HREF="http://zh.wikipedia.org/zh-tw/坤" target="_new">坤</A>\
+方</br>\
+WHAT?何病</br>\
+</br>\
+６９\
+<A HREF="http://zh.wikipedia.org/zh-tw/雙星加會" target="_new">雙星加會</A>\
+，火剋金之象，主首疾參考\
+<A HREF="http://zh.wikipedia.org/zh-tw/雙星加會" target="_new">雙星加會</A>\
+古文斷事。</br>\
+</br>\
+\
+<A HREF="http://zh.wikipedia.org/zh-tw/雙星加會" target="_new">雙星加會</A>\
+斷事9669</br>\
+9669火燒天而張牙相鬥，家生罵父之兒。</br>\
+</br>\
+6996\
+<A HREF="http://zh.wikipedia.org/zh-tw/同人" target="_new">同人</A>\
+車馬馳驅。</br>\
+『飛星賦』</br>\
+</br>\
+參考書目</br>\
+</br>\
+    易經</br>\
+    論\
+<A HREF="http://zh.wikipedia.org/zh-tw/八卦" target="_new">八卦</A>\
+八風。</br>\
+    隋:蕭吉</br>\
+    中西醫病名對照大辭典。</br>\
+    林昭庚</br>\
+易經個案001恭祝講總統萬歲萬萬歲

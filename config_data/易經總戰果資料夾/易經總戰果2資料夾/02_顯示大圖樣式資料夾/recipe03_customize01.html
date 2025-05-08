@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-tw" lang="zh-tw">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=big5" />
+<title>SAMPLE</title>
+<style type="text/css">
+
+
+/* ==================== layout ==================== */
+
+#container	{width: 760px;
+	margin: auto;}
+
+#content	{width: 530px;
+	float: left;
+	margin: 30px 0;}
+
+#sidebar	{width: 200px;
+	float: right;
+	margin: 30px 0;}
+
+#foot	{clear: both;}
+
+/* ==================== 背景 ==================== */
+
+body	{background-image: url(back_photo.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	background-color: #638824;}
+
+/* ==================== header ==================== */
+
+#header	{padding-top: 20px;
+	padding-bottom: 70px;
+	color: #ffffff;}
+
+#header h1	{margin: 0;
+	font-size: 2em;
+	font-family: Verdana, Helvetica, sans-serif;}
+
+#header p	{margin: 0;
+	margin-top: 8px;
+	font-size: 1em;}
+
+/* ==================== content ==================== */
+
+.post	{width: auto;}
+
+.post h2	{font-size: 1em;
+	margin: 0;
+	margin-bottom: 15px;
+	background-color: #b8e964;
+	line-height: 32px;
+	padding-left: 10px;}
+
+.posttext	{font-size: 0.875em;
+	line-height: 1.5;
+	color: #ffffff;}
+
+.posttext p	{margin: 0;
+	margin-bottom: 20px;}
+
+
+/* ==================== sidebar ==================== */
+
+#myform label	{display: block;
+	width: 100px;
+	float: left;
+	font-size: 0.875em;
+	color: #ffffff;}
+
+
+/* ==================== sidebar ==================== */
+
+.menu	{width: auto;
+	overflow: hidden;}
+
+.menu li	{margin-bottom: 0;
+	list-style-type: none;
+	line-height: 0;
+	border-bottom: solid 1px #ffffff;
+	border-left: solid 1px #ffffff;
+	border-right: solid 1px #ffffff;}
+
+.menu li a	{display: block;
+	line-height: 30px;
+	padding-left: 10px;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 0.75em;
+	text-decoration: none;}
+
+.menu li a:hover	{background-color: #0ce0c0}
+
+.menu ul	{margin: 0;
+	padding: 0;
+	border-top: solid 1px #ffffff;}
+
+
+/* ==================== footer ==================== */
+
+#footer	{width: auto;
+	border-top: solid 5px #b8e964;
+	padding-top: 10px;
+	padding-bottom: 20px;}
+
+#footer p	{color: #000000;
+	font-size: 0.75em;
+	margin: 0;}
+
+
+</style>
+</head>
+<body>
+
+
+<div id="container">
+
+
+
+<div id="head">
+	<div id="header"> 
+	<h1>Homepage Title</h1>
+	<p>副標副標副標</p>
+	</div>
+</div>
+
+
+
+<div id="content"> 
+	<div class="post">
+	<h2>留言</h2>
+	<div class="posttext">
+	<p>請告訴我們您的意見與感想。</p>
+	</div>
+
+	<form method="post" action="#" id="myform">
+	<p>
+	<label for="user" >姓名</label>
+	<input type="text" id="user" name="username" />
+	</p>
+	
+	<p>
+	<label for="mail" >電子郵件信箱</label>
+	<input type="text" id="mail" name="mailaddress" />
+	</p>
+	
+	<p>
+	<label for="com" >留言內容</label>
+	<textarea id="com" name="comment" cols="40" rows="8"></textarea>
+	</p>
+	
+	<p><input type="submit" value="傳送" id="submit" /></p>
+	</form> 
+
+	</div>
+</div>
+
+
+
+<div id="sidebar">
+	<div class="menu">
+	<ul>
+	<li><a href="#">選單連結1</a></li>
+	<li><a href="#">選單連結2</a></li>
+	<li><a href="#">選單連結3</a></li>
+	<li><a href="#">選單連結4</a></li>
+	<li><a href="#">選單連結5</a></li>
+	<li><a href="#">選單連結6</a></li>
+	</ul>
+	</div>
+</div>
+
+
+
+<div id="foot">
+	<div id="footer">
+	<p>Copyright &copy; AUTHOR NAME, All Rights Reserved.</p>
+	</div>
+</div>
+
+
+
+</div>
+
+
+
+</body>
+</html>

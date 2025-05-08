@@ -1,0 +1,415 @@
+102年第二次專門職業及技術人員高等考試牙醫師考試分試考試、藥師、醫事檢驗師、醫事放射師、
+助產師、物理治療師、職能治療師、呼吸治療師、獸醫師考試
+代
+號:5311
+類科名稱:醫事檢驗師
+科目名稱:生物化學與臨床生化學
+BCBAAADBDADDCDABABDACAACBCBBCBCDCBDBBBBADBDABDBCAABCACCBDDAABDDDACBDABAADCCCACDA
+考試時間:1小時
+※注意:本試題禁止使用電子計算器
+1.生成尿酸(uric acid)的反應會消耗下列何種氣體分子?
+A.CO2
+B.O2
+C.NH3
+D.NO
+2.人體中大部分胺基酸可經由下列那兩個反應在肝臟中移除胺基(amino group)?
+A.脫羧作用(decarboxylation)、氧化脫胺作用(oxidative deamination)
+B.脫羧作用(decarboxylation)、甲基化作用(methylation)
+C.轉胺基作用(transamination)、氧化脫胺作用(oxidative deamination)
+D.氧化脫胺作用(oxidative deamination)、乙醯化作用(acetylation)
+3.下列何種胺基酸具有兩個羧基(-COOH)?
+A.精胺酸(arginine)
+B.麩胺酸(glutamic acid)
+C.組胺酸(histidine)
+D.離胺酸(lysine)
+4.胰凝乳蛋白酶(chymotrypsin)不水解下列何種胺基酸所形成的胜肽鍵結?
+A.離胺酸(lysine)
+B.苯丙胺酸(phenylalanine)
+C.色胺酸(tryptophan)
+D.酪胺酸(tyrosine)
+5.下列何者為肌酸(creatine)生合成過程所需要?
+A.S-腺苷甲硫胺酸(S-adenosylmethionine)
+B.麩胱甘肽(glutathione)
+C.乙醯輔酶A(acetyl-CoA)
+D.鳥胺酸(ornithine)
+6.下列何者之解離常數(dissociation constant)最小?
+A.抗生物素蛋白(avidin)和生物素(biotin)
+B.胰島素接受器(insulin receptor)和胰島素(insulin)
+C.抗體(anibody)和抗原(antigen)
+D.攜鈣素(calmodulin)和鈣離子(Ca2+)
+7.圓二色性分光鏡(circular dichroism (CD) spectroscopy)不能測量蛋白質的下列何種特性?
+A.α-螺旋(α-helix)
+B.β-平板(β-sheet)
+C.折疊和非摺疊態(folded and unfolded states)
+D.胺基酸組成
+8.白蛋白(albumin)在生理pH值具有易溶於水的特性是因其:
+A.含高正電荷
+B.含高負電荷
+C.含多醣支鏈
+D.含磷酸支鏈
+9.神經醯胺(ceramide)是由下列何者所組成?
+A.甘油(glycerol)與脂肪酸(fatty acid)
+B.神經鞘胺醇(sphingosine)與絲胺酸(serine)
+C.神經鞘胺醇(sphingosine)與葡萄糖(glucose)
+D.神經鞘胺醇(sphingosine)與脂肪酸(fatty acid)
+10.以P/O比值(P/O ratio)為2.5(NADH)與1.5(FADH2)計算,1分子葡萄糖完全氧化可合成
+幾個ATP?
+A.32
+B.34
+C.36
+D.38
+11.下列何者是五碳糖磷酸途徑(pentose phosphate pathway)的產物?
+A.ATP、戊糖磷酸(pentose phosphate)及二氧化碳(carbon dioxide)
+B.NADH及戊糖磷酸(pentose phosphate)
+C.NAD+及丙酮酸(pyruvate)
+D.NADPH 及二氧化碳(carbon dioxide)
+12.下列何者不是人體必需之微量元素?
+A.錳
+B.硒
+C.鉬
+D.氟
+13.血液中二氧化碳主要以下列何種形式存在?
+A.溶解的二氧化碳(dissolved CO2)
+B.碳酸鹽(carbonate)
+C.重碳酸鹽(bicarbonate)
+D.碳酸(carbonic acid)
+14.在只考慮一個受質和一個產物、且固定酵素濃度下,一個酵素之反應速率與受質濃度之關係圖
+中,一級反應(first-order reaction)之區間是什麼樣的狀態?
+A.此時之反應速率與受質濃度無關
+B.此時之反應速率與受質濃度成反比
+C.此時之受質濃度與最大反應速率(Vmax)值相等
+D.此時之受質濃度遠小於Km(Michaelis-Menten常數)值
+15.同一酵素之同功酶(isoenzyme)之間有什麼性質必然是相同的?
+A.在國際生化總會(IUB)酵素命名系統中之EC編號
+B.對不同受質之反應性
+C.熱穩定性
+D.胺基酸組成
+16.下列何種維生素缺乏可能引起低血鈣、影響骨質代謝,導致佝僂症(rickets)?
+A.抗壞血酸(ascorbic acid)
+B.鈣化固醇(calcitriol)
+C.視黃醇(retinol)
+D.硫胺素(thiamine)
+17.胰島的δ細胞分泌的體抑素(somatostatin),除了抑制其他細胞分泌外也會抑制本身,這種抑制
+本身分泌的功能稱為:
+A.autocrine
+B.endocrine
+C.exocrine
+D.paracrine
+18.下列何種激素的α單體與人類絨毛膜性腺激素(HCG)的α單體相似?
+A.黃體素(progesterone)
+B.黃體激素(LH)
+C.促甲狀腺素釋放激素(TRH)
+D.促絨毛激素釋放激素(GnRH)
+19.下列有關瘦素(leptin)之敘述,何者錯誤?
+A.由脂肪組織所分泌
+B.分泌是受到神經系統的控制
+C.會促進能量使用
+D.會促進脂肪合成
+20.下列何種維生素是以其還原態參與生化反應?
+A.維生素C
+B.維生素D
+C.維生素B12
+D.維生素A
+21.下列何者參與嘌呤之合成,為合成DNA所需之維生素?
+A.泛酸(pantothenic acid)
+B.肉鹼(carnitine)
+C.葉酸(folic acid)
+D.維生素K
+22.下列何者可以直接修復雙股DNA中一個磷酸二酯鍵(phosphodiester bond)斷裂?
+A.DNA連接酶(DNA ligase)
+B.核酸外切酶III(exonuclease III)
+C.多核苷酸激酶(polynucleotide kinase)
+D.多核苷酸磷酸化酶(polynucleotide phosphorylase)
+23.亨丁頓氏舞蹈症(Huntington's disease)是因為 huntingtin蛋白質的何種胺基酸之重複
+(repeats)過多所引起?
+A.多麩胺醯胺(polyglutamine)
+B.多天門冬醯胺(polyasparagine)
+C.多離胺酸(polylysine)
+D.多精胺酸(polyarginine)
+24.鐮刀型貧血症(sickle cell anemia)是因為血紅素(hemoglobin)蛋白質的β-chain的第 6 個胺基
+酸麩胺酸(glutamic acid)變為:
+A.天門冬胺酸(aspartic acid)
+B.離胺酸(lysine)
+C.纈胺酸(valine)
+D.精胺酸(arginine)
+25.下列那一種酵素常被用來當作酵素免疫分析法的標幟?
+A.酸性磷酸酶
+B.鹼性磷酸酶
+C.己糖激酶
+D.葡萄糖脫氫酶
+26.SST管(serum separation tube)內的gel,比重(g/mL)約為:
+A.0.95
+B.1.00
+C.1.04
+D.1.15
+27.在糖化血色素6.5%的臨床決策值,下列為使用不同檢驗方法(y)與標準方法(x)比較所得到的
+迴歸線,何種方法的常數系統誤差最小?
+A.y=1.03x-0.10
+B.y=1.04x-0.06
+C.y=0.96x+0.09
+D.y=0.98x+0.08
+28.根據比爾定律(Beer's law),下列何者與濃度成正比?
+A.light path
+B.absorbance
+C.absorptivity
+D.transmittance
+29.比濁法(nephelometry)的原理主要是偵測光線的:
+A.反射
+B.折射
+C.散射
+D.吸收
+30.進行密度梯度離心的實驗,使用下列何種轉子(rotor)為宜?
+A.fixed-angle
+B.swinging-bucket
+C.axial
+D.vertical
+31.欲偵測檢體中核酸的濃度,下列何種光源不合適?
+A.氫燈
+B.重氫燈
+C.鎢絲燈
+D.汞弧燈
+32.利用血清儲鐵蛋白濃度診斷缺鐵性貧血,其診斷的靈敏性為20%,特異性為98%,則陽性概似比
+(LR+)為:
+A.0.8
+B.1.2
+C.5D.10
+33.下列那一個數值為正常成人肌酸酐廓清率(單位:mL/min)?
+A.10
+B.40
+C.100
+D.200
+34.下列有關腎功能的檢查,何者正確?
+A.菊糖廓清試驗為腎小管機能試驗
+B.肌酸酐廓清試驗為腎絲球的過濾機能試驗
+C.酚磺肽試驗為腎再吸收功能試驗
+D.濃縮試驗為腎絲球過濾機能試驗
+35.在pH8.6環境下,下列那一種蛋白質帶有最少的負電荷?
+A.白蛋白
+B.運鐵蛋白質
+C.藍胞漿素
+D.C反應蛋白質
+36.以uricase作uric acid之測定可以下列何者為偶合酵素?
+A.phosphatase
+B.peroxidase
+C.dehydrogenase
+D.kinase
+37.下列那一種蛋白質在鹼性電泳時,會比白蛋白往陽極移動快?
+A.運鐵蛋白質
+B.甲腺素結合蛋白
+C.藍胞漿素
+D.纖維蛋白原
+38.長期禁食時,除肝臟外,下列那一種臟器也會進行醣質新生(gluconeogenesis)以補充血糖?
+A.腦
+B.腎
+C.肌肉
+D.骨髓
+39.下列何種脂質是屬於神經鞘脂質(sphingolipids)?
+A.lecithin
+B.ceramide
+C.phosphatidylserine
+D.prostaglandin
+40.以酵素法測定血清中總膽固醇,不需要下列何者?
+A.解脂酶
+B.膽固醇酯水解酶
+C.膽固醇氧化酶
+D.過氧化酶
+41.關於脂蛋白的結構,下列那種成分存在於外層?
+A.酯化膽固醇
+B.三酸甘油脂
+C.甘油
+D.磷脂
+42.利用醋酸纖維素為介質進行鹼性脂蛋白電泳,下列何者為其由陰極(-)到陽極(+)的正確排
+列順序?
+A.VLDL→chylomicron→LDL→HDL
+B.chylomicron→LDL→VLDL→HDL
+C.HDL→LDL→VLDL→chylomicron
+D.LDL→HDL→VLDL→chylomicron
+43.下列有關酮體之敘述,何者錯誤?
+A.通常丙酮含量最少
+B.可直接測量血中的酮體
+C.丙酮有揮發性
+D.β-羥丁酸會變作丙酮
+44.下列何種檢體葡萄糖濃度最高?
+A.動脈血
+B.靜脈血
+C.微血管血
+D.腦脊髓液
+45.在血糖濃度下降時,下列那一種激素在數分鐘內,分泌量會明顯上升?
+A.胰島素
+B.腎上腺素
+C.生長激素
+D.皮質醇
+46.下列那一項檢驗對於妊娠糖尿病最具診斷意義?
+A.尿糖
+B.飯前血糖
+C.飯後2小時血糖
+D.葡萄糖耐量試驗
+47.肝醣主要是葡萄糖以下列何種方式鍵結而成?
+A.直鏈:α-1,4-linkage,分枝:α-1,4-linkage
+B.直鏈:α-1,4-linkage,分枝:α-1,6-linkage
+C.直鏈:β-1,4-linkage,分枝:β-1,4-linkage
+D.直鏈:β-1,4-linkage,分枝:β-1,6-linkage
+48.下列有關血清果糖胺(fructosamine)之敘述,何者錯誤?
+A.是血清蛋白質糖化之產物
+B.糖分子接在lysine之epsilon(ε)胺基上
+C.用來監視6~8週內之血糖變化
+D.在鹼性溶液中具有還原能力
+49.下列何種狀況不會造成血清creatine kinase活性上升?
+A.多發性硬化症
+B.橫紋肌溶解
+C.心肌梗塞
+D.肌肉萎縮症
+50.下列有關利用酵素之初始速率測定血中代謝物之敘述,何者正確?
+A.分析物質的濃度與酵素之反應速率呈正比
+B.是酵素零級反應之狀態下進行
+C.溫度或pH之變化皆不會影響分析結果
+D.應選用Km值較小之酵素來分析
+51.血清以neuraminidase處理後,可以降低下列何種ALP同功酶之電泳速度而提高與其它同功酶之
+分離效果?
+A.liver
+B.bone
+C.placental
+D.intestinal
+52.下列有關AST和ALT活性分析之敘述,何者錯誤?
+A.試劑中皆需添加pyridoxal-5'-phosphate
+B.可測定340 nm波長吸收值下降的速率
+C.試劑中皆以lactate dehydrogenase為偶合酵素
+D.試劑中皆含有NADH
+53.下列何者可用來評估肌肉鬆弛劑(muscle relaxant,如:mivacurium)使用量與病人恢復期?
+A.cholinesterase
+B.alkaline phosphatase
+C.5'-nucleotidase
+D.glutamate dehydrogenase
+54.當發生macroamylasemia時,其血清及尿中的澱粉酶活性的變化為:
+A.血清澱粉酶及尿澱粉酶活性皆正常
+B.血清澱粉酶及尿澱粉酶活性皆增加
+C.血清澱粉酶活性增加但尿澱粉酶活性偏低
+D.血清澱粉酶活性正常但尿澱粉酶活性增加
+55.下列何種血清酵素於心肌梗塞時最早上升?
+A.AST
+B.CK-BBC.CK-MB
+D.LDH
+56.下列有關AST與ALT的敘述,何者錯誤?
+A.相較於AST,ALT更具有肝的專一性
+B.ALT有細胞質型與細胞核型兩種同功酶
+C.一般而言,在患者血清中ALT的半衰期比AST長
+D.在心肌梗塞患者血清,常可發現AST的大量升高
+57.CK-1、CK-2、CK-3是依據下列那一種原則?
+A.分子量越大的數字越小
+B.分子量越小的數字越小
+C.電泳時越接近負極數字越小
+D.電泳時越接近正極數字越小
+58.下列那一個腫瘤標誌為卵巢癌的最佳預後指標?
+A.CEA
+B.AFP
+C.β-HCG
+D.CA125
+59.在鹼性緩衝液中進行電泳分析CK的同功酶,下列何者最靠近陽極?
+A.macro-CK type I
+B.macro-CK type II
+C.CK-MM3
+D.CK-MM2
+60.下列何種cardiac marker分子量最大?
+A.CK-MB
+B.cTnI
+C.cTnT
+D.myoglobin
+61.Acromegaly與下列何種激素之增加有關?
+A.corticosteroid
+B.growth hormone
+C.epinephrine
+D.ATCH
+62.腎上腺髓質的分泌功能,可以檢測24小時的尿液檢體中的什麼成分?
+A.皮質固醇
+B.尿酸
+C.肌酸酐
+D.香草扁桃酸
+63.血清PSA除了在攝護腺癌以外,數值會在下列何種情況升高?
+A.aspirin的使用
+B.類固醇的使用
+C.statins的使用
+D.良性前列腺增生
+64.腫瘤標誌目前在臨床上最有效的應用是在:
+A.癌症的篩檢
+B.癌症的分型
+C.癌症嚴重度的偵測
+D.癌症治療成效的評估
+65.下列何者常被用於評估睪丸癌或胎兒神經管缺陷的指標?
+A.AFP
+B.CA19-9
+C.CEA
+D.Free β-hCG
+66.有封口的全血檢體,未於採血後立即檢測氣體分析而導致pH值下降,主要是由於:
+A.與大氣中的氣體透過管壁進行平衡的結果
+B.血球內原有的氫離子大量釋出
+C.血球進行糖解作用
+D.血液白蛋白的降解作用
+67.下列何者為構成血漿osmolality最主要的成分?A.蛋白質
+B.鈉離子
+C.鉀離子
+D.重碳酸鹽
+68.測定孕婦血清中α-胎兒蛋白濃度偏高,主要可以用來篩檢胎兒的那一種疾病?
+A.子癇症
+B.唐氏症
+C.肺部發育缺陷
+D.神經管發育缺陷
+69.下列檢查結果,何者不會在Wilson氏症患者出現?
+A.血清藍胞漿素上升
+B.Kayser-Fleischer ring
+C.尿液銅增加
+D.肝功能異常
+70.下列與砷有關的代謝物中,何者毒性最強?
+A.As3+
+B.As5+
+C.monomethyl arsine(MMA)
+D.dimethyl arsine(DMA)
+71.下列敘述何者錯誤?
+A.藥物具first-pass效應者,存在於血液有效劑量較多
+B.lidocaine會因心肌梗塞,使游離型劑量降低
+C.酸性藥物喜接連於白蛋白
+D.鹼性藥物喜接連於球蛋白
+72.下列何種方法不適合做digoxin濃度監測?
+A.原子吸收光譜法
+B.免疫分析法
+C.色層分析法
+D.質譜分析法
+73.臨床化學以散色比濁法做治療藥物監測,主要是測定下列何者的變化?
+A.藥物本身在檢體中的濁度
+B.藥物在不同酸鹼緩衝液中的濁度變化
+C.藥物在不同溫度中的濁度變化
+D.專一性抗體與藥物結合產生濁度變化
+74.下列何種技術不適合使用在偵測脂蛋白元E2 同合子?
+A.amplification refractory mutation system
+B.single-strand conformation polymorphism
+C.fluorescence in situ hybridization
+D.hybridization with allele-specific oligonucleotide
+75.血漿滲透壓測定值343 mOsm/kg,計算值289 mOsm/kg,則下列敘述何者正確?
+A.可利用boiling point的下降程度來測定
+B.計算值為1.86 × Na(mmol/L)+ BUN(mg/dL)/28 + glucose(mg/dL)/18 + 9
+C.血漿受到外源性低分子量物質(例如methanol)污染
+D.post cibum採血造成的結果
+76.下列關於葡萄糖-6-磷酸脫氫酶的敘述,何者錯誤?
+A.其基因位於X性染色體
+B.其缺乏症是國人最普遍的酵素病變
+C.臨床檢測以血清為主要檢體
+D.是探討病人溶血反應原因的重要檢驗之一
+77.肝功能檢驗結果,AST大於正常上限3倍,ALP上升但低於正常上限2倍,白蛋白正常,是下列何
+種疾病?
+A.急性肝炎
+B.慢性肝炎
+C.肝內阻塞
+D.肝外阻塞
+78.下列有關Cushing's syndrome病人之檢驗結果的敘述,何者錯誤?
+A.24小時尿之游離cortisol 150 μg
+B.血中ACTH 250 pg/mL(早上8時採血)C.隔夜低劑量dexamethasone抑制試驗,血清cortisol 2 μg/dL(次日早上8時採血)
+D.血中adrenal glucocorticoid很高
+79.下列關於腫瘤標誌的敘述,何者正確?
+A.CA125可用於肺癌的標誌
+B.CYFRA21-1是篩檢小細胞肺癌特異的標誌
+C.HCG可用於幫助診斷膀胱癌
+D.HER-2/neu為herceptin能有效治療乳癌的指標
+80.進行下列何種反應,需要在排氣櫃中進行?
+A.乙醚萃取
+B.酒精沉澱
+C.酸鹼中和反應
+D.抗原抗體反應

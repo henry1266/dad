@@ -1,0 +1,634 @@
+﻿102年第一次專門職業及技術人員高等考試牙醫師考試分試考試、藥師、醫事放射師、助產師、物理
+治療師、職能治療師、呼吸治療師、獸醫師考試 
+代 號：4310
+類科名稱：藥師
+科目名稱：藥劑學（包括生物藥劑學）
+BABCDD##CDCAAABDBABBDDBBBAABADBDCDADDABAAABBABABCACBCBACCCCABACDDDCBADABADCBDBDD
+考試時間：1小時  座號： ___________ 
+  ※注意：本試題可以使用電子計算器       
+
+1.藥物產品的有效劑量是在臨床研究的那一期（Phase）決定的？ 
+
+A.PhaseⅠ 
+B.PhaseⅡ 
+C.PhaseⅢ 
+D.PhaseⅣ  
+
+2.下列有關阿片樟腦酊之敘述，何者錯誤？ 
+
+A.主要為促進腸道蠕動 
+B.每100 mL所含無水嗎啡應為45～55 mg 
+C.製備時加入甘油可防止鞣酸（tannin）析出 
+D.別名複方樟腦酊  
+
+3.界面活性劑溶液的性質大多在CMC值附近會明顯的改變，下列何者在大於CMC之後，其改變程度
+最小？ 
+
+A.助溶程度（solubilization） 
+B.界面張力（interfacial tension） 
+C.當量導電度（conductivity） 
+D.滲透壓（osmotic pressure）  
+
+4.以Span 20（HLB=8.6）和Tween 20（HLB=16.6）來製備HLB=12.6 的混合界面活性劑100克
+時，需Span 20多少克？ 
+
+A.12.5 
+B.25 
+C.50 
+D.75  
+
+5.依Stokes' law，粒徑為2.5 μm的顆粒其沈降速率是粒徑為0.25 μm顆粒的幾倍？ 
+
+A.0.01 
+B.0.1 
+C.10 
+D.100  
+
+6.下列何者為分析粒徑在50 μm以上質粒之常用分析方法？ 
+
+A.光學顯微鏡 
+B.電子顯微鏡 
+C.沉降法 
+D.過篩法  
+
+7.Erythromycin estolate oral suspension中，erythromycin製成酯類型式（ester form）的主要目的
+是： 
+
+A.增加藥物溶解度 
+B.降低藥物水解 
+C.遮蔽不良藥味 
+D.避免結塊  
+
+8.下列有關CH3(CH2)11O(CH2CH2O)8H界面活性劑之描述，何者正確？ 
+
+A.增加(CH2)基團，而(CH2CH2O)基團不變，其曇點（cloud point）上升 
+B.減少(CH2)基團，而(CH2CH2O)基團不變，其曇點（cloud point）下降 
+C.增加(CH2CH2O)基團，而(CH2)基團減少，其曇點（cloud point）下降 
+D.減少(CH2CH2O)基團，而(CH2)基團增加，其曇點（cloud point）上升  
+
+9.陽離子性藥物與下列何種水溶性膠體不會產生沉澱反應？ 
+
+A.Agar 
+B.Acacia 
+C.Povidone 
+D.Pectate  
+
+10.下列鹽類何者在最少量時，即可造成帶負電荷的金膠溶體產生凝結？  
+
+A.氯化鈉
+
+
+B.鹽酸嗎啡 
+C.氯化鈣 
+D.硫酸鋁  
+11.有關非離子界面活性劑溶液加熱至某一特定溫度時會因沉澱而呈混濁之敘述，下列何者正確？ 
+
+A.此溫度稱為臨界點（critical point） 
+B.此特定溫度會隨濃度上升而上升 
+C.此特定溫度會隨分子中ethylene oxide單元增加而上升 
+D.此特定溫度會隨分子中碳氫之鏈長增加而上升  
+
+12.在膠體系統中，所謂dilatancy system係指： 
+
+A.黏滯性會隨切變速率增加而增加 
+B.黏滯性會隨切變速率增加而減少 
+C.黏滯性會隨切變速率減少而增加 
+D.黏滯性不會隨切變速率增加而改變  
+
+13.下列敘述何者正確？ 
+
+A.以酸處理過的是明膠A型，等電點為pH 7.0~9.0 
+B.以酸處理過的是明膠B型，等電點為pH 4.7~5.0 
+C.以鹼處理過的是明膠A型，等電點為pH 4.7~5.0 
+D.以鹼處理過的是明膠B型，等電點為pH 7.0~9.0  
+
+14.下列何者可測量質粒之比表面積？ 
+
+A.Air permeability 
+B.Coulter counter 
+C.Sedimentation method 
+D.Sieve analysis  
+
+15.下列有關o/w乳劑之描述，何者正確？ 
+
+A.此油相為連續相 
+B.此油相為內相 
+C.此劑型易形成透明狀 
+D.此乳劑無須添加界面活性劑  
+
+16.以毛細管黏度計在相同條件下測量兩種牛頓性液體，其黏滯係數的差異除了通過時間外，另外
+為： 
+
+A.毛細管半徑 
+B.毛細管長度 
+C.待測液體體積 
+D.待測液體密度  
+
+17.下列有關HLB值或乳劑型態之敘述，何者錯誤？ 
+
+A.HLB值低之乳化劑，有利於w/o型乳劑之產生 
+B.若乳化時，液滴併合速率較快者成為內相 
+C.同一物質之required HLB值會因產品是w/o或o/w而不同 
+D.HLB值之來源與Griffin此人有關  
+
+18.下列何者造成乳劑安定性之不可逆變質？ 
+
+A.合併（coalescence） 
+B.乳析（creaming） 
+C.凝絮 （flocculation） 
+D.沉降（sedimentation）  
+
+19.一般微膠體（micelles）與乳劑之相同處在於： 
+
+A.安定性相同 
+B.可形成w/o或o/w分散系統 
+C.顆粒大小相同 
+D.混濁度相同  
+
+20.下列何者是由polyoxyethylene-polyoxypropylene所組成之共聚合物，可用於製備凝膠劑？ 
+
+A.Carbomer 
+B.Poloxamer 
+C.Plastibase 
+D.Veegum  
+
+21.界面活性劑在臨界微膠體濃度時會開始形成微膠體（micelle），開始形成微膠體時，其粒徑接近
+於下列何者？  
+
+A.0.05 A 
+B.0.5 A
+
+
+C.5 A 
+D.50 A   
+22.欲製備成o/w型乳劑，所需乳化劑之HLB值應在那個範圍內較適合？ 
+
+A.1~3 
+B.4~5 
+C.6~7 
+D.8~18  
+
+23.角質層（stratum corneum）的酸鹼值範圍為？ 
+
+A.3.5～4.0 
+B.4.5～6.5 
+C.7.0～7.5 
+D.7.5～8.5  
+
+24.標誌重量50克的軟膏劑，進行最低內容量試驗，首次取檢品a件，其單一藥品內容量均不得低於
+標誌量的b%，（a，b）為多少？ 
+
+A.（10，95） 
+B.（10，90） 
+C.（20，95） 
+D.（20，90）  
+
+25.下列何者可增加vaselin的吸水能力？ 
+
+A.Beeswax 
+B.Glyceryl monostearate 
+C.Paraffin oil 
+D.Stearic acid  
+
+26.下列何者可溶於95%酒精？ 
+
+A.Castor oil 
+B.Cottonseed oil 
+C.Olive oil 
+D.Sesame oil  
+
+27.藥典中對眼用軟膏含有金屬粒子之規定，下列何者正確？ 
+
+A.10管軟膏中，大於50 μm 的金屬粒子總和不可超過50個；而且每管軟膏中大於 50 μm 的金屬
+粒子不可大於8個 
+B.10管軟膏中，大於30 μm 的金屬粒子總和不可超過50個；而且每管軟膏中大於 50 μm 的金屬
+粒子不可大於8個 
+C.10管軟膏中，大於50 μm 的金屬粒子總和不可超過50個；而且每管軟膏中大於 30 μm 的金屬
+粒子不可大於10個 
+D.10管軟膏中，大於30 μm 的金屬粒子總和不可超過50個；而且每管軟膏中大於30 μm 的金屬粒
+子不可大於10個  
+
+28.與口服藥物比較，下列經直腸給藥之優點，那一項錯誤？ 
+
+A.避免藥物對胃之直接刺激 
+B.完全避免藥物進入門脈循環 
+C.方便不能或不願吞嚥藥物之病患給藥 
+D.避免腸胃道酵素破壞  
+
+29.下列敘述何者正確？ 
+
+A.可可脂栓劑應置於密閉容器內，30℃以下貯之 
+B.可可脂栓劑應置於緊密容器內，35℃以下貯之 
+C.甘油明膠栓劑應置於密閉容器內，35℃以下貯之 
+D.甘油明膠栓劑應置於緊密容器內，30℃以下貯之  
+
+30.可可脂栓劑中若含有會使基劑軟化的物質，則可添加下列何種物質校正其軟硬度？ 
+
+A.氫化植物油 
+B.聚乙二醇600 
+C.液體石蠟 
+D.蜂蠟  
+
+31.有關口服持續釋放劑型之敘述，下列何者錯誤？ 
+
+A.其設計主要目的在下降血中藥物波動並延長藥效 
+B.在體內均具零階次吸收之動力學特性 
+C.在腸胃道滯留時間較傳統速放製劑為長 
+D.藥物釋放和傳統速放製劑相比較易受腸胃道生理狀況影響  
+
+32.口含錠類劑型（lozenges或troches）的特性為何？
+
+A.以纖維質為基底而能緩慢釋放 
+B.以乳糖為基底而加速全身吸收 
+C.以磷酸二鈣為基底而加速釋放 
+D.以硬糖果為基底而作用於局部  
+
+33.發泡錠（effervescent tablets）遇水所產生的泡沫（bubble）有何製劑上的作用？ 
+
+A.泡沫導引而增強滲透 
+B.懸浮作用而留置胃內 
+C.崩解錠片而增強溶離 
+D.張力降低而易於分散  
+
+34.立即釋放錠（instant-release tablets）或速溶錠（rapidly dissolving tablets, RDTs）會在1分鐘內
+於口腔內崩散溶解，試問其設計的主要目的為何？ 
+
+A.給唾液分泌過量者 
+B.給胃腸蠕動不良者 
+C.給黏膜吸收良好者 
+D.給吞嚥動作困難者  
+
+35.為了掩蓋不良味道而進行微囊包化（microencapsulation）後的顆粒，如果製備成速溶錠
+（rapidly dissolving tablets, RDTs）時尚須特別注意的物理特性為何？ 
+
+A.粒度需小到無顆粒感 
+B.微囊包顆粒的結合度 
+C.顆粒密度需越大越好 
+D.仍須混合適量甜味劑  
+
+36.下列何種錠片劑型具有在一較長期間內以預設模式釋放藥物的特質？ 
+
+A.Enteric-coated tablets 
+B.Gelatin-coated tablets 
+C.Multiply compression tablets 
+D.Extended-release tablets  
+
+37.「膠囊劑」之給藥途徑通常不包括： 
+
+A.口服 
+B.直腸 
+C.陰道 
+D.口腔黏膜  
+
+38.下列何者為正確可行的溼式造粒法？ 
+
+A.秤重混合→製備溼塊→過篩造粒→乾燥整粒→潤滑混合 
+B.秤重混合→製備溼塊→潤滑混合→乾燥整粒→過篩造粒 
+C.秤重混合→過篩造粒→製備溼塊→乾燥整粒→潤滑混合 
+D.秤重混合→製備溼塊→乾燥整粒→過篩造粒→潤滑混合  
+
+39.錠片稀釋劑的選擇最重要考量是不能與藥物產生配伍禁忌的問題，試問下列何者違反此考量？ 
+
+A.四環素與乳糖（lactose） 
+B.四環素與磷酸二鈣（dicalcium phosphate） 
+C.四環素與微晶纖維素（microcrystalline cellulose） 
+D.四環素與澱粉（starch）  
+
+40.Diethyl phthalate在水性膜衣中主要扮演功能角色為何？ 
+
+A.塑化劑 
+B.遮光劑 
+C.腸溶劑 
+D.濕潤劑  
+
+41.符合藥典之「化學藥品中粉」，所有粉粒均應通過第幾號標準試驗篩？ 
+
+A.40 
+B.60 
+C.80 
+D.100  
+
+42.安息角（angle of repose）之數值通常較可反應出何種物理性質？ 
+
+A.粉粒間之吸附力或磨擦力 
+B.粉粒間之壓縮性及流動性 
+C.粉粒之潤濕性及分散性 
+D.粉體密度（bulk density）及壓縮性  
+
+43.假設固體藥物粉末具球狀之外型且其粒徑皆相同，試問此粉體在緊密堆積時，粉粒間空隙之孔隙
+度（porosity）最小值應為多少%？
+
+A.15 
+B.26 
+C.35 
+D.47  
+
+44.以稀釋劑混合毒劇性藥物粉末時，下述方法何者較適當？ 
+
+A.過篩法（sifting） 
+B.研磨法（trituration） 
+C.搖滾法（tumbling） 
+D.調藥刀法（spatulation）  
+
+45.下列何種包覆方法是在一種無水狀態下的操作，適合於含有水氣敏感性藥物之錠片的包覆製程？ 
+
+A.Compression coating 
+B.Tangential-spray coating 
+C.Top-spray coating 
+D.Bottom-spray coating  
+
+46.藥廠研發以下的錠片處方，試問其預計的製備錠片方法為何？ 
+   
+A.溼式造粒法 
+B.直接壓錠法 
+C.乾式造粒法 
+D.流動床造粒法  
+
+47.下列藥物若欲添加澱粉稀釋，為使其能混合均勻，何者不宜以研缽研磨，因可能會有爆炸之危險
+性？ 
+
+A.過錳酸鉀 
+B.碘化鉀 
+C.硫酸鈉 
+D.硫酸亞鐵  
+
+48.助滑劑（glidants）是用來幫助打錠顆粒的流動，試問目前最常用於直打錠顆粒的助滑劑為何？ 
+
+A.Talc 
+B.Fumed silicon dioxide 
+C.Starch 
+D.Magnesium stearate  
+
+49.下列有關口服之親水性間質系統（hydrophilic matrix system），何者正確？ 
+
+A.常用之親水性材質雖不溶於水，但可吸收大量水分 
+B.常使用ethylcellulose作為主要之控釋材質 
+C.可製備成單層、雙層及三層之控釋劑型 
+D.於製備時需加入塑化劑  
+
+50.下列有關微粒包衣（microencapsulation）之敘述，何者正確？ 
+
+A.口服後微粒可散布在腸胃道因而可增加藥物吸收 
+B.通常包衣重量占全部微粒重量之百分比為30~50% 
+C.所使用之包衣高分子種類和生體可用率無關 
+D.所使用之包衣高分子種類對藥物釋放速率並無影響  
+
+51.下列何者不是錠片（tablets）處方成分中的潤滑劑類（antiadherents，glidants，lubricants）的
+主要功能？ 
+
+A.促使顆粒流入錠模 
+B.降低模具組的磨損 
+C.加速錠片崩散分解 
+D.提高錠片表面亮度  
+
+52.錠片處方成分中的稀釋劑（diluents）或填充劑（fillers）的最主要功能為何？ 
+
+A.稀釋藥物劑量免過量 
+B.增加整體體積易打錠 
+C.填充顆粒空隙增硬度 
+D.潤滑錠片表面可排錠  
+
+53.利用化學方法去除注射用水中之熱原，最常用的是那一組化合物？
+
+A.Sodium hypochloride，barium sulfate 
+B.Potassium metabisulfite，barium sulfate 
+C.Potassium permanganate，barium hydroxide 
+D.Sodium perborate，barium hydroxide  
+
+54.中華藥典的注射用amphotericin B乾粉含去氧膽酸鈉（sodium desoxycholate）有何作用？ 
+
+A.抗氧化作用 
+B.增加溶解度 
+C.防腐保藏劑 
+D.調節等張性  
+
+55.為避免水由透析液進入血液循環，透析液最常利用下列何者製成高張溶液？ 
+
+A.Dextrose 
+B.Lactose 
+C.Mannitol 
+D.Sorbitol  
+
+56.Haloperidol幾不溶於水，依中華藥典在注射劑配方中係用下列那一成分促其溶解？ 
+
+A.Tween 80 
+B.Sodium hydroxide 
+C.Lactic acid 
+D.Propylene glycol  
+
+57.下列何者為ethylene oxide氣體滅菌法（gas sterilization）主要殺死微生物的機制？ 
+
+A.使微生物DNA產生致死突變 
+B.造成蛋白質凝固 
+C.改變微生物蛋白質的代謝物 
+D.產生氧化作用  
+
+58.下列四項因素中，那項最不影響藥物穿透角質層？ 
+
+A.分子大小 
+B.分配係數 
+C.藥物密度 
+D.角質含水量  
+
+59.下列幾種注射給藥途徑中，何者一次可注射的體積最大？ 
+
+A.Intradermal route       
+B.Intramuscular route 
+C.Intraspinal route 
+D.Subcutaneous route  
+
+60.下列何種注射用容器適合進行漏隙試驗（leak test）？ 
+
+A.Ampuls   
+B.Bottles 
+C.Disposable syringes 
+D.Vials  
+
+61.下列何者為油質性注射液（oleaginous injections）最常選用的注射給藥途徑？ 
+
+A.Intradermal route 
+B.Intramuscular route 
+C.Intraspinal route 
+D.Intravenous route  
+
+62.藥物動力學中最常使用的分室模式（compartment model）為何？ 
+
+A.哺乳動物模式（mammillary model） 
+B.鏈狀模式（catenary model） 
+C.生理藥動模式（physiologic pharmacokinetic model） 
+D.血流模式（flow model）  
+
+63.一藥物經靜脈注射（IV bolus）給藥後，可以用一室動力學（one-compartment model）模式來
+描述其在體內之性質，且其排除速率是依一階次過程（first-order process），下列對於該藥之動
+力學相關方程式敘述何者正確？（k：排除速率常數；C：血中藥物濃度） 
+
+A.dC/dt = - k 
+B.C = C0 - ekt 
+C.log C = log C0 – (kt/2.3) 
+D.ln C = ln C0 – (kt/2.3)  
+
+64.下列那一圖中之何條曲線可用來代表沒有投予速效劑量，並以恆速靜脈輸注繼續投予某一室模式
+藥品之血漿中藥品濃度－時間關係？
+
+
+   
+A.圖I a 
+B.圖II b 
+C.圖II c 
+D.圖I d  
+
+65.某藥物口服後有極大的肝首渡效應，若更改為肌肉注射給藥，則下列有關於參數變化之敘述，何
+者正確？ 
+
+A.半衰期增長，生體可用率可能減少 
+B.半衰期縮短，但生體可用率增加 
+C.半衰期縮短，但生體可用率不變 
+D.半衰期不變，生體可用率可能增加  
+
+66.「藥物以原形不可逆的形式在體內的消失過程」稱為： 
+
+A.Biotransformation 
+B.Drug elimination 
+C.Drug metabolism 
+D.Drug excretion  
+
+67.下列何項因素對於藥物在組織分佈速率的快慢影響最小？ 
+
+A.血流速率 
+B.組織體積 
+C.組織的代謝速率 
+D.組織蓄積藥物的能力  
+
+68.Dipivefrin是pivalic acid經酯化形成的前驅藥（prodrug），穿透入眼內後會產生下列那一藥物？ 
+
+A.Ephedrine 
+B.Epinephrine 
+C.Phenylephrine 
+D.Pilocarpine  
+
+69.下列何種溶離方法不用於經皮產品之測試？ 
+
+A.Paddle method 
+B.Cylinder method 
+C.Reciprocating disk method 
+D.Paddle-over-disk method  
+
+70.進行藥品血中濃度分析時，下列何者正確？  
+
+A.實驗室必須遵循GCP規範
+
+
+B.敏感性是指分析過程不受其他化合物干擾 
+C.分析結果可由外插法加以定量 
+D.精密度是指數據的變異性或再現性  
+71.下列有關肝功能以及肝功能不全（hepatic impairment）對相關的敘述，何者正確？ 
+
+A.肝功能不全可能會影響藥物的蛋白質結合率（protein binding） 
+B.BUN（blood urea nitrogen）是評估肝功能的診斷參數 
+C.ALT（alanine aminotransferase）可以用來表示CYP3A4的活性 
+D.肝功能不全可能會影響代謝酵素的基因型  
+
+72.某藥廠開發氯化鉀口服錠劑產品，須進行生體相等性評估時，利用下列何者為最適當之評估方
+法？ 
+
+A.血中藥物濃度 
+B.尿中藥物排泄數據 
+C.急性藥理反應 
+D.臨床觀察  
+
+73.某藥物在腎功能正常情況下，給藥方式為每6小時給35 mg/kg。一位尿毒症（uremia）患者在24
+小時內的尿液量為1.8 公升，其尿中肌酸酐 （creatinine）濃度以及平均血中肌酸酐的濃度分別為
+0.1 mg/mL以及2.2 mg/dL，則此藥物在這位病患每6小時的給藥劑量應調整為多少？（設正常肌
+酸酐清除率為100 mL/min） 
+
+A.2 mg/kg 
+B.6 mg/kg 
+C.12 mg/kg 
+D.16 mg/kg  
+
+74.Magnesium hydroxide與perfloxacin合併使用，會降低perfloxacin的血中濃度，此作用的機制為
+下列何者？ 
+
+A.藥物代謝的增加 
+B.改變尿液pH值而改變腎的吸收 
+C.膽汁排泄的抑制 
+D.藥物吸收的抑制  
+
+75.已知某藥品一般給藥方式為口服400 mg q8h且口服完全吸收，約90%經由腎臟排泄，若病人住院
+期間發生急性腎衰竭，導致腎功能下降為原來的三分之一，若欲維持病人有相同之穩定血中濃
+度，其給藥方式應如何調整最為適當？ 
+
+A.120 mg q8h 
+B.120 mg q12h 
+C.240 mg q12h 
+D.400 mg qd  
+
+76.張小姐接受抗生素250 mg q6h之療程，已知該藥品之擬似分佈體積為40 L，排除速率常數為
+0.116 hr-1，經過一星期的靜脈注射後，其波峰與波谷濃度之比值為多少？ 
+
+A.1.5 
+B.2.0 
+C.2.5 
+D.3  
+
+77.一藥物是經由腎與膽的排泄及藥物代謝來進行排除；代謝產物的分佈是以一室開放模式來描述，
+該藥的藥動學模式如下圖所示。（kU：代謝產物在尿中之排泄速率常數；kb：藥物在膽汁之排泄
+速率常數；ke：藥物在尿中之排泄速率常數；km：藥物之代謝速率常數）。一般而言，那個分室
+適合進行生物檢體之採集？  
+  
+
+
+
+  
+
+A.只有分室1 
+B.只有分室2 
+C.分室1及2 
+D.分室1及3  
+
+78.承上題，分室1（compartment 1）的整體排除速率常數（overall elimination rate constant）為
+何？ 
+
+A.ke + kb  
+B.ke + kb + km 
+C.ke + kb + km+ kU 
+D.ke + kb + km + k12 - k21  
+
+79.已知ciprofloxacin之藥動參數如下： 
+  
+  
+根據上述參數，請選出錯誤之敘述？ 
+
+藥品 口服生體可用
+率（%） 
+尿液排除比
+率（%） 
+血漿蛋白結合
+率（%） 
+清除率
+（mL/min） 
+擬似分布體
+積（L） 
+半衰期
+（hr）
+ciprofloxacin               
+60±12 
+             
+65±12                   40           420±84             
+130±28 
+     
+4.1±0.9
+
+A.Ciprofloxacin口服吸收良好，百分之九十五的人吸收在36%～84%間 
+B.本藥廣為分佈在全身體液與各組織 
+C.本藥在大多數人身上，主要排除器官為腎 
+D.在病人肌酸酐（creatinine）清除率小於50 mL/min時，ciprofloxacin無需考慮調整劑量  
+
+80.承上題，由表中藥動學參數，下列有關ciprofloxacin腎臟清除率之敘述，何者錯誤？ 
+
+A.腎清除率為273 mL/min 
+B.GFR為125 mL/min，由腎絲球過濾所職司的腎臟清除率約為「fu×GFR = 75 mL/min」 
+C.可藉腎小管分泌來排除 
+D.絕不會被腎小管再吸收  
+
+
