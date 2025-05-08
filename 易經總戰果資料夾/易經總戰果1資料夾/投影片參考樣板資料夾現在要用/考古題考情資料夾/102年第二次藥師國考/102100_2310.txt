@@ -1,0 +1,587 @@
+﻿102年第二次專門職業及技術人員高等考試牙醫師考試分試考試、藥師、醫事檢驗師、醫事放射師、
+助產師、物理治療師、職能治療師、呼吸治療師、獸醫師考試 
+代 號：2310
+類科名稱：藥師
+科目名稱：藥物分析與生藥學(包括中藥學)
+DBCAADCBBCBDACBABCCADBCBBDDDBDCDCCDCABAD#BADACAADBADBADCBDCBABBCCCDDDDDDDBCCBCAB
+考試時間：1小時  座號： ___________ 
+  ※注意：本試題禁止使用電子計算器       
+
+1.有關氧瓶燃燒法之敘述，下列何者錯誤？ 
+
+A.為測定含溴、氯、碘、硫等有機物時之前處理步驟 
+B.測定有機物中硫含量時，不得用火柴點火 
+C.應採用硬質厚壁燃燒瓶 
+D.為了提高燃燒溫度，在氧氣中應添加一氧化氮  
+
+2.容量分析器皿之洗滌，下列何溶液不宜？ 
+
+A.磷酸鈉溶液 
+B.熱硝酸溶液 
+C.合成洗滌劑溶液 
+D.重鉻酸鉀／硫酸溶液  
+
+3.稀磷酸（H3PO4, MW = 98.00）之含量測定，以1 N氫氧化鈉直接滴定達thymolphthalein終點
+（end point）時，其效價為多少毫克？（thymolphthalein變色範圍為pH 8.6-10.0） 
+
+A.3.267 
+B.32.67 
+C.49.00 
+D.98.00  
+
+4.某藥品（pKb=5.00）於pH 7.00時，其離子態與非離子態之比值為： 
+
+A.100：1 
+B.10：1 
+C.1：10 
+D.1：100  
+
+5.下列何者不屬於一般分析確效（Validation）的項目？ 
+
+A.Compatibility 
+B.Specificity 
+C.Linearity 
+D.Accuracy  
+
+6.以酸滴定分析法測定六次甲四胺（hexamine, methenamine）的含量時，可由下列那一試劑的顏
+色判斷六次甲四胺之分解已經完全？ 
+
+A.過氯酸（perchloric acid） 
+B.硫酸鐵銨 
+C.酚? 
+D.變色酸（chromotropic acid）  
+
+7.有關碘酸鉀滴定法之敘述，下列何者錯誤？ 
+
+A.需在高濃度鹽酸下進行 
+B.此滴定法主要是用於碘化物的滴定 
+C.滴定終點用澱粉試液當指示劑 
+D.用少量氰化鉀，在1 N鹽酸下亦能進行滴定  
+
+8.Vitamin E檢品溶液加入硝酸2毫升，於75 ℃加熱15分鐘，即呈現何種顏色？ 
+
+A.白色至褐白色 
+B.亮紅色或橙色 
+C.深藍色 
+D.棕黑色  
+
+9.由生藥抽提生物鹼的實驗中，常用下列何法判斷抽提是否完全？ 
+
+A.抽提液無色 
+B.抽提液對生物鹼沉澱劑呈陰性反應 
+C.生藥藥材粉末無色 
+D.抽提液蒸乾後無殘渣  
+
+10.下列四種方法中，那兩種彼此相當（等於）？?露點法（dew point method） ?共沸法
+（azeotropic method） ?甲苯蒸餾法 ?重量法  
+A.??
+
+
+B.?? 
+C.?? 
+D.??  
+11.藍伯比爾定律（Beer-Lambert law）（A = ε × l  × c）之參數中，何者之單位為liter．mole-1．cm-
+1？ 
+
+A.A 
+B.ε 
+C.l  
+D.c  
+
+12.吸光率（absorptivity）會受到下列那些因素影響？?入射光強度 ?檢測波長 ?待測濃度 ?
+光徑 ?溶媒 
+
+A.?? 
+B.?? 
+C.?? 
+D.??  
+
+13.下列分析方法中，何者是快速鑑定藥物中微量不純物（impurity）的最佳方法？ 
+
+A.LC-MS 
+B.RI 
+C.NMR 
+D.IR  
+
+14.蛋白質在280 nm附近的吸收峰，主要係含下列何種胺基酸？ 
+
+A.Arginine, Lysine 
+B.Glycine, Histidine 
+C.Tyrosine, Tryptophan 
+D.Aspartate, Glutamate  
+
+15.下列質譜圖中Y軸係指何者？ 
+  
+A.mV 
+B.Abundance 
+C.Absorbance 
+D.mAu  
+
+16.原子吸收光譜法中，下列何種試劑可將檢品中磷酸離子的干擾降至最低？ 
+
+A.LaCl3 
+B.PbCl2 
+C.LiCl 
+D.AgCl  
+
+17.有關質譜之敘述，下列何者正確？ 
+
+A.分子離子峰之訊號最大 
+B.基峰為最安定裂片之離子峰 
+C.含一個氯原子時，其同位素峰高比為1:1 
+D.含一個溴原子時，其同位素峰高比為3:1  
+
+18.有關紅外光光譜分析法之敘述，下列何者錯誤？ 
+A.最常使用之波長範圍在2.5 μm至50 μm 
+B.用於測定有機化合物之鍵結伸張（stretching）或變角振動（bending）
+
+
+C.一般用於鑑定對稱化合物之結構 
+D.波峰強度與偶極距（dipole moment）有關 
+19.
+在化合物Ha的化學位移？
+
+  
+A.1.5 ppm 
+B.2.5 ppm 
+C.5.5 ppm 
+D.7.5 ppm  
+
+20.含一個溴原子之化合物，其質譜之分子峰中[M]與[M+2]之強度比為何？ 
+
+A.1:1 
+B.2:1 
+C.3:1 
+D.99:1  
+
+21.下列有關螢光強度之敘述，何者錯誤？ 
+
+A.受激發分子會受溶液中重原子（氯、溴離子）影響而使螢光減弱 
+B.許多酚類化合物會顯現螢光 
+C.溫度與螢光強度也有關係，一般而言，溫度上昇螢光會減弱 
+D.在弱鹼中thiamine氧化成thiochrome而具強螢光，酸化之則因閉環而失去螢光  
+
+22.有關核磁共振測定化學位移（chemical shift）的敘述，何者錯誤？ 
+
+A.因電子密度不同，原子核所感受之磁場強度會有差異 
+B.一般以四甲基矽烷（TMS）做參照標準品，因其氫核所受遮蔽小於大多數化合物之氫核 
+C.四甲基矽烷之氫核化學位移設定為零 
+D.化學位移（δ）一般以ppm表示  
+
+23.下列有關螢光光度法的敘述，何者正確？ 
+
+A.螢光波長較激發波長短 
+B.螢光強度幾乎不受溶液的pH值、溶劑種類的影響 
+C.通常低溫時螢光強度會增大 
+D.螢光分光光度計的光源一般使用鎢絲燈  
+
+24.下列有關氫核自旋偶合（spin-spin coupling）的敘述，何者正確？ 
+
+A.偶合常數J 值以赫茲（Hertz）表示，隨磁場強度增加而改變 
+B.偶合型態可以AB、AX、ABX、AMX等表示 
+C.訊號分裂峰的數目multiplicity = n+2，n為鄰近氫核的總數 
+D.AB偶合型之訊號分裂峰之相對強度不會受化學位移差異影響  
+
+25.下列關於亞硝酸戊酯（amyl nitrite）之定量敘述，何者錯誤？ 
+
+A.以氮測定法（nitrometry）定量時係測定反應生成的N2氣體容積，再推算含量 
+B.以核磁共振儀作含量測定，係積分水解後之戊醇上的亞甲基氫核訊號 
+C.以核磁共振儀作含量測定，係積分亞硝酸戊酯上的亞甲基氫核訊號 
+D.以核磁共振儀作含量測定時係以benzyl benzoate做內部標準品  
+
+26.下列何者不影響自旋數為1/2之核子在基態與激發態之分佈比率？ 
+
+A.外磁場強度 
+B.溫度 
+C.核磁矩（magnetic moment） 
+D.溶媒  
+
+27.下列何種電子轉移於180 nm附近有吸收？ 
+
+A.n →σ* 
+B.σ →σ* 
+C.n →π* 
+D.π →π*  
+
+28.在相同濃度下，下列化合物何者之吸光度A（absorbance, 1%, 1 cm）最高？ 
+
+A.CH3CH2CH2CH3 
+B.CH3CH=CHCH3 
+C.CH3(CH=CH)2CH3 
+D.CH3(CH=CH)4CH3  
+
+29.分光光度儀使用前需進行波長校正，在紫外光－可見光波段，可使用下列何者來校正？ 
+A.鎢絲燈（Tungsten filament lamp） 
+B.汞弧燈（Mercury discharge lamp） 
+C.鈉燈（Sodium lamp）  
+
+
+
+D.高壓氙燈（Xenon arc lamp） 
+30.下列何種清洗液（washing solution）及沖提液的pH設計，可提高逆相固相萃取管柱（reverse-
+phase solid-phase extraction cartridge）對於aspirin的選擇性？ 
+
+A.清洗液pH 9.5；沖提液pH 9.5 
+B.清洗液pH 9.5；沖提液pH 2.0 
+C.清洗液pH 2.0；沖提液pH 2.0 
+D.清洗液pH 2.0；沖提液pH 9.5  
+
+31.若一層析管柱的空隙體積（void volume）為1 mL，移動相流速為1 mL/min，某化合物的容積因
+子（capacity factor）為8，則此化合物的滯留時間為幾分鐘？ 
+
+A.5 
+B.8 
+C.9 
+D.12  
+
+32.同一個化合物，使用不同的層析管柱分離時，則下列結果何者之分離效率最高？ 
+
+A.滯留時間為6.0分鐘，波峰寬度為0.4分鐘 
+B.滯留時間為7.0分鐘，波峰寬度為0.4分鐘 
+C.滯留時間為8.0分鐘，波峰寬度為0.4分鐘 
+D.滯留時間為9.0分鐘，波峰寬度為0.4分鐘  
+
+33.C6H5CH2NH2適合以離子對－逆相液相層析進行分析定量，在酸性移動相中加入下列何者其滯留
+時間最長？ 
+
+A.(C4H9)4NCl 
+B.(C3H7)4NCl 
+C.C8H17SO3Na 
+D.C6H13SO3Na  
+
+34.以ODS管柱之液相層析法，分析paracetamol（pKa 9.5）錠劑中主成分之含量，其移動相之組
+成，下列何者最適宜？（paracetamol結構為  ）  
+A.0.05 M NaOH／acetonitrile (15: 85) 
+B.0.05 M borate buffer (pH 10)／acetonitrile (15: 85) 
+C.0.05 M acetic acid／acetonitrile (15: 85) 
+D.0.1 N HCl／acetonitrile (15:85)  
+
+35.下列有關薄層層析法的敘述，何者錯誤？ 
+
+A.不適合用於精油（volatile oil）的分析 
+B.增加薄層厚度則可用於化合物之半製備（semi-preparative）分離 
+C.可採用下降（descending）方式來展開 
+D.所用之矽膠黏合劑是甲基纖維素（methylcellulose）  
+
+36.下列何者可提高液相層析法的層析效率（efficiency）？ 
+
+A.固定相用較大的顆粒 
+B.增加流速 
+C.細顆粒擔體（support），薄的固定相包覆（coated） 
+D.使用較長管柱  
+
+37.下列層析管柱之固定相，何者適用於分離鏡像異構物？ 
+
+A.Cyclodextrin 
+B.Polyethylene glycol 
+C.Polyamide 
+D.Octadecyl silane  
+
+38.下列何者為高效毛細管電泳以平面流（flat flow）前進之主要因素？ 
+
+A.分析物離子電荷 
+B.電滲透流（EOF） 
+C.分析物離子形狀 
+D.注射栓長度（length of injection plug）  
+
+39.層析分析法中，下列何者為容積因子（k' ）之計算公式？（Vo：未滯留物溶出所需容積；Vr：滯
+留物溶出所需容積）  
+
+A.k' = (Vr -Vo) /Vo
+
+
+B.k' = (Vo -Vr) /Vo 
+C.k' =Vo / (Vr -Vo) 
+D.k' =Vo / (Vo-Vr )  
+40.以液相層析法分析含A與B化合物之檢品，當移動相流速為1 mL/min時，to為1 min，A與B化合物
+之k'為6與10。如A與B化合物滯留時間分別為3.5 min與5.5 min，則移動相流速（mL/min）應為
+下列何者？ 
+
+A.0.5 
+B.1.0 
+C.1.5 
+D.2.0  
+
+41.植物在不同生長階段，會影響其二次代謝產物之種類及含量的因素稱為： 
+
+A.Differentiation 
+B.Environment 
+C.Heredity 
+D.Ontogeny  
+
+42.下列那類化合物較不屬於動、植物生藥之有效成分？ 
+
+A.Terpenoids 
+B.Coloring matters 
+C.Alkaloids 
+D.Glycosides  
+
+43.下列何者為重組蛋白藥物，可用於治療轉移性腎細胞癌（metastatic renal cell carcinoma）？ 
+
+A.Aldesleukin 
+B.Alteplase 
+C.Dornase alfa 
+D.Sargramostim  
+
+44.兼具活血散瘀及強筋骨功效之中藥是： 
+
+A.川芎 
+B.丹參 
+C.益母草 
+D.牛膝  
+
+45.下列何種中藥之主成分為??類？ 
+
+A.何首烏 
+B.地黃 
+C.黃精 
+D.黨參  
+
+46.主成分為ouabain之生藥基原為何？ 
+
+A.Apocynum cannabinum  
+B.Convallaria majalis  
+C.Strophanthus gratus  
+D.Urginea maritima   
+
+47.Senna之瀉下主成分sennosides A及B，其?元結構係屬下列何者？ 
+
+A.Rhein dianthrone 
+B.Barbaloin 
+C.Emodin 
+D.Chrysaloin  
+
+48.下列有關isothiocyanate glycosides的敘述，何者錯誤？ 
+
+A.Sinigrin主要來源為white mustard 
+B.Sinigrin水解後會得到allyl isothiocyanate 
+C.Gluconapin主要來源為ripe seed 
+D.化合物中的氮原子來源為氨基酸  
+
+49.下列何者不是大蒜之功能？ 
+
+A.抗菌作用 
+B.降血脂作用 
+C.抗血栓作用 
+D.造血作用  
+
+50.下列何種木通含馬兜鈴酸，目前臺灣已禁止使用？  
+
+A.Clematis montana  
+B.Aristolochia manshuriensis
+
+
+C.Akebia quinata  
+D.Akebia trifoliata    
+51.下列何者為防止sesame oil酸敗之重要成分？ 
+
+A.Sesamol 
+B.Sesamin 
+C.Sesaminone 
+D.Sesalincin  
+
+52.下列何者具有刺激性瀉下作用？ 
+
+A.Myristic acid 
+B.Palmitic acid 
+C.Gallic acid 
+D.Ricinoleic acid  
+
+53.Safflower oil之基原植物為： 
+
+A.Theobroma cacao  
+B.Carthamus tinctorius  
+C.Sesamum indicum  
+D.Olea europaea   
+
+54.下列何種油脂具有中度鏈長之結構（C-8 or C-10），可當灌食之營養補充劑？ 
+
+A.Coconut oil 
+B.Theobroma oil 
+C.Sunflower oil 
+D.Safflower oil  
+
+55.Taxol結構中，含benzamide之側鏈係接在taxane環骨架之第幾位碳上？ 
+
+A.10 
+B.11 
+C.12 
+D.13  
+
+56.下列何種植物具抗焦慮及幫助睡眠之作用？ 
+
+A.Tanacetum parthenium  
+B.Matricaria recutita  
+C.Valeriana officinalis  
+D.Coleus forskohlii   
+
+57.下類何者不具有光敏感之特性？ 
+
+A.Lycopene 
+B.Cucurbitacin 
+C.Vitamin A 
+D.β-Carotene  
+
+58.下列何者為印度大麻（cannabis）之別名？ 
+
+A.Mace 
+B.Macis 
+C.Mandrake 
+D.Marihuana  
+
+59.下列有關taxol之敘述，何者錯誤？ 
+
+A.為卵巢癌、乳癌之化療藥物 
+B.具taxane和4-membered oxetane ring骨架 
+C.為水溶性，靜脈點滴使用 
+D.環上第13位之側鏈為細胞毒活性所必備  
+
+60.下列何者參與terpenoids之生合成？ 
+
+A.Acetate-malonate 
+B.Acetate-mevalonate 
+C.Shikimic acid 
+D.Pyruvate-shikimic acid  
+
+61.八角茴香之基原植物是： 
+
+A.Illicium verum  
+B.Foeniculum vulgare  
+C.Cinnamomum cassia  
+D.Pimpinella anisum   
+
+62.有關陳皮之敘述，下列何者錯誤？
+
+A.使用部位為乾燥成熟果皮 
+B.揮發油成分以α-pinene 為主 
+C.主功效為止咳化痰 
+D.廣陳皮產於廣東新會等地  
+
+63.用於抗憂鬱症之St. John's Wort生藥，其植物科別與學名為： 
+
+A.Asteraceae/Silybum marianum 
+B.Hypericaceae/Hyperium perforatum 
+C.Lamiaceae/Rosmarinus officinalis 
+D.Dioscoreaceae/Dioscorea macrostachya  
+
+64.Rutin為何種配醣體？ 
+
+A.Anthraquinone 
+B.Cyanophore 
+C.Flavonol 
+D.Phenol  
+
+65.蛇床子具溫腎壯陽作用，其成分osthol屬於： 
+
+A.Lignan 
+B.Flavonoid 
+C.Coumarin 
+D.Tannin  
+
+66.用於治療肝病之水飛薊（Silybum marianum）生藥，其有效成分屬於下列何類型？ 
+
+A.Anthraquinones 
+B.Coumarins 
+C.Flavonolignans 
+D.Steroids  
+
+67.下列何種成分為紫草之主成分？ 
+
+A.Magnolol 
+B.Atractylon 
+C.Baicalein 
+D.Shikonin  
+
+68.下列何者不是複方安息香酊之組成物？ 
+
+A.蘆薈 
+B.蘇合香 
+C.吐魯香膠 
+D.沒藥  
+
+69.下列何者屬於四級胺生物鹼？ 
+
+A.Coniine 
+B.Nicotine 
+C.Reserpine 
+D.Tubocurarine  
+
+70.下列生物鹼或其衍生物，何者含有酚基（phenolic group）？ 
+
+A.Codeine 
+B.Heroin 
+C.Hydrocodone 
+D.Hydromorphone  
+
+71.下列何種生藥之主成分不屬於tropane類生物鹼？ 
+
+A.Belladonna 
+B.Hyoscyamus 
+C.Stramonium 
+D.Cocoa  
+
+72.茄科（Solanaceae）植物含下列何類生物鹼？ 
+
+A.Isoquinoline 
+B.Quinoline 
+C.Indole 
+D.Tropane  
+
+73.Atropine係指：  
+A.(-)-Hyoscine 
+B.(+)-Hyoscyamine 
+C.(±)-Hyoscine  
+
+
+
+D.(±)-Hyoscyamine 
+74.Ergot alkaloids除了真菌類Claviceps purpurea可產生外，亦發現於下列那一科高等植物中？ 
+
+A.Liliaceae 
+B.Convolvulaceae 
+C.Papaveraceae 
+D.Solanaceae  
+
+75.下列各項敘述，何者正確？ 
+
+A.Borntrager試劑可做為生物鹼之檢測試劑 
+B.Atropine即是(±)-scopolamine 
+C.Mescaline係由phenylalanine衍生而來 
+D.Quinine係屬於isoquinoline類生物鹼  
+
+76.下列有關white hellebore之主成分protoveratrine A的敘述，何者錯誤？ 
+
+A.分子結構中有七個環 
+B.屬於steroidal生物鹼 
+C.其水解產物有methyldihydroxybutyric acid 
+D.其原植物屬於Liliaceae  
+
+77.Morphine之生合成，其前驅物由下列何者組成？ 
+
+A.2個tryptamine 
+B.2個tyrosine 
+C.1個tryptamine，1個monoterpene 
+D.1個tyrosine，1個monoterpene  
+
+78.Tropic acid由下列何者生合成而得？ 
+
+A.Adenosylmethione 
+B.Methionine 
+C.Phenylalanine 
+D.Pseudotropine  
+
+79.黃連治瀉痢是屬於下列何種功能？ 
+
+A.清熱燥濕及瀉火解毒 
+B.清熱解毒及涼血止血 
+C.清熱瀉火及清熱涼血 
+D.清熱涼血及清入燥濕  
+
+80.下列何種中藥含有evodiamine及rutaecarpine？ 
+
+A.鉤藤 
+B.吳茱萸 
+C.山茱萸 
+D.延胡索  
+
+

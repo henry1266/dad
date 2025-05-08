@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-tw" lang="zh-tw">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>SAMPLE</title>
+<style type="text/css">
+
+
+/* ==================== layout ==================== */
+
+#container	{width: 900px;
+	margin: auto;}
+
+#wrapper	{width: 100%;
+	overflow: hidden;}
+
+#wrapper_inner	{padding: 0 15px;}
+
+#main	{width: 685px;
+	float: left;}
+
+#content	{width: 500px;
+	float: right;
+	margin: 30px 0;
+	background-color: #ffffff;}
+
+#content_inner	{padding: 20px 10px 0;}
+
+#sidebar01	{width: 170px;
+	float: left;
+	margin: 30px 0;}
+
+#sidebar02	{width: 170px;
+	float: right;
+	margin: 30px 0;}
+
+#foot	{clear: both;}
+
+
+
+/* ==================== header ==================== */
+
+#header h1	{margin: 0;
+	font-size: 2em;
+	font-family: Verdana, Helvetica, sans-serif;}
+
+#header p	{margin: 0;
+	margin-top: 8px;
+	font-size: 1em;}
+
+#header	{width: auto;
+	height: 65px;
+	border: none;}
+
+#header_inner	{padding: 0;}
+
+#header h1	{margin: 0;}
+
+#header_title	{float: left;}
+
+#header_other	{float: right;
+	margin-top: 25px;
+	width: 160px;}
+
+/* 選單的設計 */
+.submenu	{width: auto;
+	height: 40px;
+	border-top: none;
+	border-bottom: none;}
+
+.submenu ul	{margin: 0;
+	padding: 0;}
+
+.submenu li	{list-style-type: none;
+	float: left}
+
+.submenu li a	{display: block;
+	width: 70px;
+	line-height: 22px;
+	border-right: none;
+	text-align: center;
+	color: #ffffff;
+	font-size: 0.75em;
+	text-decoration: none;}
+
+.submenu li a	{background-image: url(submenu.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;}
+
+
+
+/* ==================== content ==================== */
+
+.post	{width: auto;}
+
+.post h2	{font-size: 1em;
+	margin: 0;
+	margin-bottom: 15px;
+	background-color: #b8e964;
+	line-height: 32px;
+	padding-left: 10px;}
+
+.posttext	{font-size: 0.875em;
+	line-height: 1.5}
+
+.posttext p	{margin: 0;
+	margin-bottom: 20px;}
+
+
+
+.postfooter	{width: auto;
+	border-top: solid 5px #b8e964;
+	padding-top: 10px;
+	padding-bottom: 20px;}
+
+.postfooter p	{color: #000000;
+	font-size: 0.75em;
+	margin: 0;}
+
+
+/* ==================== Image ==================== */
+
+.imgleft	{float: left;
+	margin-right: 15px;
+	margin-bottom: 15px}
+
+.imgcaption	{text-align: center;
+	font-size: 0.875em;
+	margin: 20px;}
+
+.imgcaption img	{margin-bottom: 10px;}
+
+.imgcaption p	{margin: 0;}
+
+
+
+/* ==================== sidebar ==================== */
+
+.menu	{width: auto;
+	background-color: #bbfdb5;
+	font-size: 0.75em;
+	margin-bottom: 20px;}
+
+.menu_inner	{padding: 10px;}
+
+.menu li	{margin-bottom: 8px;
+	line-height: 1.2;
+	list-style-type: none;
+	background-image: url(mark_green.png);
+	background-repeat: no-repeat;
+	padding-left: 18px}
+
+.menu li a	{color: #000000;
+	text-decoration: none;}
+
+.menu li a:hover	{color: #ffffff}
+
+.menu ul	{margin: 0;
+	padding: 0;
+	margin-left: 0;}
+
+.menu h3	{border-bottom: solid 2px #3f8806;
+	padding: 0 0 5px 0;
+	margin: 0;
+	margin-bottom: 15px;
+	font-family: Verdana, Helvetica, sans-serif;}
+
+
+.menu	{font-size: 0.75em;}
+
+.menu li	{margin-bottom: 8px;
+	line-height: 1.2;
+	list-style-type: none;
+	background-image: url(mark01a.gif);
+	background-repeat: no-repeat;
+	padding-left: 15px}
+
+.menu li a	{color: #000000;
+	text-decoration: none;}
+
+.menu li a:hover	{color: #ff8800}
+
+.menu ul	{margin: 0;
+	padding: 0;}
+
+.menu ul ul	{margin-top: 8px;}
+
+.menu li li	{background-image: url(mark01b.gif);}
+
+/* ==================== footer ==================== */
+
+#footer	{width: auto;
+	border-top: none;
+	padding-top: 10px;
+	padding-bottom: 20px;}
+
+#footer p	{color: #000000;
+	font-size: 0.75em;
+	margin: 0;}
+
+
+
+
+/* ==================== navigation menu ==================== */
+
+#nav	{width: auto;
+	height: 28px;
+	font-size: 0.75em;
+	clear: both;
+	margin-top: 10px;}
+
+#nav ul	{margin: 0;
+	padding: 0;}
+
+#nav li	{list-style-type: none;
+	float: left;}
+
+#nav li a	{display: block;
+	width: 120px;
+	line-height: 28px;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 5px;}
+
+
+/* ㄧ般連結標籤 */
+#link01 a	{background-image: url(tab01.png);}
+#link02 a	{background-image: url(tab02.png);}
+#link03 a	{background-image: url(tab03.png);}
+#link04 a	{background-image: url(tab04.png);}
+#link05 a	{background-image: url(tab05.png);}
+
+/* 指標重疊連結時的標籤 */
+#nav a:hover	{background-position: 0 -38px;}
+
+/* 顯示中的頁面標籤 */
+#tab01 #link01 a	{background-position: 0 -38px;}
+#tab02 #link02 a	{background-position: 0 -38px;}
+#tab03 #link03 a	{background-position: 0 -38px;}
+#tab04 #link04 a	{background-position: 0 -38px;}
+#tab05 #link05 a	{background-position: 0 -38px;}
+
+
+/* 標籤下方的邊框顏色 */
+#tab01 #nav	{border-bottom: solid 5px #5ec23f;}
+#tab02 #nav	{border-bottom: solid 5px #48ade3;}
+#tab03 #nav	{border-bottom: solid 5px #e473c0;}
+#tab04 #nav	{border-bottom: solid 5px #ec6a89;}
+#tab05 #nav	{border-bottom: solid 5px #fb935c;}
+
+
+/* wrapper的背景色*/
+#tab01 #wrapper	{background-color: #5ec23f;}
+#tab02 #wrapper	{background-color: #48ade3;}
+#tab03 #wrapper	{background-color: #e473c0;}
+#tab04 #wrapper	{background-color: #ec6a89;}
+#tab05 #wrapper	{background-color: #fb935c;}
+
+</style>
+</head>
+<body id="tab01">
+
+
+<div id="container">
+
+<div id="head">
+<div id="header">
+<div id="header_inner">
+
+	<div id="header_title">
+		<h1><img src="logomark.png" alt="*" title="" class="imgleft" />

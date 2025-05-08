@@ -1,0 +1,420 @@
+102年第二次專門職業及技術人員高等考試牙醫師考試分試考試、藥師、醫事檢驗師、醫事放射師、
+助產師、物理治療師、職能治療師、呼吸治療師、獸醫師考試
+代
+號:4311
+類科名稱:醫事檢驗師
+科目名稱:微生物學與臨床微生物學(包括細菌與黴菌)
+BADDABABBCCCADCCBBCDBDDBDBADCABDBDBBCADACCADABBDCADA#ADADBBDCDDBDDDAABADCBADDADA
+考試時間:1小時
+※注意:本試題禁止使用電子計算器
+1.有關細菌與黴菌之比較,下列何者錯誤?
+A.細菌為原核細胞,黴菌為真核細胞
+B.細菌皆單一細胞,黴菌皆多細胞
+C.細菌為無性生殖,黴菌可有性生殖
+D.細菌細胞壁含肽聚醣,黴菌細胞壁含葡聚醣和幾丁質
+2.下列何種細菌細胞壁含脂質(lipid)成分比例高達60%以上?
+A.Nocardia
+B.Mycoplasma
+C.Staphylococcus
+D.Streptococcus
+3.觀察Corynebacterium diphtheriae的異染顆粒(metachromatic granules)之染色方法為何?
+A.acid-fast stain
+B.auramine-rhodamine
+C.acridine orange
+D.methylene blue
+4.有關Erysipelothrix rhusiopathiae之敘述,下列何者錯誤?
+A.革蘭氏陽性多形性桿菌,老化後易染成陰性長絲狀
+B.是目前已知Erysipelothrix菌屬中唯一對人類致病的菌種
+C.人類感染與職業暴露有關,魚販、屠夫及家庭主婦都是高危險群
+D.觸酶陽性之嗜氧革蘭氏陽性桿菌
+5.Diphtheria toxin對人體細胞之主要作用機轉為何?
+A.產生ADPR與EF-2結合,並抑制其活性,因而抑制胜肽鏈延長
+B.使cyclic AMP濃度上升,細胞膜通透性增加
+C.分解28S rRNA,進而抑制蛋白質合成
+D.使神經肌細胞聯合處無法釋放乙醯膽鹼,因而阻礙神經傳導
+6.類丹毒(erysipeloid)之主要致病菌是:
+A.Corynebacterium ulcerans
+B.Erysipelothrix rhusiopathiae
+C.Rhodococcus equi
+D.Streptococcus pyogenes
+7.下列何者為毛工病(woolsorter's disease)或拾荒病(ragpicker's disease)的致病菌?
+A.Bacillus anthracis
+B.Bacillus cereus
+C.Brucella abortus
+D.Bartonella henselae
+8.病人咽喉檢體在Tinsdale's agar上長出帶有棕色暈環(brown halo)之黑色菌落,此病人最可能感
+染下列何種病原菌?
+A.Staphylococcus aureus
+B.Corynebacterium diphtheriae
+C.Streptococcus pyogenes
+D.Haemophilus influenzae
+9.下列何種病原菌是以人類為天然宿主,而非人畜共通感染之病原菌?
+A.Bacillus anthracis
+B.Corynebacterium diphtheriae
+C.Erysipelothrix rhusiopathiae
+D.Listeria monocytogenes
+10.以modified acid-fast stain染色時,下列何者不會染成紅色?
+A.Mycobacterium spp.
+B.Rhodococcus spp.
+C.Streptomyces spp.
+D.Tsukamurella spp.
+11.下列何者無法使鏈球菌之streptolysin O在sheep blood agar(BAP)上發揮明顯的溶血作用?
+A.在BAP表面接種後,放厭氧環境培養
+B.將菌與blood agar混合後倒入平板(Pour plate),凝固後放CO2培養箱
+C.在BAP表面接種後,再於表面劃線接種S. aureus ATCC 25923菌株
+D.在BAP表面接種後,穿刺數下,放CO2培養箱
+12.下列何種菌感染後,最可能併發風濕熱(rheumatic fever)或急性腎絲球體腎炎(acute
+glomerulonephritis)?
+A.Abiotrophia defectiva
+B.Enterococcus faecalis
+C.Streptococcus pyogenes
+D.Viridans group streptococci
+13.有關viridans streptococci之敘述,下列何者錯誤?
+A.在sheep BAP上為不溶血或β-溶血的菌種
+B.部分菌株需CO2才能生長
+C.是人類上呼吸道、腸胃道、女性生殖道之正常菌群
+D.某些具有A、C、G群特異性抗原之菌種含有M protein,與致病力有關
+14.下列何項試驗,最不適合用來鑑定Streptococcus agalactiae?
+A.在New Granada medium(NGM)產色素(carotenoid pigment)之能力
+B.CAMP test
+C.Hippurate hydrolysis test
+D.Susceptibility to Sulfamethoxazole-Trimethoprim
+15.以分子診斷法鑑定腸球菌時,下列何者不適合作為目標核酸?
+A.groESL heat shock protein gene
+B.16S rRNA gene
+C.emm gene
+D.16S-23S rRNA gene spacer sequence
+16.下列何種情況最可能導致試管法凝固酶試驗呈偽陽性反應?
+A.在35°C培養1~4小時後作判讀
+B.在35°C培養隔夜才作判讀
+C.使用citrate抗凝的兔子血漿
+D.使用EDTA抗凝的兔子血漿
+17.Staphylococcus aureus被應用在CAMP test,是因其何種產物可與CAMP factor產生協同溶血
+(synergistic hemolysis)反應?
+A.α-hemolysin
+B.β-hemolysin
+C.γ-hemolysin
+D.Panton-Valentine leukocidin
+18.Gram-positive cocci做catalase test時,若反應不確定,下列何項試驗有助於確認?
+A.Vancomycin感受性試驗
+B.Benzidine test or porphyrin test
+C.Modified oxidase test
+D.測試菌與3% KOH混合,觀察是否會產生黏絲
+19.從尿液分離之革蘭氏陽性球菌,catalase (+),coagulase (-),對0.04 unit bacitracin及5 μg
+novobiocin紙錠均呈抗性,此菌最可能為:
+A.Aerococcus urinae
+B.Micrococcus luteus
+C.Staphylococcus saprophyticus
+D.Staphylococcus lugdunensis
+20.下列何者不是第一線的抗結核菌藥物?
+A.isoniazid
+B.ethambutol
+C.rifampin
+D.kanamycin
+21.下列何種方法不適合用於抗methicillin金黃色葡萄球菌(MRSA)流行病學分型?
+A.PFGE(pulsed-field gel electrophoresis)
+B.emm(M protein gene)typing
+C.spa(protein A gene)typingD.MLST(multilocus sequence typing)
+22.下列何種培養基最適合被用來分離Vibrio spp.?
+A.Eosin methylene blue(EMB)
+B.MacConkey
+C.Xylose lysine deoxycholate(XLD)
+D.Thiosulfate citrate bile sucrose(TCBS)
+23.下列何種發酵試驗可用於區分Enterohemorrhagic E. coli(EHEC)及一般的E. coli?
+A.Mannitol
+B.Dulcitol
+C.Salicin
+D.Sorbitol
+24.下列何種細菌不具運動性?
+A.Escherichia coli
+B.Shigella sonnei
+C.Enterobacter cloacae
+D.Serratia marcescens
+25.下列何種細菌在TSIA出現K/A、H2S陽性,及urease陽性?
+A.Escherichia coli
+B.Klebsiella pneumoniae
+C.Yersinia enterocolitica
+D.Proteus mirabilis
+26.下列何種OF試驗結果,可判讀為糖類氧化試驗為陽性?
+A.封油管與未封油管皆為綠色
+B.封油管綠色,未封油管黃色
+C.封油管與未封油管皆為黃色,皆產氣
+D.封油管與未封油管皆為黃色,皆不產氣
+27.在Actinobacillus屬中,與早發性牙周炎(localized juvenile periodontitis)相關之最主要菌種為
+何?
+A.A. actinomycetemcomitans
+B.A. hominis
+C.A. suis
+D.A. ureae
+28.有關Brucella species的敘述,下列何者錯誤?
+A.會引發人畜共通傳染病(zoonosis)
+B.LPS有兩種主要的 antigenic determinants(A和M)
+C.不會產生 exotoxin
+D.為胞外生長菌(extracellular organisms)
+29.有關Helicobacter pylori之敘述,下列何者正確?
+A.Catalase陰性
+B.Urease陰性
+C.Oxidase陽性
+D.Motility陰性
+30.有關Campylobacter jejuni subsp. jejuni之敘述,下列何者錯誤?
+A.會發酵葡萄醣
+B.會引起腸胃炎
+C.42°C會生長
+D.會引起神經病變
+31.Pontiac fever的病原菌為:
+A.Brucella spp.
+B.Legionella spp.
+C.Bordetella spp.
+D.Francisella spp.
+32.有關Haemophilus influenzae特性之敘述,下列何者正確?
+A.在攝氏50度可存活一天以上
+B.對一般消毒劑極具抗性
+C.發酵乳糖
+D.易有自體溶解現象
+33.Haemophilus influenzae的疫苗,主要是針對下列何種血清型?A.type a
+B.type b
+C.type c
+D.type d
+34.HACEK群細菌中,下列何者最常引起被人咬傷之傷口感染?
+A.Haemophilus aphrophilus
+B.Actinobacillus actinomycetemcomitans
+C.Cardiobacterium hominis
+D.Eikenella corrodens
+35.下列何者不是腸內菌科乳糖發酵菌的特色?
+A.具有β-galactosidase
+B.具有β-lactamase
+C.ONPG陽性
+D.在MacConkey agar呈現粉紅色菌落
+36.下列何種細菌在XLD agar出現紅色菌落,其中心點為黑色?
+A.Escherichia spp.
+B.Salmonella spp.
+C.Shigella spp.
+D.Vibrio spp.
+37.Hektoen Enteric(HE)agar所含的pH指示劑為:
+A.phenol red與thymol blue
+B.Neutral red
+C.Acid fuchsin與thymol blue
+D.Brilliant green與phenol red
+38.有關Pseudomonas putida的敘述,下列何者正確?
+A.pyoverdin (+)
+B.Nitrate reduction (+)
+C.42oC生長 (+)
+D.Gelatin hydrolysis (+)
+39.有關Alcaligenes faecalis在Oxidation-Fermentation(OF)test的敘述,下列何者正確?
+A.glucose (+),fructose (+)
+B.glucose (+),fructose (-)
+C.glucose (-),fructose (+)
+D.glucose (-),fructose (-)
+40.有關Citrate agar試驗之敘述,下列何者錯誤?
+A.陽性結果呈酸性反應
+B.陽性結果呈藍色
+C.pH指示劑為Bromothymol blue
+D.培養基不含葡萄糖成分
+41.下列何種細菌大多對polymyxin 具抗性(Resistant)?
+A.Pseudomonas aeruginosa
+B.Pseudomonas fluorescens
+C.Burkholderia pseudomallei
+D.Stenotrophomonas maltophilia
+42.有關Acinetobacter baumannii 與 Burkholderia pseudomallei的oxidase試驗之敘述,下列何者正
+確?
+A.A. baumannii (+),B. pseudomallei (+)
+B.A. baumannii (+),B. pseudomallei (-)
+C.A. baumannii (-),B. pseudomallei (+)
+D.A. baumannii (-),B. pseudomallei (-)
+43.有關Campylobacter upsaliensis之敘述,下列何者錯誤?
+A.42°C不會生長
+B.Nitrate還原反應陽性
+C.25°C不會生長
+D.可從健康寵物培養出來
+44.「Rat-bite fever」或「Haverhill fever」,主要由下列何種細菌感染所致?
+A.Actinobacillus actinomycetemcomitans
+B.Capnocytophaga canimorsusC.Cardiobacterium hominis
+D.Streptobacillus moniliformis
+45.下列何種藥物的感受性試驗可分辨Neisseria cinerea與Neisseria gonorrhoeae?
+A.Colistin
+B.Penicillin
+C.Streptomycin
+D.Tetracycline
+46.Pinta(皮膚疾病)是由下列何者所造成?
+A.Mycoplasma spp.
+B.Treponema spp.
+C.Streptococcus spp.
+D.Staphylococcus spp.
+47.下列何種試驗最適合區分Bacteroides vulgatus和Bacteroides thetaiotaomicron?
+A.UV下產生紅色螢光
+B.Indole產生
+C.染色形態
+D.對kanamycin disk(1 mg)之感受性
+48.下列何者為Peptostreptococcus anaerobius之特徵?
+A.nitrate reduction陽性
+B.urease陽性
+C.catalase陽性
+D.受sodium polyanethol sulfonate抑制
+49.有關氧化還原電位(Eh)之敘述,下列何者錯誤?
+A.低Eh環境適合厭氧菌生長
+B.受pH值影響
+C.人類直腸環境屬於高Eh
+D.Methylene blue可當氧化還原電位指示劑
+50.有關Fusobacterium nucleatum之敘述,下列何者錯誤?
+A.細胞似Fusobacterium varium
+B.Indole 陽性
+C.受20% bile抑制
+D.菌落具斑點狀結晶
+51.厭氧菌培養基中添加phenylethyl alcohol(PEA)是為了抑制下列何菌之生長?
+A.Clostridium difficile
+B.Bacteroides fragilis
+C.Staphylococcus aureus
+D.Enterobacter cloacae
+52.有關培養厭氧菌所用anaerobic chamber之敘述,下列何者正確?
+A.Palladium-coated alumina可去除氧氣
+B.Methylene blue當酸鹼指示劑
+C.Resazurin當乾燥劑
+D.Silica gel當厭氧催化劑
+53.有關Spirillum minus之敘述,下列何者錯誤?
+A.感染會出現疹子
+B.由老鼠傳播
+C.具鞭毛
+D.目前無培養基供培養鑑定
+54.黴漿菌(Mycoplasma)細胞的大小約為多少μm?
+A.0.2到0.3
+B.0.5到1.0
+C.0.5到1.5
+D.1.0到1.5
+55.下列何種黴漿菌(mycoplasma)不是人類上呼吸道中的正常菌群(normal flora)?
+A.M. buccale
+B.M. faucium
+C.M. lipophilum
+D.M. pneumoniae
+56.下列關於polymyxin類抗生素之敘述,何者正確?A.具有破壞細菌細胞膜之能力
+B.對革蘭氏陽性菌較有效
+C.會與PBP結合
+D.對人體無毒
+57.大部分革蘭氏陰性細菌對萬古黴素(vancomycin) 產生抗藥性之主要原因為何?
+A.萬古黴素水解酶產生
+B.核糖體結合位突變
+C.PBP產生突變
+D.無法穿透胞外膜
+58.下列那些抗生素可抑制folinic acid合成路徑?1 amikacin
+2 sulfonamides
+3trimethoprim
+4 kanamycin
+A.12
+B.23
+C.34
+D.14
+59.下列關於trimethoprim之敘述,何者錯誤?
+A.可抑制folinic acid合成路徑
+B.治療Pseudomonas aeruginosa特別有效
+C.常與sulfonamide合併使用
+D.干擾細菌DNA之生合成
+60.以agar dilution法進行厭氧菌藥敏試驗時,接種菌量為多少CFU/spot?
+A.102
+B.103
+C.104
+D.105
+61.下列關於多烯(Polyene)類抗黴菌藥物之敘述,何者錯誤?
+A.多烯(Polyene)分子會聚合起來嵌入細胞膜中,造成細胞膜破洞使細胞質內物質流失
+B.Amphotericin B與Nystatin屬此類
+C.Nystatin由於易被腸胃吸收,因此較少用於治療腸胃道黴菌感染
+D.Amphotericin B常用於全身性黴菌感染之治療
+62.住院病人若發燒高於38°C,小便困難,且以尿液試紙檢測下列何種項目結果為陽性時,可以判定
+為院內泌尿道感染?
+A.磷酸鹽
+B.碳酸鹽
+C.硫酸鹽
+D.硝酸鹽
+63.下列關於抗生素感受性試驗之敘述,何者錯誤?
+A.使用培養液稀釋法或瓊脂稀釋法皆可,視細菌生長特性而定
+B.判讀標準可劃分為感受(susceptible)、中間型(intermediate)或抵抗(resistant)三種
+C.MIC小於或等於區分點(breakpoint)濃度可歸為感受性(susceptible)
+D.同一種抗生素對不同微生物之區分點(breakpoint)濃度皆相同
+64.下列何種培養基最適合用於結核桿菌藥敏試驗?
+A.Mueller-Hinton
+B.Middlebrook 7H10
+C.Lowenstein-Jensen(LJ)
+D.Wilkins-Chalgren
+65.大腸桿菌血清型O157:H7屬於下列何種致病型?
+A.Enterotoxigenic E. coli(ETEC)
+B.Enteropathogenic E. coli(EPEC)
+C.Enteroinvasive E. coli(EIEC)
+D.Enterohemorrhagic E. coli(EHEC)
+66.猩紅熱(scarlet fever)之致病菌是:
+A.Escherichia coli
+B.Enterococcus faecalis
+C.Streptococcus pneumoniae
+D.Streptococcus pyogenes
+67.有關體腔與體液的名詞配對,下列何者錯誤?
+A.Thorax-Pleural fluidB.Abdominal cavity-Ascitic fluid
+C.Joint-Synovial fluid
+D.Pericardium-Empyema fluid
+68.有性生殖,通常幾個孢子(spore)包在一個子囊內,此種孢子稱為:
+A.Ascospore
+B.Blastospore
+C.Chlamydospore
+D.Conidiospore
+69.下圖為全身性黴菌感染症致病菌,在人體內會產生大(30~60 μm)而圓且厚壁的球形體
+(spherule),內有許多內芽孢(endospore),則此黴菌為:
+A.粗球孢子菌(Coccidioides immitis)
+B.巴西副球黴菌(Paracoccidioides brasiliensis)
+C.莢膜組織漿菌(Histoplasma capsulatum)
+D.皮炎芽生黴菌(Blastomyces dermatitidis)
+70.下列那些抗黴菌的機制是抑制麥角醇(ergosterol)合成?1Polyene
+2Azole
+3Allylamine
+4Flucytosine
+A.12
+B.23
+C.34
+D.13
+71.引起真菌腫(Eumycetoma)常見的致病菌為Pseudallescheria boydii(Teleomorph),其無性
+世代(Anamorph)的名稱為:
+A.Scedosporium apiospermum
+B.Sporothrix schenckii
+C.Cladophialophora carrionii
+D.Fonsecaea pedrosoi
+72.下列何種抗黴菌的機制是抑制DNA及RNA合成?
+A.Nystatin
+B.Amphotericin B
+C.Cycloheximide
+D.Flucytosine
+73.下列何種酵母菌(Yeast)芽管試驗(Germ tube test)會出現假芽管(pseudo-germ tubes)?
+A.Candida lipolytica
+B.Candida krusei
+C.Candida tropicalis
+D.Candida glabrata
+74.依規定進行黴菌培養及鑑定的工作,應在下列何種等級的生物安全櫃操作?
+A.Class I
+B.Class II
+C.Class III
+D.Class VI
+75.有關triple sugar iron agar(TSI)之品管試驗,下列何者為最佳標準菌測試組合?
+A.E. coli、Salmonella、Pseudomonas
+B.E. coli、Klebsiella、Shigella
+C.E. coli、Proteus mirabilis、Shigella
+D.Proteus mirabilis、Salmonella
+76.下列何種疾病之感染途徑,為經由tick叮咬所導致?
+A.登革熱(Dengue fever)
+B.鉤端螺旋體病(Leptospirosis)
+C.傷寒(Typhoid fever)
+D.萊姆氏病(Lyme disease)
+77.有關細菌及其可能菌落特徵之配對,下列何者錯誤?
+A.Serratia marcescens-粉紅色菌落
+B.Fusobacterium nucleatum-麵包屑狀菌落
+C.Staphylococcus aureus-金黃色菌落
+D.Chromobacterium spp.-荷包蛋狀菌落
+78.骨髓檢體的培養結果如下:BAP培養4天後生長,無溶血;革蘭氏陰性球桿菌;Oxidase陽性;
+Urease陽性;Motility陰性。應判讀為下列何種菌?
+A.Brucella spp.
+B.Legionella spp.
+C.Capnocytophaga spp.
+D.Bordetella bronchiseptica
+79.有關致病菌與疾病名稱之對應,下列何者錯誤?
+A.Treponema pallidum引起syphilis
+B.Borrelia burgdorferi引起Lyme disease
+C.Leptospira interrogans引起Weil syndrome
+D.Borrelia recurrentis引起yellow fever
+80.下列何者不是屬於性病傳染相關的病原?
+A.Chlamydophila pneumoniae
+B.Haemophilus ducreyi
+C.Neisseria gonorrhoeae
+D.Chlamydia trachomatis

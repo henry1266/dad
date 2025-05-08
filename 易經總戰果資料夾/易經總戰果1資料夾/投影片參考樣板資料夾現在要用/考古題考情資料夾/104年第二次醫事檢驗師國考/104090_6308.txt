@@ -1,0 +1,428 @@
+104年第二次專門職業及技術人員高等考試醫師牙醫師藥師考試分階段考試
+年第二次專門職業及技術人員高等考試醫師牙醫師藥師考試分階段考試、
+年第二次專門職業及技術人員高等考試醫師牙醫師藥師考試分階段考試、藥師、
+藥師、醫事檢驗
+師、醫事放射師、
+醫事放射師、助產師、物理治療師、
+物理治療師、職能治療師、
+職能治療師、呼吸治療師、
+呼吸治療師、獸醫師考試
+代
+號:6308
+類科名稱:醫事檢驗師
+科目名稱:臨床血清免疫學與臨床病毒學
+DAADCCCBBBBBBBBDDAABBCACDABDBDCABBBDBDCDAABCDADABAADCABCADABAAACABDCBDCABDCABBAB
+考試時間:1小時
+※注意:本試題禁止使用電子計算器
+座號:___________
+1.人類之B細胞無法合成免疫球蛋白的重鏈,最可能是因為下列那一對染色體發生基因缺陷?
+A.第二對
+B.第六對
+C.第七對
+D.第十四對
+2.下列何種訊息傳導分子不參與B細胞的活化?
+A.ZAP-70
+B.Syk
+C.Btk(Bruton's tyrosine kinase)
+D.PLCγ2(phospholipase C-γ2)
+3.在周邊血中的T細胞通常表現下列何種T細胞接受器?
+A.TCRαβ
+B.TCRαγ
+C.TCRβγ
+D.TCRγδ
+4.下列何種基因會因為受到訊息傳遞而發生基因重組(gene rearrangement)?
+A.MHC class I與MHC class II
+B.免疫球蛋白與MHC class I
+C.T細胞接受器(TCR)與MHC class I
+D.T細胞接受器(TCR)與免疫球蛋白
+5.下列何者不屬於Ig-superfamily CAMs(cell adhesion molecules)?
+A.ICAM-1
+B.VCAM-1
+C.GlyCAM-1
+D.MAdCAM-1
+6.下列那一種成分不能促進病原體被調理(opsonization)?
+A.mannose binding lectin
+B.C-reactive protein
+C.lysozyme
+D.complement
+7.mesangial cell是下列那一種組織內的巨噬細胞?
+A.腸道
+B.肺臟
+C.腎臟
+D.肝臟
+8.嗜中性白血球(neutrophil)可經由細胞表面何種Toll-like receptor與革蘭氏陰性細菌之脂多
+醣體(lipopolysaccharide)結合?
+A.TLR2
+B.TLR4
+C.TLR6
+D.TLR8
+9.下列那些抗體沒有hinge region?1IgG
+2IgD
+3IgE 4IgA
+5IgM
+A.24
+B.35
+C.13
+D.23
+10.下列敘述何者錯誤?
+A.次級免疫反應所產生之抗體與抗原結合的親和力,通常較初級免疫反應所產生的抗體強B.次級免疫反應之後才會產生記憶性細胞
+C.抗體V基因片段所產生的體基因超突變(somatic hypermutation)可增強次級免疫反應中
+抗體與抗原結合的親和力
+D.初級免疫反應所製造的抗體主要是IgM
+11.抗體與紅血球表面上的抗原結合會產生下列何種反應?
+A.沈澱反應(precipitation)
+B.凝集反應(agglutination)
+C.擴散反應(diffusion)
+D.細胞增生反應(cell proliferation)
+12.下列何種檢測技術不是應用抗原抗體反應的原理?
+A.西方墨點法(Western blot)
+B.聚合酶鏈鎖反應(polymerase chain reaction)
+C.ELISA
+D.莢膜腫脹試驗(Quellung test)
+13.下列何種技術常用於檢測試自然殺手細胞(natural killer cells)的活性?
+A.混合淋巴球反應(mixed lymphocyte reaction)
+B.細胞毒殺作用(cell-mediated cytotoxicity)
+C.補體媒介性毒殺作用(complement-mediated cytotoxicity)
+D.淋巴球轉形作用(lymphocyte transformation)
+14.下列何者是polybrene可改善紅血球凝集反應的主要原理?
+A.可加強抗體與抗原的親和力
+B.帶有正電荷,可改善紅血球之間的排拒現象(zeta potential)
+C.可作為抗體與抗原結合的橋接物(cross-linker)
+D.可降低抗體與抗原結合的空間障礙(steric hindrance)
+15.血清學檢驗結果發現HBsAg(+)、anti-HBc IgG(+)、anti-HBs(-)、anti-HBc IgM(-),請問
+病人是屬於B型肝炎感染的那一類型?
+A.自然感染有免疫力
+B.慢性感染
+C.接種過疫苗
+D.急性感染
+16.下列何種病毒最不會造成肝炎症狀?
+A.hepatitis B virus
+B.cytomegalovirus
+C.Epstein-Barr virus
+D.H1N1
+17.下列何種血清學檢驗最不常用於檢驗VZV(varicella-zoster virus)?
+A.indirect immunofluorescence assay
+B.direct immunofluorescence assay
+C.ELISA
+D.hemagglutination inhibition assay
+18.下列何種血清學試驗到目前還是檢測德國麻疹抗體的標準方法(reference method)?
+A.hemagglutination inhibition
+B.latex agglutination
+C.ELISA
+D.fluorescent immunoassay
+19.輸血後急性溶血反應(acute hemolytic transfusion reaction)主要是由於下列何種血型不符
+所造成的?
+A.ABO
+B.Rh
+C.Kell
+D.Duffy
+20.血清病(serum sickness)是因為下列何種原因而引起?
+A.靜脈注射外來的抗體和體內的抗原作用
+B.靜脈注射外來的抗原和體內的抗體作用
+C.皮下注射外來的抗體和體內的抗原作用
+D.皮下注射外來的抗原和體內的抗體作用
+21.下列那些細胞激素會促進嗜酸性白血球成熟和活化?1IL-2 2IL-5
+3IL-9
+4IL-13
+A.12
+B.23
+C.34
+D.14
+22.當發生全身性休克(systemic
+anaphylactic reaction)時,應立即使用下列何種藥物?
+A.cromolyn sodium
+B.cortisone
+C.epinephrine
+D.theophylline
+23.抗核抗體結果如下圖所示,報告應為下列何種型態?
+A.斑點型(speckled)
+B.核仁型(nucleolar)
+C.周邊型(peripheral)
+D.均勻型(homogeneous)
+24.下列何種自體抗體與惡性貧血(pernicious anemia)有較高的關聯性?
+A.anti-cardiolipin
+B.anti-myelin
+C.anti-intrinsic factor
+D.anti-neutrophil
+25.下列有關anti-centromere抗體的敘述,何者錯誤?
+A.又稱anti-kinetochore
+B.抗核抗體螢光染色型態為中心節型
+C.出現在大多數CREST syndrome病患
+D.出現在大多數狼瘡病患
+26.由藥物所誘發的狼瘡樣疾病,其抗核抗體是對抗下列何種抗原?
+A.histone
+B.DNA
+C.Sm
+D.RNP
+27.下列何者與僵直性脊椎炎關係最大?
+A.HLA-B8
+B.HLA-B27
+C.HLA-DR2
+D.HLA-DR3
+28.在器官移植免疫中,所謂xenograft是指:
+A.自己身上組織移植至自己身上其他部位
+B.同卵雙胞胎之器官做移植
+C.同種但不同MHC個體之器官移植
+D.將豬皮暫時移植到燒傷病人
+29.下列那一個藥物常用於混合淋巴球反應實驗中抑制responder cells的增生?
+A.lipopolysaccharide
+B.mitomycin C
+C.rapamycin
+D.dexamethasone
+30.下列何者不位於人類第6條染色體上?
+A.LMP7B.TAP1
+C.TNF-α
+D.IFN-γ
+31.白血球黏附缺陷(leukocyte adhesion deficiency)是因下列何類細胞黏附因子的common β
+chain缺失所致?
+A.VCAM-1
+B.ICAM-1
+C.LFA-1
+D.PECAM-1
+32.有關活性減毒疫苗(live attenuated vaccines)之敘述,下列何者正確?
+A.經施打後可在宿主體內長期生長,所以可以誘導長效期之免疫反應
+B.單次的疫苗接種只能誘導短效期之免疫反應
+C.活性減毒疫苗相當穩定,不會有機會在宿主體內反轉成為具有毒力之菌株
+D.經施打後不會引起任何之併發症
+33.有關沙克疫苗之敘述,下列何者正確?1為非活性(killed)疫苗 2為活性減毒(live
+attenuated)疫苗 3相對安全性較好 4只須施打一劑 5缺點為需透過注射投予
+A.123
+B.135
+C.345
+D.245
+34.下列有關類毒素疫苗之敘述,何者錯誤?
+A.利用甲醛破壞細菌性外毒素而形成類毒素疫苗
+B.目前已發展出白喉、破傷風疫苗及抗臘腸桿菌中毒之類毒素疫苗
+C.接種類毒素疫苗會誘發抗類毒素抗體
+D.屬於次單位疫苗
+35.下列何者不是目前已許可用於治療人類非何杰金氏淋巴癌(Non-Hodgkin's lymphoma)的單
+株抗體藥物?
+A.Rituximab(Rituxan)
+B.Alemtuzumab(Campath)
+C.Ibritumomab tiuxetan(Zevalin)
+D.Tositumomab(Bexxar)
+36.有關B細胞及T細胞辨識抗原的特性,下列敘述何者正確?
+A.均可辨識 protein及polysaccharide
+B.均需MHC分子呈獻抗原
+C.均可辨識可溶性抗原(soluble antigen)
+D.均由其細胞膜上特殊的接受器辨識抗原
+37.正常情況下,在下列何種細胞中會發生免疫球蛋白的基因重組(gene rearrangement)?
+A.T細胞
+B.B細胞
+C.巨噬細胞
+D.漿細胞
+38.下列有關抗體功能的敘述,何者錯誤?
+A.感染早期會製造IgM,所以IgM可為檢測感染狀態的指標分子
+B.IgG可穿透胎盤,所以IgG是胎兒血液中最主要的抗體
+C.IgG的重鏈可以和補體結合,所以IgG常與由免疫複合物引起之疾病有關
+D.IgA是呼吸道分泌黏液中主要的抗體,可穿透胎盤,所以IgA常與氣喘等呼吸道過敏疾病有
+關
+39.AIDS患者血中CD4/CD8比值小於0.5:1,主要是因為:
+A.CD8 T細胞絕對數目減少
+B.CD8 T細胞絕對數目增加
+C.CD4 T細胞絕對數目減少
+D.CD4 T細胞絕對數目增加
+40.下列何者不是T細胞可辨識的腫瘤抗原?
+A.由腫瘤特異性基因所編碼的抗原
+B.由多種正常基因突變所編碼的抗原
+C.在特殊的分化時期或分化株系才會表現的抗原D.正常細胞表現的抗原
+41.A型與B型流感病毒快速診斷試劑的實驗結果,若如下圖,其判讀為何?
+A.A型流感病毒陽性
+B.B型流感病毒陽性
+C.陰性
+D.重新檢測
+42.下列有關MRC-5細胞之敘述,何者正確?
+A.為胎兒肺臟細胞
+B.可無限次數培養
+C.為heteroploid細胞
+D.不適合用來培養巨細胞病毒(cytomegalovirus)
+43.抑制流感病毒藥物oseltamivir之作用機制,是抑制下列何種酵素的作用?
+A.病毒蛋白酶
+B.病毒神經胺酸酶(NA)
+C.病毒RNA聚合酶
+D.病毒M2蛋白
+44.下列何者是藉由破壞病毒結構來達到抗病毒的目的?
+A.acyclovir (ACV)
+B.干擾素(interferon)
+C.nonoxynol-9(detergent-like)
+D.AZT
+45.若有一個溶液中有兩種腸病毒存在,下列何種方法可以同時純化出此兩種病毒?
+A.細胞培養
+B.中和試驗(neutralization test)
+C.電子顯微鏡病毒顆粒計數
+D.病毒溶斑試驗 (plaque assay)
+46.有關以細胞培養進行病毒鑑定的相關敘述,下列何者正確?
+A.細胞被病毒感染後,不一定會出現明顯CPE
+B.培養一週後未出現CPE,即可斷定沒有病毒感染
+C.檢體培養出某病毒後,即可斷定病因為此病毒之感染造成
+D.檢體未培養出某病毒,即可判斷該病毒不是病因
+47.呼吸道融合病毒產生細胞融合之細胞病變與否與培養基中之下列何者有關?
+A.glycine
+B.iron
+C.magnesium
+D.glutamine 與 calcium
+48.HIV、HBV與HCV之主要傳染途徑為何?
+A.blood-borne
+B.respiratory route
+C.eye-nose-mouth route
+D.faeco-oral route
+49.下列何種病毒最不可能在咽喉拭子(throat swab)偵測到?
+A.echovirus
+B.dengue virus
+C.rubella virus
+D.herpes simplex virus
+50.下列何種分子診斷方法只需要單一反應溫度?
+A.nucleic acid sequence-based amplification
+B.FRET real-time PCR
+C.SYBR green real-time PCR
+D.RT-PCR
+51.有關細胞培養的敘述,下列何者錯誤?A.trypan blue常被用於細胞計數染色之用,藍色為活細胞
+B.dimethyl sulfoxide為細胞之冰凍保存劑
+C.要慢速冷凍,但快速解凍細胞
+D.黴漿菌(mycoplasma)常污染細胞培養,而不易察覺
+52.有關細胞培養使用的DMEM(Dulbecco's modified Eagle's medium)溶液,下列敘述何者錯
+誤?
+A.如添加酸鹼度指示劑,一般是用phenol red
+B.酸鹼度指示劑在酸性(pH<6.6)時呈黃色
+C.酸鹼度指示劑在中性(pH在6.6~8.0之間)時呈紅色
+D.DMEM溶液會變黃色,是因為病毒的核酸使溶液變黃色
+53.一醫院工作者被驗出hepatitis B surface antigen陽性及e抗原陽性,此醫院工作者最可能是:
+A.感染B型及D型肝炎病毒
+B.感染B型及C型肝炎病毒
+C.為急性B型肝炎病毒感染
+D.為慢性B型肝炎病毒感染
+54.下列何種DNA病毒與嬰幼兒腹瀉有關?
+A.adenovirus 40
+B.astrovirus
+C.calicivirus
+D.rotavirus
+55.目前臨床上檢測human papillomavirus型別的方法為:
+A.病毒培養
+B.核酸檢測
+C.抗體檢測
+D.病毒抗原檢測
+56.下列有關JC病毒及BK病毒感染的敘述,何者錯誤?
+A.可由尿液檢體檢測病毒核酸
+B.可經由血液循環造成全身性感染
+C.正常人感染後最常見的症狀是溶血性貧血
+D.最常潛伏在腎臟
+57.下列何種症狀或現象不是由B19病毒感染所引起?
+A.周邊血液中出現非典型T細胞
+B.多關節炎
+C.紅疹
+D.再生不良溶血性貧血
+58.C型肝炎病毒最常以類種(quasispecies)的方式存在病人身上,這是指該病毒具有下列何
+種特性?
+A.感染性高
+B.感染性低
+C.基因變異度低
+D.基因變異度高
+59.B型肝炎病毒感染造成肝臟細胞發炎受損的主要機制為下列何者?
+A.免疫清除
+B.直接由病毒引起的細胞凋亡
+C.直接由病毒引起的細胞病變效應
+D.直接由病毒複製所引起
+60.下列各項檢體檢查及病毒感染的配對,何者錯誤?
+A.尿液檢體/BK virus
+B.結膜拭子/human herpesvirus type 6
+C.喉頭拭子/adenovirus
+D.子宮頸抹片/human papillomavirus
+61.Human herpesvirus 7最常在下列何種細胞中偵測到?
+A.T cell
+B.B cell
+C.splenocyte
+D.fibroblast
+62.下列有關CMV的敘述,何者正確?
+A.於愛滋病患會造成特異性的CMV retinitis
+B.在器官移植的病人,CMV復發大多造成多重器官衰竭
+C.雞尾酒治療可降低因CMV感染所引發的immune reconstitution syndrome
+D.如果骨髓移植病人其CMV的IgG抗體為陽性,則發生CMV伺機性感染的機率就大幅下降
+63.下列何種病毒之伺機性感染可能引起AIDS病人的視網膜炎(retinitis)或肺炎?
+A.cytomegalovirus
+B.B19 virus
+C.RSV
+D.Epstein-Barr virus
+64.下列何種病毒感染目前已有疫苗可以預防?
+A.CMV
+B.B19 virus
+C.VZV
+D.EBV
+65.妊娠期間感染德國麻疹病毒(rubella virus)引起先天性畸形風險,下列何者最高?
+A.前3個月
+B.第4~6個月
+C.第7~9個月
+D.9個月之後
+66.下列何者屬於人類反轉錄病毒慢病毒亞科?
+A.human T-cell lymphotropic virus type 1
+B.human immunodeficiency virus type 1
+C.human foamy virus
+D.Jaagsiekte sheep retrovirus
+67.漢他病毒傳播循環的主要媒介為下列何者?
+A.蚊子
+B.蜱
+C.白蚊
+D.鼠
+68.有關Retroviridae之敘述,下列何者錯誤?
+A.病毒具有envelope
+B.不同亞科的病毒成員,均有gag、pol、env三類基因
+C.病毒帶有一條single-stranded, positive-sense RNA
+D.病毒顆粒內含有reverse transcriptase
+69.下列病毒中,何者不具套膜?
+A.Paramyxoviridae
+B.Caliciviridae
+C.Bunyaviridae
+D.Rhabdoviridae
+70.下列有關alphavirus之敘述,何者正確?
+A.屬於Reoviridae
+B.不會造成腦膜炎
+C.含有三個RNA片段基因
+D.chikungunya virus為其成員之一
+71.關於Orthomyxoviridae及Paramyxoviridae科病毒之比較,下列何者正確?
+A.皆有分段的病毒基因體
+B.皆在細胞質複製
+C.Paramyxoviridae科病毒較不易產生genetic reassortment的現象
+D.抗原突變的機率皆很高
+72.有關influenza 病毒快篩檢驗的敘述,下列何者錯誤?
+A.使用anti-HA 抗體
+B.為定點照護試驗(point-of-care test)
+C.可以肉眼判讀結果
+D.準確度約50%~70%左右
+73.流感病毒A及B之特性,下列何者相同?A.動物宿主
+B.zanamivir敏感性
+C.全球大流行頻率
+D.均對amantadine敏感
+74.下列何種病毒無血球凝集功能之結構蛋白?
+A.parainfluenza virus 1
+B.mumps virus
+C.measles virus
+D.respiratory syncytial virus
+75.以血球凝集抑制試驗來檢測麻疹病毒抗體時,所使用之紅血球來源為:
+A.天竺鼠
+B.牛
+C.猴子
+D.馬
+76.下列何種病毒不屬於Flaviviridae?
+A.EEE(Eastern equine encephalitis)virus
+B.dengue virus
+C.hepatitis C virus
+D.SLE(St. Louis encephalitis)virus
+77.下列何者是可引發腦炎的披蓋病毒科病毒(Togaviridae)?
+A.West Nile virus
+B.Eastern equine encephalitis virus
+C.Japanese encephalitis virus
+D.chikungunya virus
+78.下列何者不是蚊子媒介的節肢動物媒介病毒(arthropod-borne virus)?
+A.dengue virus
+B.Crimean-Congo haemorrhagic fever virus
+C.St. Louis encephalitis virus
+D.yellow fever virus
+79.下列何者不是常見的腸病毒(enteroviruses)所引發的相關臨床疾病?
+A.腸胃炎
+B.疹性咽峽炎
+C.結膜炎
+D.腦炎
+80.下列漢他病毒中,那一株主要引起漢他病毒肺症候群(pulmonary syndrome)?
+A.Hantaan
+B.Sin Nombre
+C.Dobrova
+D.Seoul
