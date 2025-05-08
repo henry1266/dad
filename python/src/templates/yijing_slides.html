@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} - 易經互動網頁</title>
-    <link rel="stylesheet" href="{{ url_for(\'static\', filename=\'style.css\') }}">
-    <style>
+    <title>{{ title }} - 易經互動網頁</titl    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">    <style>
         .slide {
             border: 1px solid #ccc;
             padding: 15px;
@@ -29,9 +27,7 @@
 <body>
     <header>
         <h1>{{ title }}</h1>
-        <nav>
-            <a href="{{ url_for(\'index\') }}">返回首頁</a>
-        </nav>
+        <n            <a href="{{ url_for('index') }}">返回首頁</a>       </nav>
     </header>
     <main>
         {% if error_message %}
