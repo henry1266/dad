@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ title }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }
+        .container { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1, h2, h3 { color: #333; }
+        .button {
+            background-color: #007bff; color: white; padding: 10px 15px;
+            border: none; border-radius: 4px; cursor: pointer; text-decoration: none;
+            display: inline-block; margin-top: 10px; margin-right: 10px;
+        }
+        .button:hover { background-color: #0056b3; }
+        .button-disabled { background-color: #cccccc; color: #666666; cursor: not-allowed; }
+        .messages { list-style-type: none; padding: 0; margin-top: 20px; }
+        .messages li { padding: 10px; margin-bottom: 10px; border-radius: 4px; }
+        .messages .success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .messages .error { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .messages .warning { background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; }
+        .messages .info { background-color: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; }
+        .section { margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; }
+        .file-list { list-style-type: none; padding: 0; }
+        .file-list li { margin-bottom: 5px; }
+        .file-list a { text-decoration: none; color: #007bff; }
+        .file-list a:hover { text-decoration: underline; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; margin-bottom: 5px; font-weight: bold; }
+        .form-group input[type="number"], .form-group input[type="text"], .form-group textarea {
+            width: 95%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-group textarea { min-height: 100px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{ title }}</h1>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <ul class="messages">
+                {% for category, message in messages %}
+                    <li class="{{ category }}">{{ message }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+
+        <div class="section">
+            <h2>資料初始化</h2>
+            <form action="{{ url_for(\'initialize_data\') }}" method="post">
+                {% if not initialized %}
+                    <button type="submit" class="button">執行資料初始化</button>
+                    <p><small>這將會複製必要的資料檔案到工作目錄，並建立所需的資料夾結構。同時會還原永久設定中的樣板與垃圾詞彙列表。</small></p>
+                {% else %}
+                    <p>資料已初始化。</p>
+                    <button type="submit" class="button">重新初始化資料</button>
+                     <p><small>注意：這將會覆蓋現有的工作目錄資料，但會從永久設定中還原樣板與垃圾詞彙列表。</small></p>
+                {% endif %}
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>垃圾詞彙設定</h2>
+            <form action="{{ url_for(\'save_garbage_lists\') }}" method="post">
+                <div class="form-group">
+                    <label for="garbage_text_content">掃垃圾文字 (每行一個詞彙):</label>
+                    <textarea id="garbage_text_content" name="garbage_text_content" rows="5">{{ garbage_text_content }}</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="garbage_text_again_content">掃垃圾文字再一次 (每行一個詞彙):</label>
+                    <textarea id="garbage_text_again_content" name="garbage_text_again_content" rows="5">{{ garbage_text_again_content }}</textarea>
+                </div>
+                <button type="submit" class="button">儲存垃圾詞彙列表</button>
+                <p><small>儲存後，列表將被永久保存並在下次初始化時自動載入。維基資料下載功能將使用此處設定的列表。</small></p>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>主要功能</h2>
+            <p><em>請先執行資料初始化。部分功能依賴前序步驟完成。</em></p>
+            
+            <div class="form-group">
+                <h3>1. 下載維基百科資料</h3>
+                <form action="{{ url_for(\'download_wiki_data\') }}" method="post">
+                    <label for="start_line_wiki">自選標題起始列號：</label>
+                    <input type="number" id="start_line_wiki" name="start_line_wiki" value="1" min="1">
+                    <br>
+                    <label for="end_line_wiki">自選標題結束列號：</label>
+                    <input type="number" id="end_line_wiki" name="end_line_wiki" value="1" min="1">
+                    <br>
+                    <button type="submit" class="button" {{ \'disabled\' if not initialized else \'\' }}>下載維基資料</button>
+                </form>
+            </div>
+
+            <div class="form-group">
+                <h3>2. 編輯易經古文</h3>
+                <form action="{{ url_for(\'process_yijing_ancient_text\') }}" method="post">
+                    <button type="submit" class="button" {{ \'disabled\' if not initialized else \'\' }}>處理易經古文</button>
+                </form>
+            </div>
+
+            <div class="form-group">
+                <h3>3. 產生HTML檔案</h3>
+                <form action="{{ url_for(\'generate_html_files\') }}" method="post">
+                    <button type="submit" class="button" {{ \'disabled\' if not yijing_processed else \'\' }}>產生易經HTML檔案</button>
+                </form>
+            </div>
+
+            <div class="form-group">
+                <h3>4. 產生投影片</h3>
+                <form action="{{ url_for(\'generate_yijing_analysis_slides\') }}" method="post">
+                    <button type="submit" class="button" {{ \'disabled\' if not yijing_processed else \'\' }}>產生易經古文解析投影片</button>
+                </form>
+                <br>
+                <form action="{{ url_for(\'generate_mom_yijing_slides\') }}" method="post">
+                    <button type="submit" class="button" {{ \'disabled\' if not yijing_processed else \'\' }}>產生媽傳記與易經整合投影片</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>進度與結果</h2>
+            <div id="progress-area">
+                <!-- Messages flashed by Flask will appear at the top -->
+            </div>
+            <h3>結果檔案 (位於工作目錄的各「戰果資料夾」內)</h3>
+            <p><em>您可以在執行完相應操作後，透過檔案總管或終端機查看位於 <code>/home/ubuntu/d012_web_app/work_dir/</code> 下的各個「戰果資料夾」以獲取產生的檔案。</em></p>
+            <!-- Dynamically listing files here would be complex without further backend changes or JS -->
+        </div>
+
+    </div>
+</body>
+</html>
+
