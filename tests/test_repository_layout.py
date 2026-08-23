@@ -112,3 +112,16 @@ def test_main_has_no_hardcoded_secret_or_always_on_debugger():
     assert "initialize_all_data" not in content
     assert "process_interaction" not in content
     assert "DAD_AUTO_INITIALIZE" in content
+
+
+def test_docs_describe_reading_home_workspace_and_slide_controls():
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    assert "http://127.0.0.1:5003/" in readme
+    assert "/workspace" in readme
+    assert "標題搜尋" in readme
+    assert "投影片控制" in readme
+
+
+def test_visual_companion_artifacts_are_ignored():
+    ignore = (ROOT / ".gitignore").read_text(encoding="utf-8").splitlines()
+    assert ".superpowers/" in ignore

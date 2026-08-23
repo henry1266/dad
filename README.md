@@ -22,7 +22,7 @@ export DAD_SECRET_KEY="$(python -c 'import secrets; print(secrets.token_hex(32))
 python -m src.main
 ```
 
-預設只監聽 `127.0.0.1:5003`。瀏覽器開啟本機的 5003 埠即可使用。
+預設只監聽 `127.0.0.1:5003`。
 
 Windows PowerShell 啟用環境時，將 `source .venv/bin/activate` 改為：
 
@@ -32,6 +32,18 @@ $env:PYTHONPATH = "python"
 $env:DAD_SECRET_KEY = python -c "import secrets; print(secrets.token_hex(32))"
 python -m src.main
 ```
+
+## 閱讀首頁
+
+瀏覽器開啟 `http://127.0.0.1:5003/` 進入閱讀首頁。頁面以「標題搜尋」即時篩選六十四卦、投影片與風水個案，也可用「全部」、「六十四卦」、「投影片」及「風水個案」類型按鈕切換館藏。風水個案若缺少內容檔，會保留在目錄中並顯示「缺少內容檔」狀態，不提供無效連結。
+
+## 處理工作區
+
+需要產生或整理資料時，前往 `http://127.0.0.1:5003/workspace`。工作區將操作安全地分組，只有明確勾選的操作才可送出；自訂範圍也只會在選取對應操作後啟用。原本一次執行所有操作的捷徑已移除，避免意外改寫資料。
+
+## 投影片控制
+
+每份投影片上方都有「投影片控制」工具列，可使用上一張、下一張與操作說明按鈕。鍵盤可用方向鍵、空白鍵、Page Up / Page Down 或 Tab 移動，Esc 可關閉操作說明；進度計數會隨目前頁次更新，並可隨時選擇「返回首頁」。
 
 ## 重要環境變數
 
