@@ -1,10 +1,23 @@
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "python" / "src"
 TEMPLATES = SRC / "templates"
+
+
+def test_catalog_grid_keeps_two_columns_at_narrow_viewports():
+    stylesheet = (SRC / "static" / "style.css").read_text(encoding="utf-8")
+    column_rules = re.findall(
+        r"\.catalog-grid(?:\s*,\s*\.catalog-grid--slides)?\s*\{[^}]*"
+        r"grid-template-columns:\s*([^;]+);",
+        stylesheet,
+        flags=re.DOTALL,
+    )
+
+    assert column_rules[-1].strip() == "repeat(2, minmax(0, 1fr))"
 
 
 def test_every_rendered_template_exists():

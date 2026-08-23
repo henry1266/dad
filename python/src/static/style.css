@@ -250,7 +250,6 @@ main {
 }
 
 @media (max-width: 26rem) {
-  .catalog-grid, .catalog-grid--slides { grid-template-columns: 1fr; }
   .section-heading, .catalog-list .catalog-card__link, .catalog-list .catalog-card__unavailable { align-items: flex-start; flex-direction: column; }
   .catalog-filters button { flex: 1 1 calc(50% - .6rem); }
   .button-link { width: 100%; text-align: center; }
