@@ -48,6 +48,26 @@ def test_slide_base_has_accessible_controls_and_external_assets():
     assert "impress().init()" not in content
 
 
+def test_slide_controls_restore_pointer_events_outside_impress():
+    stylesheet = (SRC / "static" / "slides-controls.css").read_text(encoding="utf-8")
+
+    assert ".impress-enabled .slide-toolbar" in stylesheet
+    assert ".impress-enabled .slide-help" in stylesheet
+    assert "pointer-events: auto" in stylesheet
+    assert re.search(
+        r"\[data-slide-help\]\[hidden\]\s*\{[^}]*display:\s*none",
+        stylesheet,
+        flags=re.DOTALL,
+    )
+
+
+def test_slide_help_lists_only_implemented_navigation_shortcuts():
+    content = (TEMPLATES / "impress_slides_base.html").read_text(encoding="utf-8")
+
+    assert "方向鍵、空白鍵、Page Up / Page Down 或 Tab" in content
+    assert "按 Esc 查看全覽" not in content
+
+
 def test_reading_templates_use_shared_base_without_inline_styles():
     for template_name in {"gua_page.html", "fengshui_case_page.html"}:
         content = (TEMPLATES / template_name).read_text(encoding="utf-8")

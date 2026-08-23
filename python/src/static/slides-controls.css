@@ -15,6 +15,15 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.impress-enabled .slide-toolbar,
+.impress-enabled .slide-help {
+    pointer-events: auto;
+}
+
+[data-slide-help][hidden] {
+    display: none;
+}
+
 .slide-toolbar button,
 .slide-toolbar__home {
     box-sizing: border-box;
