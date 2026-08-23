@@ -74,16 +74,16 @@ def prepare_environment(reset: bool = False) -> None:
 
     for src_dirname, dest_path in dirs_to_copy.items():
         src_path = os.path.join(BASH_SOURCE_DIR, src_dirname)
-        if reset and os.path.exists(dest_path):
-            shutil.rmtree(dest_path)
         if os.path.isdir(src_path):
+            if reset and os.path.exists(dest_path):
+                shutil.rmtree(dest_path)
             if reset:
                 shutil.copytree(src_path, dest_path)
             else:
                 _copy_missing_tree(src_path, dest_path)
             print(f"Synced {src_path} to {dest_path}")
         else:
-            print(f"Warning: Source directory {src_path} not found.")
+            print(f"Warning: Source directory {src_path} not found; destination was left unchanged.")
             os.makedirs(dest_path, exist_ok=True)
 
     m_txt_src = os.path.join(BASH_SOURCE_DIR, "m.txt")

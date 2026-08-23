@@ -5,7 +5,6 @@ from __future__ import annotations
 import hmac
 import os
 import secrets
-import traceback
 from typing import Any
 
 from flask import (

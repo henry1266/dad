@@ -77,6 +77,19 @@ def test_prepare_environment_reset_replaces_managed_directories(monkeypatch, tmp
     assert (dest_basic / "same.txt").read_text(encoding="utf-8") == "source"
     assert not (dest_basic / "only-local.txt").exists()
 
+
+def test_prepare_environment_reset_preserves_destination_when_source_is_missing(monkeypatch, tmp_path):
+    source, data = _configure_paths(monkeypatch, tmp_path)
+    dest_basic = data / "基本資料資料夾"
+    dest_basic.mkdir()
+    important = dest_basic / "important.txt"
+    important.write_text("keep", encoding="utf-8")
+
+    dp.prepare_environment(reset=True)
+
+    assert important.read_text(encoding="utf-8") == "keep"
+
+
 def test_append_ancient_texts_replaces_generated_section(monkeypatch, tmp_path):
     ancient = tmp_path / "ancient"
     ancient.mkdir()
