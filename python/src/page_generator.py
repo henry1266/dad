@@ -78,6 +78,7 @@ def gua_page(gua_number: int):
         gua_data=_load_gua_data(gua_number, entry.title),
         previous_entry=previous_entry,
         next_entry=next_entry,
+        catalog_size=catalog.total_count("gua"),
         site_title="易經研讀室",
     )
 

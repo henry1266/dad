@@ -1,31 +1,15 @@
-<!DOCTYPE html>
-<html lang="zh-Hant">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ case_data.title if case_data else '風水個案分析' }} - {{ site_title }}</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; color: #333; }
-        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,.1); }
-        h1 { text-align: center; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        .content { line-height: 1.8; font-size: 1.1em; white-space: pre-wrap; overflow-wrap: anywhere; }
-        .error { color: #8b0000; padding: 20px; border: 1px solid #8b0000; background: #ffecec; border-radius: 5px; }
-        .home-link { text-align: center; margin-top: 30px; }
-        .home-link a { color: #075ea8; font-weight: bold; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        {% if error_message %}
-            <p class="error">{{ error_message }}</p>
-        {% else %}
-            <h1>風水個案分析：{{ case_data.title }}</h1>
-            <section>
-                <h2>個案內容</h2>
-                <div class="content">{{ case_data.content }}</div>
-            </section>
-        {% endif %}
-        <div class="home-link"><a href="{{ url_for('index') }}">返回主頁</a></div>
-    </div>
-</body>
-</html>
+{% extends "base.html" %}
+{% block title %}{{ case_data.title }}｜易經研讀室{% endblock %}
+{% block content %}
+<article class="reading-page">
+  <nav class="breadcrumbs" aria-label="麵包屑"><a href="{{ url_for('index') }}">典藏首頁</a> / 風水個案 / {{ case_data.title }}</nav>
+  <header class="reading-header">
+    <p class="eyebrow">風水個案</p>
+    <h1>{{ case_data.title }}</h1>
+  </header>
+  <section id="case-content">
+    <h2>個案內容</h2>
+    <div class="prose">{{ case_data.content }}</div>
+  </section>
+</article>
+{% endblock %}

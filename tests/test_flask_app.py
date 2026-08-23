@@ -70,6 +70,29 @@ def test_file_content_is_html_escaped(app_factory):
     assert "&lt;script&gt;alert(2)&lt;/script&gt;" in case_response.get_data(as_text=True)
 
 
+def test_gua_page_has_sections_and_next_navigation(app_factory):
+    app, data = app_factory()
+    _seed_two_guas(data)
+    html = app.test_client().get("/gua/1").get_data(as_text=True)
+
+    assert 'id="ancient-text"' in html
+    assert 'id="wiki-reference"' in html
+    assert 'id="external-links"' in html
+    assert 'href="/gua/2"' in html
+    assert "下一卦：坤" in html
+    assert "1 / 2" in html
+
+
+def test_missing_content_uses_friendly_404_template(app_factory):
+    app, _ = app_factory()
+    response = app.test_client().get("/fengshui/case/不存在")
+
+    assert response.status_code == 404
+    html = response.get_data(as_text=True)
+    assert "找不到內容" in html
+    assert 'href="/"' in html
+
+
 def test_tuanxiang_route_has_a_real_template(app_factory):
     app, _ = app_factory()
     response = app.test_client().get("/slides/lecture_tuanxiang")

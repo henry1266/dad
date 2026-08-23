@@ -22,6 +22,8 @@ def test_catalog_grid_keeps_two_columns_at_narrow_viewports():
 
 def test_every_rendered_template_exists():
     required = {
+        "base.html",
+        "error.html",
         "index.html",
         "gua_page.html",
         "fengshui_case_page.html",
@@ -31,6 +33,14 @@ def test_every_rendered_template_exists():
         "slides_yijing_tuanxiang.html",
     }
     assert required <= {path.name for path in TEMPLATES.glob("*.html")}
+
+
+def test_reading_templates_use_shared_base_without_inline_styles():
+    for template_name in {"gua_page.html", "fengshui_case_page.html"}:
+        content = (TEMPLATES / template_name).read_text(encoding="utf-8")
+
+        assert '{% extends "base.html" %}' in content
+        assert "<style>" not in content
 
 
 def test_templates_do_not_disable_autoescaping_for_file_content():

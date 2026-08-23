@@ -241,12 +241,34 @@ main {
   font-size: .85rem;
 }
 
+.reading-page { max-width: 52rem; padding: clamp(2.25rem, 5vw, 4rem) 0; }
+.breadcrumbs, .section-nav { color: var(--muted); font-size: .9rem; }
+.breadcrumbs a, .section-nav a, .reading-pager a { text-underline-offset: .25em; }
+.reading-header { padding: 1.15rem 0 2rem; border-bottom: 1px solid var(--border); }
+.reading-header h1, .error-page h1 { margin: 0; color: var(--ink-green); font-family: Georgia, "Noto Serif TC", serif; font-size: clamp(2.4rem, 6vw, 4.25rem); }
+.section-nav { display: flex; flex-wrap: wrap; gap: .5rem 1rem; padding: 1rem 0; border-bottom: 1px solid var(--border); }
+.reading-page section { padding: 2.25rem 0; border-bottom: 1px solid var(--border); }
+.reading-page section h2 { margin-top: 0; color: var(--ink-green); font-family: Georgia, "Noto Serif TC", serif; }
+.prose { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.9; }
+.external-links { margin: 0; padding-left: 1.25rem; }
+.external-links li + li { margin-top: .6rem; }
+.reading-pager { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; align-items: center; padding-top: 1.5rem; }
+.reading-pager > :first-child { text-align: left; }
+.reading-pager > :nth-child(2) { text-align: center; }
+.reading-pager > :last-child { text-align: right; }
+.error-page { max-width: 42rem; min-height: 50vh; padding: clamp(3rem, 10vw, 7rem) 0; }
+.error-code { margin: 0 0 .35rem; color: var(--danger); font-size: clamp(3rem, 12vw, 7rem); font-weight: 800; line-height: 1; }
+.error-page > p:not(.error-code) { max-width: 34rem; color: var(--muted); font-size: 1.08rem; }
+.error-page .button-link { display: inline-block; margin-top: 1rem; }
+
 @media (max-width: 48rem) {
   .site-header, .hero-grid { grid-template-columns: 1fr; }
   .site-header nav { justify-content: flex-start; }
   .catalog-grid, .catalog-grid--slides { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .statistics { grid-template-columns: 1fr; }
   .workspace-callout { align-items: flex-start; flex-direction: column; }
+  .reading-pager { grid-template-columns: 1fr; }
+  .reading-pager > :first-child, .reading-pager > :nth-child(2), .reading-pager > :last-child { text-align: left; }
 }
 
 @media (max-width: 26rem) {

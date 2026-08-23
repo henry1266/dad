@@ -141,6 +141,18 @@ def create_app(test_config: dict[str, Any] | None = None) -> Flask:
     app.register_blueprint(fengshui_bp, url_prefix="/fengshui")
     app.jinja_env.globals["csrf_token"] = _csrf_token
 
+    @app.errorhandler(404)
+    def not_found(_error):
+        return (
+            render_template(
+                "error.html",
+                error_code=404,
+                error_title="找不到內容",
+                error_message="這筆內容不存在、尚未準備完成，或已不在目錄中。",
+            ),
+            404,
+        )
+
     @app.before_request
     def protect_state_changing_requests() -> None:
         if request.method not in {"POST", "PUT", "PATCH", "DELETE"}:
