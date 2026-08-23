@@ -4,6 +4,15 @@ import pytest
 
 pytest.importorskip("flask")
 
+
+def _csrf_from(html: bytes) -> str:
+    import re
+
+    match = re.search(rb'name="_csrf_token" value="([^"]+)"', html)
+    assert match is not None
+    return match.group(1).decode("utf-8")
+
+
 def test_index_renders_shared_navigation(app_factory):
     app, _ = app_factory()
     client = app.test_client()
@@ -17,10 +26,11 @@ def test_index_renders_shared_navigation(app_factory):
     assert 'nav aria-label="主要導覽"' in html
 
 
-def test_post_without_csrf_token_is_rejected(app_factory):
+def test_workspace_requires_csrf_and_old_route_is_removed(app_factory):
     app, _ = app_factory()
-    response = app.test_client().post("/process_interaction", data={})
-    assert response.status_code == 400
+    client = app.test_client()
+    assert client.post("/workspace/process", data={}).status_code == 400
+    assert client.post("/process_interaction", data={}).status_code == 404
 
 
 def test_safe_defaults_do_not_initialize_or_enable_debug(app_factory):
@@ -30,23 +40,84 @@ def test_safe_defaults_do_not_initialize_or_enable_debug(app_factory):
     assert app.config["SESSION_COOKIE_HTTPONLY"] is True
     assert app.config["SESSION_COOKIE_SAMESITE"] == "Lax"
 
-def test_valid_processing_submission_redirects_to_catalog(app_factory):
+def test_workspace_empty_submission_redirects_to_structured_warning(app_factory):
     app, _ = app_factory()
     client = app.test_client()
-    with client.session_transaction() as session_state:
-        session_state["_csrf_token"] = "test-token"
-
+    token = _csrf_from(client.get("/workspace").data)
     response = client.post(
-        "/process_interaction",
-        data={
-            "_csrf_token": "test-token",
-            "custom_topic_start": "1",
-            "custom_topic_end": "1",
-        },
+        "/workspace/process",
+        data={"_csrf_token": token, "custom_topic_start": "1", "custom_topic_end": "1"},
+        follow_redirects=False,
     )
 
     assert response.status_code == 302
-    assert response.headers["Location"] == "/"
+    assert response.headers["Location"].endswith("/workspace")
+    html = client.get("/workspace").get_data(as_text=True)
+    assert "未選擇任何操作" in html
+    assert 'data-result-status="warning"' in html
+
+
+def test_workspace_selected_operation_uses_prg_and_renders_success(
+    app_factory, monkeypatch
+):
+    app, _ = app_factory()
+    import src.main as main
+
+    selections = []
+
+    def fake_run(selection):
+        selections.append(selection)
+        return (
+            main.ProcessingStepResult(
+                "環境準備", "success", "環境準備完成，既有檔案已保留。"
+            ),
+        )
+
+    monkeypatch.setattr(main, "run_processing", fake_run)
+    client = app.test_client()
+    token = _csrf_from(client.get("/workspace").data)
+    response = client.post(
+        "/workspace/process",
+        data={
+            "_csrf_token": token,
+            "run_prepare_environment": "true",
+            "custom_topic_start": "1",
+            "custom_topic_end": "1",
+        },
+        follow_redirects=True,
+    )
+
+    assert response.status_code == 200
+    assert selections[0].run_prepare_env is True
+    html = response.get_data(as_text=True)
+    assert "環境準備完成" in html
+    assert 'data-result-status="success"' in html
+
+
+def test_workspace_invalid_range_is_reported_without_running(app_factory, monkeypatch):
+    app, _ = app_factory()
+    import src.main as main
+
+    def fail_if_called(_selection):
+        raise AssertionError("run_processing must not be called for an invalid range")
+
+    monkeypatch.setattr(main, "run_processing", fail_if_called)
+    client = app.test_client()
+    token = _csrf_from(client.get("/workspace").data)
+    response = client.post(
+        "/workspace/process",
+        data={
+            "_csrf_token": token,
+            "run_process_custom_wiki": "true",
+            "custom_topic_start": "10",
+            "custom_topic_end": "1",
+        },
+        follow_redirects=True,
+    )
+
+    assert response.status_code == 200
+    assert "輸入資料有誤" in response.get_data(as_text=True)
+    assert 'data-result-status="error"' in response.get_data(as_text=True)
 
 
 def test_file_content_is_html_escaped(app_factory):

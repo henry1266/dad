@@ -4,6 +4,47 @@
 <section class="page-intro workspace-intro">
   <p class="eyebrow">資料維護</p>
   <h1>資料工作台</h1>
-  <p>集中管理本機資料與維基資料處理作業。</p>
+  <p>只執行明確勾選的操作；網路操作可能需要較長時間。</p>
 </section>
+
+{% if processing_results %}
+<section class="processing-report" aria-labelledby="processing-report-title">
+  <h2 id="processing-report-title">本次處理結果</h2>
+  <ul>
+    {% for result in processing_results %}
+    <li class="processing-result processing-result--{{ result.status }}"
+        data-result-status="{{ result.status }}">
+      <strong>{{ result.name }}</strong>
+      <span>{{ result.message }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<form class="workspace-form" method="post" action="{{ url_for('process_workspace') }}" data-workspace-form>
+  <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+  <div class="workspace-layout">
+    <fieldset class="operation-group">
+      <legend>本機資料處理</legend>
+      <label><input type="checkbox" name="run_prepare_environment" value="true" data-operation> 補齊缺少資料 <span class="impact-badge">保留既有檔</span></label>
+      <label><input type="checkbox" name="run_format_basic_data" value="true" data-operation> 格式化基本資料 <span class="impact-badge">寫入</span></label>
+      <label><input type="checkbox" name="run_process_yijing_raw" value="true" data-operation> 處理易經原文 <span class="impact-badge">寫入</span></label>
+      <label><input type="checkbox" name="run_generate_yijing_meta" value="true" data-operation> 產生易經元數據 <span class="impact-badge">寫入</span></label>
+      <label><input type="checkbox" name="run_append_ancient_texts" value="true" data-operation> 寫入古文彙編 <span class="impact-badge">寫入</span></label>
+    </fieldset>
+    <fieldset class="operation-group">
+      <legend>網路資料處理</legend>
+      <label><input type="checkbox" name="run_process_custom_wiki" value="true" data-operation data-custom-wiki> 自選主題維基 <span class="impact-badge">需要網路／大量請求</span></label>
+      <fieldset class="range-fields" data-custom-range>
+        <legend>自選主題範圍</legend>
+        <label>起始行 <input type="number" name="custom_topic_start" value="1" min="1" max="10000"></label>
+        <label>結束行 <input type="number" name="custom_topic_end" value="1" min="1" max="10000"></label>
+      </fieldset>
+      <label><input type="checkbox" name="run_process_guas_wiki" value="true" data-operation> 六十四卦維基 <span class="impact-badge">需要網路／大量請求</span></label>
+    </fieldset>
+  </div>
+  <button class="primary-action" type="submit" data-workspace-submit>執行選取操作</button>
+</form>
 {% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='workspace.js') }}" defer></script>{% endblock %}

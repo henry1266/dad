@@ -22,6 +22,7 @@ def app_factory(monkeypatch, tmp_path):
         import src.content_catalog as content_catalog
         import src.data_processor as data_processor
         import src.wiki_handler as wiki_handler
+        import src.processing as processing
         import src.slide_generator as slide_generator
         import src.page_generator as page_generator
         import src.main as main
@@ -30,6 +31,7 @@ def app_factory(monkeypatch, tmp_path):
             content_catalog,
             data_processor,
             wiki_handler,
+            processing,
             slide_generator,
             page_generator,
             main,

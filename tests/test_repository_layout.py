@@ -31,6 +31,7 @@ def test_every_rendered_template_exists():
         "slides_yijing_lecture.html",
         "slides_yijing_guaci_moms_records.html",
         "slides_yijing_tuanxiang.html",
+        "workspace.html",
     }
     assert required <= {path.name for path in TEMPLATES.glob("*.html")}
 
@@ -58,6 +59,16 @@ def test_index_uses_catalog_assets_and_has_no_processing_form():
     assert "filename='catalog.js'" in content
     assert "process_interaction" not in content
     assert 'name="_csrf_token"' not in content
+    assert "<form" not in content
+    assert "action=" not in content
+
+
+def test_workspace_uses_dedicated_assets_without_generate_all_shortcut():
+    content = (TEMPLATES / "workspace.html").read_text(encoding="utf-8")
+
+    assert (SRC / "static" / "workspace.js").is_file()
+    assert "filename='workspace.js'" in content
+    assert "generate_all_outputs" not in content
 
 
 def test_main_has_no_hardcoded_secret_or_always_on_debugger():
@@ -65,5 +76,6 @@ def test_main_has_no_hardcoded_secret_or_always_on_debugger():
     assert "your_very_secret_key" not in content
     assert "debug=True" not in content
     assert "build_content_catalog" in content
-    assert "get_flashed_messages" not in content
+    assert "initialize_all_data" not in content
+    assert "process_interaction" not in content
     assert "DAD_AUTO_INITIALIZE" in content
