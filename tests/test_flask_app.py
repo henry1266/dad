@@ -120,6 +120,78 @@ def test_workspace_invalid_range_is_reported_without_running(app_factory, monkey
     assert 'data-result-status="error"' in response.get_data(as_text=True)
 
 
+@pytest.mark.parametrize(
+    ("start", "end"),
+    [(1, 1), (10_000, 10_000), (1, 50), (9_951, 10_000)],
+)
+def test_workspace_accepts_range_limits_and_inclusive_span_of_50(
+    app_factory, monkeypatch, start, end
+):
+    app, _ = app_factory()
+    import src.main as main
+
+    selections = []
+
+    def fake_run(selection):
+        selections.append(selection)
+        return (main.ProcessingStepResult("範圍", "success", "範圍有效。"),)
+
+    monkeypatch.setattr(main, "run_processing", fake_run)
+    client = app.test_client()
+    token = _csrf_from(client.get("/workspace").data)
+    response = client.post(
+        "/workspace/process",
+        data={
+            "_csrf_token": token,
+            "run_process_custom_wiki": "true",
+            "custom_topic_start": str(start),
+            "custom_topic_end": str(end),
+        },
+        follow_redirects=False,
+    )
+
+    assert response.status_code == 302
+    assert response.headers["Location"].endswith("/workspace")
+    assert len(selections) == 1
+    assert (
+        selections[0].custom_topic_start,
+        selections[0].custom_topic_end,
+    ) == (start, end)
+
+
+@pytest.mark.parametrize(
+    ("start", "end"),
+    [(0, 1), (1, 10_001), (1, 51)],
+)
+def test_workspace_rejects_range_outside_limits_or_over_inclusive_span_50(
+    app_factory, monkeypatch, start, end
+):
+    app, _ = app_factory()
+    import src.main as main
+
+    def fail_if_called(_selection):
+        raise AssertionError("run_processing must not be called for an invalid range")
+
+    monkeypatch.setattr(main, "run_processing", fail_if_called)
+    client = app.test_client()
+    token = _csrf_from(client.get("/workspace").data)
+    response = client.post(
+        "/workspace/process",
+        data={
+            "_csrf_token": token,
+            "run_process_custom_wiki": "true",
+            "custom_topic_start": str(start),
+            "custom_topic_end": str(end),
+        },
+        follow_redirects=True,
+    )
+
+    assert response.status_code == 200
+    html = response.get_data(as_text=True)
+    assert "輸入資料有誤" in html
+    assert 'data-result-status="error"' in html
+
+
 def test_file_content_is_html_escaped(app_factory):
     app, data = app_factory()
     ancient = data / "易經古原文暫存戰果資料夾"

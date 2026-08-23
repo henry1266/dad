@@ -68,6 +68,7 @@ def test_workspace_uses_dedicated_assets_without_generate_all_shortcut():
 
     assert (SRC / "static" / "workspace.js").is_file()
     assert "filename='workspace.js'" in content
+    assert content.count("data-operation") == 7
     assert "generate_all_outputs" not in content
 
 
