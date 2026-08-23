@@ -10,7 +10,7 @@ from urllib.parse import quote, quote_plus
 from flask import Blueprint, render_template
 
 from .app_support import resolve_existing_child
-from .config import FENGSHUI_CASES_PATH, YIJING_ANCIENT_TEXT_PATH, YIJING_WIKI_GUA_CLEANED_PATH
+from .config import YIJING_ANCIENT_TEXT_PATH, YIJING_INPUT_PATH, YIJING_WIKI_GUA_CLEANED_PATH
 from .wiki_handler import safe_filename
 
 
@@ -95,7 +95,7 @@ def fengshui_case_page(case_filename: str):
     case_data: dict[str, str] = {}
     try:
         case_file = resolve_existing_child(
-            FENGSHUI_CASES_PATH,
+            YIJING_INPUT_PATH,
             case_filename,
             suffixes=(".txt", ""),
         )

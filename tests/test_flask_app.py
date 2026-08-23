@@ -12,10 +12,8 @@ def _load_app(monkeypatch, tmp_path):
     data = tmp_path / "data"
     ancient = data / "易經古原文暫存戰果資料夾"
     yijing_input = data / "易經輸入端資料夾"
-    cases = data / "易經個案資料夾"
     ancient.mkdir(parents=True)
     yijing_input.mkdir(parents=True)
-    cases.mkdir(parents=True)
 
     monkeypatch.setenv("DAD_PROJECT_ROOT", str(tmp_path))
     monkeypatch.setenv("DAD_CONFIG_DATA_DIR", str(data))
@@ -86,12 +84,12 @@ def test_file_content_is_html_escaped(monkeypatch, tmp_path):
     app = _load_app(monkeypatch, tmp_path)
     data = tmp_path / "data"
     ancient = data / "易經古原文暫存戰果資料夾"
-    cases = data / "易經個案資料夾"
+    yijing_input = data / "易經輸入端資料夾"
     (ancient / "yijing標題.txt").write_text("乾<script>\n", encoding="utf-8")
     (ancient / "yijing切開第1卦古原文無分斷點.txt").write_text(
         "<script>alert(1)</script>\n", encoding="utf-8"
     )
-    (cases / "測試.txt").write_text("<script>alert(2)</script>", encoding="utf-8")
+    (yijing_input / "測試.txt").write_text("<script>alert(2)</script>", encoding="utf-8")
     client = app.test_client()
 
     gua_response = client.get("/gua/1")
