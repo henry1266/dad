@@ -19,7 +19,6 @@ def _configure_paths(monkeypatch, tmp_path):
         "TOOL_DATA_PATH": data / "工具程式資料夾",
         "HTML_TEMPLATE_PATH": data / "HTML參考樣板資料夾",
         "SLIDES_TEMPLATE_PATH": data / "投影片參考樣板資料夾",
-        "FENGSHUI_CASES_PATH": data / "易經個案資料夾",
         "M_TXT_PATH": data / "m.txt",
         "YIJING_TOTAL_RESULT_PATH": data / "總戰果",
         "YIJING_RESULT_PATH": data / "戰果",

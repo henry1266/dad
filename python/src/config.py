@@ -31,7 +31,6 @@ TOOL_DATA_PATH = os.path.join(CONFIG_DATA_PATH, "工具程式資料夾")
 HTML_TEMPLATE_PATH = os.path.join(CONFIG_DATA_PATH, "HTML參考樣板資料夾")
 SLIDES_TEMPLATE_PATH = os.path.join(CONFIG_DATA_PATH, "投影片參考樣板資料夾")
 M_TXT_PATH = os.path.join(CONFIG_DATA_PATH, "m.txt")
-FENGSHUI_CASES_PATH = os.path.join(CONFIG_DATA_PATH, "易經個案資料夾")
 
 # Generated content paths
 YIJING_TOTAL_RESULT_PATH = os.path.join(CONFIG_DATA_PATH, "易經總戰果資料夾")

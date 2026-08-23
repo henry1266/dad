@@ -15,7 +15,6 @@ from .config import (
     BASH_SOURCE_DIR,
     BASIC_DATA_PATH,
     CONFIG_DATA_PATH,
-    FENGSHUI_CASES_PATH,
     HTML_TEMPLATE_PATH,
     MAIN_COMPILATION_FILE,
     M_TXT_PATH,
@@ -69,7 +68,6 @@ def prepare_environment(reset: bool = False) -> None:
         "工具程式資料夾": TOOL_DATA_PATH,
         "HTML參考樣板資料夾": HTML_TEMPLATE_PATH,
         "投影片參考樣板資料夾": SLIDES_TEMPLATE_PATH,
-        "易經個案資料夾": FENGSHUI_CASES_PATH,
     }
 
     for src_dirname, dest_path in dirs_to_copy.items():
