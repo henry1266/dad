@@ -28,17 +28,19 @@ def test_templates_do_not_disable_autoescaping_for_file_content():
     assert unsafe == []
 
 
-def test_index_uses_existing_static_assets_and_csrf_token():
+def test_index_uses_catalog_assets_and_has_no_processing_form():
     content = (TEMPLATES / "index.html").read_text(encoding="utf-8")
-    assert "filename='style.css'" in content
-    assert "filename='script.js'" in content
-    assert 'name="_csrf_token"' in content
-    assert "process_interaction" in content
+    assert "data-catalog-search" in content
+    assert "data-catalog-entry" in content
+    assert "filename='catalog.js'" in content
+    assert "process_interaction" not in content
+    assert 'name="_csrf_token"' not in content
 
 
 def test_main_has_no_hardcoded_secret_or_always_on_debugger():
     content = (SRC / "main.py").read_text(encoding="utf-8")
     assert "your_very_secret_key" not in content
     assert "debug=True" not in content
-    assert "get_flashed_messages" in content
+    assert "build_content_catalog" in content
+    assert "get_flashed_messages" not in content
     assert "DAD_AUTO_INITIALIZE" in content

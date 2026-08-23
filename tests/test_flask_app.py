@@ -4,14 +4,17 @@ import pytest
 
 pytest.importorskip("flask")
 
-def test_index_renders_and_contains_csrf_token(app_factory):
+def test_index_renders_shared_navigation(app_factory):
     app, _ = app_factory()
     client = app.test_client()
 
     response = client.get("/")
 
     assert response.status_code == 200
-    assert b'name="_csrf_token"' in response.data
+    html = response.get_data(as_text=True)
+    assert '<html lang="zh-Hant">' in html
+    assert 'class="skip-link" href="#main-content"' in html
+    assert 'nav aria-label="主要導覽"' in html
 
 
 def test_post_without_csrf_token_is_rejected(app_factory):
@@ -27,27 +30,23 @@ def test_safe_defaults_do_not_initialize_or_enable_debug(app_factory):
     assert app.config["SESSION_COOKIE_HTTPONLY"] is True
     assert app.config["SESSION_COOKIE_SAMESITE"] == "Lax"
 
-def test_valid_form_submission_uses_flash_message(app_factory):
-    import re
-
+def test_valid_processing_submission_redirects_to_catalog(app_factory):
     app, _ = app_factory()
     client = app.test_client()
-    page = client.get("/")
-    token_match = re.search(rb'name="_csrf_token" value="([^"]+)"', page.data)
-    assert token_match is not None
+    with client.session_transaction() as session_state:
+        session_state["_csrf_token"] = "test-token"
 
     response = client.post(
         "/process_interaction",
         data={
-            "_csrf_token": token_match.group(1).decode("utf-8"),
+            "_csrf_token": "test-token",
             "custom_topic_start": "1",
             "custom_topic_end": "1",
         },
-        follow_redirects=True,
     )
 
-    assert response.status_code == 200
-    assert "未選擇任何操作" in response.get_data(as_text=True)
+    assert response.status_code == 302
+    assert response.headers["Location"] == "/"
 
 
 def test_file_content_is_html_escaped(app_factory):
@@ -82,6 +81,51 @@ def _seed_two_guas(data):
     (ancient / "yijing標題.txt").write_text("乾\n坤\n", encoding="utf-8")
     (ancient / "yijing切開第1卦古原文無分斷點.txt").write_text("乾：元亨利貞。\n", encoding="utf-8")
     (ancient / "yijing切開第2卦古原文無分斷點.txt").write_text("坤：元亨。\n", encoding="utf-8")
+
+
+def test_index_renders_catalog_counts_and_unavailable_cases(app_factory):
+    app, data = app_factory()
+    _seed_two_guas(data)
+    inputs = data / "易經輸入端資料夾"
+    (inputs / "易經個案列表.txt").write_text("易經個案001\n易經個案002\n", encoding="utf-8")
+    (inputs / "易經個案001.txt").write_text("內容\n", encoding="utf-8")
+
+    html = app.test_client().get("/").get_data(as_text=True)
+
+    assert "2" in html
+    assert "3" in html
+    assert "1 / 2" in html
+    assert 'data-kind="gua"' in html
+    assert 'data-search="第 1 卦 1 乾 六十四卦 gua"' in html
+    assert "易經個案002" in html
+    assert "缺少內容檔" in html
+    missing_card = html.split("易經個案002", 1)[1].split("</article>", 1)[0]
+    assert "href=" not in missing_card
+
+
+def test_index_survives_missing_titles_with_workspace_recovery(app_factory):
+    app, _ = app_factory()
+    response = app.test_client().get("/")
+
+    assert response.status_code == 200
+    html = response.get_data(as_text=True)
+    assert "尚未找到卦名資料" in html
+    assert 'href="/workspace"' in html
+
+
+def test_index_renders_without_a_processing_form(app_factory):
+    app, _ = app_factory()
+    html = app.test_client().get("/").get_data(as_text=True)
+    assert 'data-catalog-search' in html
+    assert 'name="_csrf_token"' not in html
+    assert '/process_interaction' not in html
+
+
+def test_workspace_shell_is_reachable(app_factory):
+    app, _ = app_factory()
+    response = app.test_client().get("/workspace")
+    assert response.status_code == 200
+    assert "資料工作台" in response.get_data(as_text=True)
 
 
 def test_gua_route_returns_404_outside_catalog(app_factory):

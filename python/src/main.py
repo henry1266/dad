@@ -11,7 +11,6 @@ from flask import (
     Flask,
     abort,
     flash,
-    get_flashed_messages,
     redirect,
     render_template,
     request,
@@ -20,7 +19,8 @@ from flask import (
 )
 
 from .app_support import env_flag, validate_range
-from .config import YIJING_ANCIENT_TEXT_PATH, YIJING_INPUT_PATH
+from .config import YIJING_ANCIENT_TEXT_PATH
+from .content_catalog import build_content_catalog
 from .data_processor import (
     append_ancient_texts_to_compilation,
     format_basic_data_files,
@@ -152,58 +152,19 @@ def create_app(test_config: dict[str, Any] | None = None) -> Flask:
 
     @app.get("/")
     def index():
-        flashed = get_flashed_messages(category_filter=["interaction_message"])
-        interaction_message = flashed[-1] if flashed else None
-
-        slide_shows = [
-            {
-                "url": url_for("slides.yijing_slides_lecture_ancient"),
-                "title": "易經古文解析講座（全文）",
-            },
-            {
-                "url": url_for("slides.yijing_slides_lecture_guaci_moms_records"),
-                "title": "易經卦辭與媽傳記講座",
-            },
-            {
-                "url": url_for("slides.yijing_slides_lecture_tuanxiang"),
-                "title": "易經彖象解析講座",
-            },
-        ]
-
-        gua_page_links: list[dict[str, str]] = []
-        titles_path = os.path.join(YIJING_ANCIENT_TEXT_PATH, "yijing標題.txt")
-        if os.path.isfile(titles_path):
-            with open(titles_path, "r", encoding="utf-8") as handle:
-                all_titles = [line.strip() for line in handle if line.strip()]
-            gua_page_links = [
-                {
-                    "url": url_for("gua.gua_page", gua_number=index),
-                    "title": f"第{index}卦 {title}",
-                }
-                for index, title in enumerate(all_titles, start=1)
-            ]
-
-        fengshui_case_links: list[dict[str, str]] = []
-        case_list_file = os.path.join(YIJING_INPUT_PATH, "易經個案列表.txt")
-        if os.path.isfile(case_list_file):
-            with open(case_list_file, "r", encoding="utf-8") as handle:
-                case_files = [line.strip() for line in handle if line.strip()]
-            fengshui_case_links = [
-                {
-                    "url": url_for("fengshui.fengshui_case_page", case_filename=case_file),
-                    "title": f"風水個案：{case_file.removesuffix('.txt')}",
-                }
-                for case_file in case_files
-            ]
-
+        catalog = build_content_catalog()
         return render_template(
             "index.html",
-            title="易經互動網頁",
-            slide_shows=slide_shows,
-            gua_pages=gua_page_links,
-            fengshui_cases=fengshui_case_links,
-            interaction_message=interaction_message,
+            catalog=catalog,
+            gua_entries=catalog.entries_for("gua"),
+            slide_entries=catalog.entries_for("slides"),
+            case_entries=catalog.entries_for("fengshui_case"),
+            catalog_warnings=catalog.warnings,
         )
+
+    @app.get("/workspace")
+    def workspace():
+        return render_template("workspace.html", processing_results=[])
 
     @app.post("/process_interaction")
     def process_interaction():

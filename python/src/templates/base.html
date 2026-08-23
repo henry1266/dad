@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}易經研讀室{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳至主要內容</a>
+  <header class="site-header">
+    <a class="site-brand" href="{{ url_for('index') }}">易經研讀室</a>
+    <nav aria-label="主要導覽">
+      <a href="{{ url_for('index') }}#guas">六十四卦</a>
+      <a href="{{ url_for('index') }}#slides">投影片</a>
+      <a href="{{ url_for('index') }}#cases">風水個案</a>
+      <a href="{{ url_for('workspace') }}">資料工作台</a>
+    </nav>
+  </header>
+  <main id="main-content">{% block content %}{% endblock %}</main>
+  <footer class="site-footer">© 2026 易經研讀室</footer>
+  {% block scripts %}{% endblock %}
+</body>
+</html>
