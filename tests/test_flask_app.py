@@ -108,6 +108,17 @@ def test_all_64_catalog_gua_routes_are_readable(app_factory):
     ] * 64
 
 
+def test_gua_route_rejects_65_even_when_catalog_has_65_titles(app_factory):
+    app, data = app_factory()
+    ancient = data / "易經古原文暫存戰果資料夾"
+    (ancient / "yijing標題.txt").write_text(
+        "\n".join(f"卦名{number:02d}" for number in range(1, 66)) + "\n",
+        encoding="utf-8",
+    )
+
+    assert app.test_client().get("/gua/65").status_code == 404
+
+
 def test_fengshui_route_reads_input_directory_and_missing_is_404(app_factory):
     app, data = app_factory()
     inputs = data / "易經輸入端資料夾"

@@ -66,6 +66,8 @@ def _load_gua_data(gua_number: int, title: str) -> dict[str, object]:
 
 @gua_bp.get("/<int:gua_number>")
 def gua_page(gua_number: int):
+    if not 1 <= gua_number <= 64:
+        abort(404)
     catalog = build_content_catalog()
     entry = catalog.find("gua", str(gua_number))
     if entry is None:
