@@ -240,6 +240,11 @@ def test_tuanxiang_route_has_a_real_template(app_factory):
     app, _ = app_factory()
     response = app.test_client().get("/slides/lecture_tuanxiang")
     assert response.status_code == 200
+    html = response.get_data(as_text=True)
+
+    assert "data-slide-progress" in html
+    assert "返回首頁" in html
+    assert "slides-controls.js" in html
 
 
 def _seed_two_guas(data):

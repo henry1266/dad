@@ -36,6 +36,18 @@ def test_every_rendered_template_exists():
     assert required <= {path.name for path in TEMPLATES.glob("*.html")}
 
 
+def test_slide_base_has_accessible_controls_and_external_assets():
+    content = (TEMPLATES / "impress_slides_base.html").read_text(encoding="utf-8")
+
+    assert "data-slide-prev" in content
+    assert "data-slide-next" in content
+    assert "data-slide-progress" in content
+    assert "data-slide-help-toggle" in content
+    assert "filename='slides-controls.css'" in content
+    assert "filename='slides-controls.js'" in content
+    assert "impress().init()" not in content
+
+
 def test_reading_templates_use_shared_base_without_inline_styles():
     for template_name in {"gua_page.html", "fengshui_case_page.html"}:
         content = (TEMPLATES / template_name).read_text(encoding="utf-8")

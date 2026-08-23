@@ -8,6 +8,7 @@
     <meta name="description" content="易經互動網頁投影片">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet">
     <link href="{{ url_for('static', filename='css/impress-demo.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='slides-controls.css') }}" rel="stylesheet">
     <style>
         .slide { padding: 40px; box-sizing: border-box; font-family: 'PT Serif', serif; line-height: 1.5; font-size: 24px; overflow-y: auto; max-height: 700px; }
         .slide h1, .slide h2, .slide h3 { font-family: 'Open Sans', sans-serif; font-weight: bold; margin-bottom: .5em; }
@@ -18,6 +19,17 @@
     <div class="fallback-message">
         <p>瀏覽器不支援 impress.js 所需功能，因此將顯示簡化版本。</p>
     </div>
+    <nav class="slide-toolbar" aria-label="投影片控制">
+        <a class="slide-toolbar__home" href="{{ url_for('index') }}">返回首頁</a>
+        <button type="button" data-slide-prev aria-label="上一張投影片">←</button>
+        <output data-slide-progress aria-live="polite">1 / {{ slides_data|length }}</output>
+        <button type="button" data-slide-next aria-label="下一張投影片">→</button>
+        <button type="button" data-slide-help-toggle aria-expanded="false">操作說明</button>
+    </nav>
+    <aside class="slide-help" data-slide-help hidden>
+        <h2>投影片操作</h2>
+        <p>使用方向鍵或空白鍵移動；按 Esc 查看全覽；也可使用上方控制按鈕。</p>
+    </aside>
     <div id="impress" data-transition-duration="1000">
         {% if error_message and not slides_data %}
             <div class="step slide" data-x="0" data-y="0">
@@ -30,6 +42,6 @@
         {% block slides_content %}{% endblock %}
     </div>
     <script src="{{ url_for('static', filename='js/impress.js') }}"></script>
-    <script>impress().init();</script>
+    <script src="{{ url_for('static', filename='slides-controls.js') }}"></script>
 </body>
 </html>
