@@ -1,2 +1,11 @@
-// JavaScript for interactivity will be added here later
-console.log("易經互動網頁 JavaScript 檔案已載入");
+"use strict";
+
+document.querySelectorAll("form").forEach((form) => {
+    form.addEventListener("submit", () => {
+        const button = form.querySelector('button[type="submit"]');
+        if (button) {
+            button.disabled = true;
+            button.textContent = "處理中…";
+        }
+    });
+});

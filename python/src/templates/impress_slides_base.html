@@ -1,64 +1,35 @@
 <!doctype html>
 <html lang="zh-TW">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=1024" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <title>{{ title | default('Impress.js 簡報') }} - 易經互動網頁</title>
-    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
-    <meta name="author" content="Bartek Szopka, Manus AI" />
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
-    <link href="{{ url_for('static', filename='css/impress-demo.css') }}" rel="stylesheet" />
-    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}" />
-    <link rel="apple-touch-icon" href="{{ url_for('static', filename='apple-touch-icon.png') }}" />
+    <meta name="description" content="易經互動網頁投影片">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/impress-demo.css') }}" rel="stylesheet">
     <style>
-        /* Custom styles can go here or in a separate CSS file */
-        .slide {
-            padding: 40px;
-            box-sizing: border-box;
-            font-family: 'PT Serif', serif;
-            line-height: 1.5;
-            font-size: 24px; /* Adjust as needed */
-            overflow-y: auto; /* Allow scrolling for long content */
-            max-height: 700px; /* Adjust based on impress.js viewport settings */
-        }
-        .slide h1, .slide h2, .slide h3 {
-            font-family: 'Open Sans', sans-serif;
-            font-weight: bold;
-            margin-bottom: 0.5em;
-        }
-        .error-message {
-            color: red;
-            border: 1px solid red;
-            padding: 10px;
-            margin-bottom: 20px;
-            background-color: #ffebeb;
-        }
+        .slide { padding: 40px; box-sizing: border-box; font-family: 'PT Serif', serif; line-height: 1.5; font-size: 24px; overflow-y: auto; max-height: 700px; }
+        .slide h1, .slide h2, .slide h3 { font-family: 'Open Sans', sans-serif; font-weight: bold; margin-bottom: .5em; }
+        .error-message { color: #8b0000; border: 1px solid #8b0000; padding: 10px; margin-bottom: 20px; background: #ffebeb; white-space: pre-wrap; }
     </style>
 </head>
 <body class="impress-not-supported">
     <div class="fallback-message">
-        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        <p>瀏覽器不支援 impress.js 所需功能，因此將顯示簡化版本。</p>
     </div>
-
     <div id="impress" data-transition-duration="1000">
-        {% if error_message and not slides %}
+        {% if error_message and not slides_data %}
             <div class="step slide" data-x="0" data-y="0">
                 <div class="error-message">
-                    <h2>錯誤訊息：</h2>
-                    <p>{{ error_message | safe }}</p>
+                    <h2>錯誤訊息</h2>
+                    <p>{{ error_message }}</p>
                 </div>
             </div>
         {% endif %}
-
-        {% block slides_content %}
-        <!-- Slides will be injected here by child templates -->
-        {% endblock %}
+        {% block slides_content %}{% endblock %}
     </div>
-
     <script src="{{ url_for('static', filename='js/impress.js') }}"></script>
     <script>impress().init();</script>
 </body>
 </html>
-
