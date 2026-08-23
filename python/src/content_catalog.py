@@ -65,6 +65,8 @@ _SLIDES = (
     ("lecture_tuanxiang", "易經彖象解析講座", "/slides/lecture_tuanxiang"),
 )
 
+_CANONICAL_GUA_COUNT = 64
+
 
 def _read_nonempty_lines(path: Path) -> list[str]:
     if not path.is_file():
@@ -86,7 +88,7 @@ def build_content_catalog(
     titles = _read_nonempty_lines(titles_path)
     if not titles:
         warnings.append("尚未找到卦名資料，請前往資料工作台產生易經元數據。")
-    for number, title in enumerate(titles, start=1):
+    for number, title in enumerate(titles[:_CANONICAL_GUA_COUNT], start=1):
         entries.append(
             ContentEntry(
                 kind="gua",

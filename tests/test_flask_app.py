@@ -334,6 +334,38 @@ def test_gua_route_rejects_65_even_when_catalog_has_65_titles(app_factory):
     assert app.test_client().get("/gua/65").status_code == 404
 
 
+def test_home_does_not_advertise_gua_65_from_oversized_titles(app_factory):
+    app, data = app_factory()
+    ancient = data / "易經古原文暫存戰果資料夾"
+    (ancient / "yijing標題.txt").write_text(
+        "\n".join(f"卦名{number:02d}" for number in range(1, 66)) + "\n",
+        encoding="utf-8",
+    )
+
+    html = app.test_client().get("/").get_data(as_text=True)
+
+    assert 'href="/gua/64"' in html
+    assert 'href="/gua/65"' not in html
+
+
+def test_gua_64_has_canonical_pager_with_oversized_titles(app_factory):
+    app, data = app_factory()
+    ancient = data / "易經古原文暫存戰果資料夾"
+    (ancient / "yijing標題.txt").write_text(
+        "\n".join(f"卦名{number:02d}" for number in range(1, 66)) + "\n",
+        encoding="utf-8",
+    )
+
+    response = app.test_client().get("/gua/64")
+    html = response.get_data(as_text=True)
+
+    assert response.status_code == 200
+    assert "64 / 64" in html
+    assert '上一卦：卦名63' in html
+    assert '下一卦：' not in html
+    assert 'href="/gua/65"' not in html
+
+
 def test_fengshui_route_reads_input_directory_and_missing_is_404(app_factory):
     app, data = app_factory()
     inputs = data / "易經輸入端資料夾"

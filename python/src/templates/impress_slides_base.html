@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=1024">
+    <link rel="icon" href="data:,">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>{{ title | default('Impress.js 簡報') }} - 易經互動網頁</title>
     <meta name="description" content="易經互動網頁投影片">
@@ -28,7 +29,7 @@
     </nav>
     <aside class="slide-help" data-slide-help hidden>
         <h2>投影片操作</h2>
-        <p>使用方向鍵、空白鍵、Page Up / Page Down 或 Tab 移動；按 Esc 關閉操作說明；也可使用上方控制按鈕。</p>
+        <p>Tab / Shift+Tab 在上方控制項之間移動；焦點不在控制項時，可使用方向鍵、空白鍵或 Page Up / Page Down 切換投影片；按 Esc 關閉操作說明。</p>
     </aside>
     <div id="impress" data-transition-duration="1000">
         {% if error_message and not slides_data %}

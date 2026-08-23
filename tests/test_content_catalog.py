@@ -76,3 +76,26 @@ def test_catalog_represents_64_guas_three_slides_and_ten_cases(tmp_path):
         entry.unavailable_reason == "缺少內容檔"
         for entry in catalog.entries_for("fengshui_case")[1:]
     )
+
+
+def test_catalog_caps_oversized_title_source_at_canonical_64_guas(tmp_path):
+    ancient = tmp_path / "ancient"
+    inputs = tmp_path / "inputs"
+    ancient.mkdir()
+    inputs.mkdir()
+    (ancient / "yijing標題.txt").write_text(
+        "\n".join(f"卦名{number:02d}" for number in range(1, 67)) + "\n",
+        encoding="utf-8",
+    )
+
+    catalog = build_content_catalog(
+        ancient_text_path=ancient,
+        yijing_input_path=inputs,
+    )
+
+    assert catalog.total_count("gua") == 64
+    assert catalog.find("gua", "64").title == "卦名64"
+    assert catalog.find("gua", "65") is None
+    previous, following = catalog.adjacent("gua", "64")
+    assert previous.key == "63"
+    assert following is None

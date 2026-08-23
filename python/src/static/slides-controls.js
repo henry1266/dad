@@ -1,5 +1,27 @@
 "use strict";
 
+const bundledDeckNavigationKeys = new Set([
+  " ",
+  "Spacebar",
+  "PageUp",
+  "PageDown",
+  "ArrowLeft",
+  "ArrowUp",
+  "ArrowRight",
+  "ArrowDown",
+]);
+
+function guardBundledDeckNavigation(event) {
+  const target = event.target instanceof Element ? event.target : null;
+  const focusIsInControls = target?.closest(".slide-toolbar, [data-slide-help]");
+  if (event.key === "Tab" || (focusIsInControls && bundledDeckNavigationKeys.has(event.key))) {
+    event.stopImmediatePropagation();
+  }
+}
+
+document.addEventListener("keydown", guardBundledDeckNavigation);
+document.addEventListener("keyup", guardBundledDeckNavigation);
+
 const deck = impress();
 deck.init();
 const slides = [...document.querySelectorAll("#impress .step.slide")];

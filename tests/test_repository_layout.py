@@ -61,11 +61,33 @@ def test_slide_controls_restore_pointer_events_outside_impress():
     )
 
 
-def test_slide_help_lists_only_implemented_navigation_shortcuts():
+def test_slide_help_distinguishes_focus_and_deck_navigation_shortcuts():
     content = (TEMPLATES / "impress_slides_base.html").read_text(encoding="utf-8")
 
-    assert "方向鍵、空白鍵、Page Up / Page Down 或 Tab" in content
+    assert "Tab / Shift+Tab 在上方控制項之間移動" in content
+    assert "焦點不在控制項時，可使用方向鍵、空白鍵或 Page Up / Page Down 切換投影片" in content
+    assert "Page Up / Page Down 或 Tab" not in content
     assert "按 Esc 查看全覽" not in content
+
+
+def test_slide_controller_guards_native_control_keys_before_deck_init():
+    controller = (SRC / "static" / "slides-controls.js").read_text(encoding="utf-8")
+    init_position = controller.index("deck.init()")
+
+    assert controller.index('document.addEventListener("keydown"') < init_position
+    assert controller.index('document.addEventListener("keyup"') < init_position
+    assert 'event.key === "Tab"' in controller
+    assert '.closest(".slide-toolbar, [data-slide-help]")' in controller
+    assert "event.stopImmediatePropagation()" in controller
+    for key in (" ", "ArrowLeft", "ArrowUp", "ArrowRight", "ArrowDown", "PageUp", "PageDown"):
+        assert f'"{key}"' in controller
+
+
+def test_page_frames_declare_a_self_contained_favicon():
+    for template_name in ("base.html", "impress_slides_base.html"):
+        content = (TEMPLATES / template_name).read_text(encoding="utf-8")
+
+        assert 'rel="icon" href="data:,"' in content
 
 
 def test_reading_templates_use_shared_base_without_inline_styles():
@@ -120,6 +142,8 @@ def test_docs_describe_reading_home_workspace_and_slide_controls():
     assert "/workspace" in readme
     assert "標題搜尋" in readme
     assert "投影片控制" in readme
+    assert "Tab / Shift+Tab 在控制項間移動" in readme
+    assert "Page Up / Page Down 或 Tab 移動" not in readme
 
 
 def test_visual_companion_artifacts_are_ignored():
