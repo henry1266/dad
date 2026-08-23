@@ -1,0 +1,26 @@
+# Python environments and caches
+.venv/
+venv/
+python/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and logs
+.env
+.env.*
+*.log
+*.tmp
+
+# Editor and operating-system artifacts
+*~
+.goutputstream-*
+.DS_Store
+Thumbs.db
+
+# Local worktrees
+.worktrees/
