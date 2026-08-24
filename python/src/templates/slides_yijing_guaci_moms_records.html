@@ -10,9 +10,9 @@
                 <h2>{{ slide.title }}</h2>
                 <div>
                     {% if slide.type == 'image' and slide.image_url %}
-                        <img src="{{ slide.image_url }}" alt="{{ slide.title }}" style="max-width:100%;max-height:500px;display:block;margin:auto">
+                        <img class="slide-media" src="{{ slide.image_url }}" alt="{{ slide.title }}">
                     {% elif slide.type == 'video' and slide.video_url %}
-                        <video controls style="max-width:100%;max-height:500px;display:block;margin:auto">
+                        <video class="slide-media" controls>
                             <source src="{{ slide.video_url }}">
                             瀏覽器不支援影片播放。
                         </video>
